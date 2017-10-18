@@ -98,3 +98,42 @@ code, .code {
                serif;
 }
 
+.roboto {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.roboto-slab {
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.roboto-condensed {
+  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.open-sans {
+  font-family: 'Open Sans';
+}
+
+.slabo {
+  font-family: 'Slabo';
+}
+
+.source-sans-pro {
+  font-family: 'Source Sans Pro';
+}
+
+.noto-sans {
+  font-family: 'Noto Sans';
+}
+
+.noto-serif {
+  font-family: 'Noto Serif';
+}
+
+.lobster {
+  font-family: 'Lobster';
+}
+
+.fira-sans {
+  font-family: 'Fira sans';
+}
