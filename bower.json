@@ -3,7 +3,7 @@
   "description": "Functional CSS updated from tachyons",
   "main": "build/ciser.css",
   "authors": [
-    "lamhieu-vk"
+    "lamhieu"
   ],
   "license": "MIT",
   "keywords": [
@@ -12,7 +12,8 @@
     "system",
     "responsive",
     "design",
-    "ciser"
+    "ciser",
+    "tachyons"
   ],
   "ignore": [
     "**/.*",
