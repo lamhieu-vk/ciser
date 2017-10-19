@@ -1,7 +1,7 @@
 {
   "name": "ciser",
   "version": "0.1.2",
-  "description": "a version update of ciser",
+  "description": "Functional CSS, like version update of tachyons",
   "author": "lamhieu-vk",
   "style": "css/ciser.min.css",
   "main": "css/ciser.css",
