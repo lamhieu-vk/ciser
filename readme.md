@@ -2,7 +2,7 @@
 
 ciser like a version update forked from tachyons (v4.8.1) with some new function classname css.
 
-ciser forked from tachyons, by Lam Hieu (@lamhieu-vk).
+forked from tachyons, by Lam Hieu (@lamhieu-vk).
 
 thanks for tachyons-css/tachyons
 
