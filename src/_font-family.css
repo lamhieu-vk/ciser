@@ -99,15 +99,15 @@ code, .code {
 }
 
 .roboto {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto';
 }
 
 .roboto-slab {
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab';
 }
 
 .roboto-condensed {
-  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed';
 }
 
 .open-sans {
