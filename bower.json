@@ -1,9 +1,9 @@
 {
-  "name": "tachyons",
-  "description": "Functional CSS for humans",
-  "main": "css/tachyons.css",
+  "name": "ciser",
+  "description": "Functional CSS updated from tachyons",
+  "main": "build/ciser.css",
   "authors": [
-    "mrmrs"
+    "lamhieu-vk"
   ],
   "license": "MIT",
   "keywords": [
@@ -11,9 +11,9 @@
     "design",
     "system",
     "responsive",
-    "design"
+    "design",
+    "ciser"
   ],
-  "homepage": "http://tachyons.io",
   "ignore": [
     "**/.*",
     "node_modules",
