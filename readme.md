@@ -8,7 +8,7 @@ thanks for tachyons-css/tachyons
 
 ## Help
 
-If you have a question or need help feel free to [open an issue here](https://github.com/lamieu-vk/ciser/issues/new).
+If you have a question or need help feel free to [open an issue here](https://github.com/lamhieu-vk/ciser/issues/new).
 
 ## License
 
