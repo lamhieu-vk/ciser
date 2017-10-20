@@ -30,9 +30,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 0.1.10:
+use version 0.1.11:
 
-`npm install ciser@0.1.10`
+`npm install ciser@0.1.11`
 
 ## other
 
@@ -40,9 +40,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 0.1.10:
+use version 0.1.11:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@0.1.10/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@0.1.11/build/ciser.min.css">`
 
 # Help
 
