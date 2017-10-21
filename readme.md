@@ -1,10 +1,28 @@
 # ciser
 
-ciser like a version update forked from tachyons (v4.8.1) with some new function classname css.
+ciser like a version update forked from tachyons with some new function classname css. like tachyons, ciser help quickly build and design new UI without writing css.
 
 forked from tachyons and updated by Lam Hieu (@lamhieu-vk). in ciser, I updated many classname fn to make the design work easier than ever, the size of the attributes is added in a reasonable proportion, carefully calculated. 
 
 most of the properties of the tachyons are retained, so switching from tachyons to ciser will not affect the current interface.
+
+## principles
+
+* everything should be 100% responsive
+* everything should be readable on any device
+* everything should be as fast as possible
+* designing in the browser should be easy
+* it should be easy to change any interface or part of an interface without breaking any existing interfaces
+* doing one thing extremely well promotes reusability and reduces repetition
+* documentation helps promote reusability and shared knowledge
+* css shouldn't impede accessibility or the default functionality of Html
+* you should send the smallest possible amount of code to the user
+
+*cited from tachyons*
+
+## forked from tachyons
+
+version using: v4.8.1
 
 thanks for tachyons-css/tachyons
 
@@ -30,6 +48,16 @@ use newest version:
 use version 0.2.1:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser@0.2.1/build/ciser.min.css">`
+
+## local setup
+
+clone the repo from github and install dependencies through npm.
+
+```
+git clone https://github.com/lamhieu-vk/ciser.git
+cd ciser
+npm install
+```
 
 
 
