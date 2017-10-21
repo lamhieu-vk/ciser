@@ -17,9 +17,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 0.2.0:
+use version 0.2.1:
 
-`npm install ciser@0.2.0`
+`npm install ciser@0.2.1`
 
 ## other
 
@@ -27,9 +27,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 0.2.0:
+use version 0.2.1:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@0.2.0/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@0.2.1/build/ciser.min.css">`
 
 
 
@@ -178,7 +178,7 @@ note:
 
 # updated
 
-## version 0.2.0
+## version 0.2.1
 
 * add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
 * change box-shadow style, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_box-shadow.css)
