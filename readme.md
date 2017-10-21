@@ -35,9 +35,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 0.2.1:
+use version 0.2.6:
 
-`npm install ciser@0.2.1`
+`npm install ciser@0.2.6`
 
 ## other
 
@@ -45,9 +45,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 0.2.1:
+use version 0.2.6:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@0.2.1/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@0.2.6/build/ciser.min.css">`
 
 ## local setup
 
@@ -68,13 +68,13 @@ npm install
 with *tachyons*, classname is:
 
 ```
-.w[1, 2, 3, 4, 5]
+.w[1 | 2 | 3 | 4 | 5]
 
 // not support min widths
 
 // not support max widths
 
-.h[1, 2, 3, 4, 5]
+.h[1 | 2 | 3 | 4 | 5]
 
 // not support min heights
 
@@ -84,17 +84,17 @@ with *tachyons*, classname is:
 with **ciser**:
 
 ```
-.w[1, 1s, 2, 2s, 3, 3s, 4, 4s, 5, 5s]
+.w[1 | 1s | 2 | 2s | 3 | 3s | 4 | 4s | 5 | 5s]
 
-.min-w-[25, 50, 75, 100]
+.min-w-[25 | 50 | 75 | 100]
 
-.max-w-[25, 50, 75, 100]
+.max-w-[25 | 50 | 75 | 100]
 
-.h[1, 1s, 2, 2s, 3, 3s, 4, 4s, 5, 5s]
+.h[1 | 1s | 2 | 2s | 3 | 3s | 4 | 4s | 5 | 5s]
 
-.min-h-[25, 50, 75, 100]
+.min-h-[25 | 50 | 75 | 100]
 
-.max-h-[25, 50, 75, 100]
+.max-h-[25 | 50 | 75 | 100]
 ```
 
 note:
@@ -106,7 +106,7 @@ note:
 with *tachyons*, classname is:
 
 ```
-.vh-[25, 50, 75, 100]
+.vh-[25 | 50 | 75 | 100]
 
 // not support min height percentage
 
@@ -122,17 +122,17 @@ with *tachyons*, classname is:
 with **ciser**:
 
 ```
-.vh-[10, 20, 25, 30, 40, 50, 60, 70, 75, 80, 90, 100]
+.vh-[10 | 20 | 25 | 30 | 40 | 50 | 60 | 70 | 75 | 80 | 90 | 100]
 
-.min-vh-[25, 50, 75, 100]
+.min-vh-[25 | 50 | 75 | 100]
 
-.min-vh-[25, 50, 75, 100]
+.min-vh-[25 | 50 | 75 | 100]
 
-.vw-[10, 20, 25, 30, 40, 50, 60, 70, 75, 80, 90, 100]
+.vw-[10 | 20 | 25 | 30 | 40 | 50 | 60 | 70 | 75 | 80 | 90 | 100]
 
-.min-vw-[25, 50, 75, 100]
+.min-vw-[25 | 50 | 75 | 100]
 
-.min-vw-[25, 50, 75, 100]
+.min-vw-[25 | 50 | 75 | 100]
 ```
 
 ## margins, paddings
@@ -140,17 +140,17 @@ with **ciser**:
 with *tachyons*:
 
 ```
-.p[a, t, r, b, l][0, 1, 2, 3, 4, 5, 6, 7]
+.p[a | t | r | b | l][0 | 1 | 2 | 3 | 4 | 5 | 6 | 7]
 
-.m[a, t, r, b, l][0, 1, 2, 3, 4, 5, 6, 7]
+.m[a | t | r | b | l][0 | 1 | 2 | 3 | 4 | 5 | 6 | 7]
 ```
 
 width **ciser**:
 
 ```
-.p[a, t, r, b, l][0, 0s, 1, 1s, 2, 2s, 3, 3s, 4, 4s, 5, 5s, 6, 6s, 7]
+.p[a | t | r | b | l][0 | 0s | 1 | 1s | 2 | 2s | 3 | 3s | 4 | 4s | 5 | 5s | 6 | 6s | 7]
 
-.m[a, t, r, b, l][0, 0s, 1, 1s, 2, 2s, 3, 3s, 4, 4s, 5, 5s, 6, 6s, 7]
+.m[a | t | r | b | l][0 | 0s | 1 | 1s | 2 | 2s | 3 | 3s | 4 | 4s | 5 | 5s | 6 | 6s | 7]
 ```
 
 note:
@@ -206,7 +206,7 @@ note:
 
 # updated
 
-## version 0.2.1
+## version 0.2.6
 
 * add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
 * change box-shadow style, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_box-shadow.css)

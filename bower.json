@@ -1,6 +1,6 @@
 {
   "name": "ciser",
-  "description": "Functional CSS updated from tachyons",
+  "description": "Functional CSS, help quickly build and design new UI without writing css.",
   "main": "build/ciser.css",
   "authors": [
     "lamhieu"
