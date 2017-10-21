@@ -9,6 +9,30 @@ most of the properties of the tachyons are retained, so switching from tachyons 
 thanks for tachyons-css/tachyons
 
 
+# usage
+
+## npm
+
+use newest version:
+
+`npm install ciser`
+
+use version 0.2.0:
+
+`npm install ciser@0.2.0`
+
+## other
+
+use newest version:
+
+`<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
+
+use version 0.2.0:
+
+`<link rel="stylesheet" href="https://unpkg.com/ciser@0.2.0/build/ciser.min.css">`
+
+
+
 # what's new?
 
 ## widths, heights normal
@@ -154,7 +178,7 @@ note:
 
 # updated
 
-## version 0.1.12
+## version 0.2.0
 
 * add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
 * change box-shadow style, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_box-shadow.css)
@@ -167,28 +191,6 @@ note:
 * add some fonts style in font-family, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_font-family.css)
 * ...
 
-
-# usage
-
-## npm
-
-use newest version:
-
-`npm install ciser`
-
-use version 0.1.12:
-
-`npm install ciser@0.1.12`
-
-## other
-
-use newest version:
-
-`<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
-
-use version 0.1.12:
-
-`<link rel="stylesheet" href="https://unpkg.com/ciser@0.1.12/build/ciser.min.css">`
 
 
 # help
