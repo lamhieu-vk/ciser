@@ -13,7 +13,12 @@
     "responsive",
     "design",
     "ciser",
-    "tachyons"
+    "tachyons",
+    "function",
+    "design",
+    "css-responsive",
+    "layout",
+    "theme"
   ],
   "ignore": [
     "**/.*",

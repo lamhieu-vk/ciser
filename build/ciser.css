@@ -1,4 +1,7 @@
-/*! ciser (v0.1.11) - Lam Hieu <lamhieu.vk@gmail.com> | MIT License | github.com/lamhieu-vk/ciser */
+/*! 
+    ciser (v0.2.0) - Lam Hieu <lamhieu.vk@gmail.com> | MIT license
+    github/lamhieu-vk/ciser | npmjs.com/package/ciser
+*/
 /* External Library Includes */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -979,11 +982,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/elements/links/
 
 */
-.link { text-decoration: none; transition: color .15s ease-in; }
-.link:link, .link:visited { transition: color .15s ease-in; }
-.link:hover { transition: color .15s ease-in; }
-.link:active { transition: color .15s ease-in; }
-.link:focus { transition: color .15s ease-in; outline: 1px dotted currentColor; }
+.link { text-decoration: none; transition: color .25s ease-in; }
+.link:link, .link:visited { transition: color .25s ease-in; }
+.link:hover { transition: color .25s ease-in; }
+.link:active { transition: color .25s ease-in; }
+.link:focus { transition: color .25s ease-in; outline: 1px dotted currentColor; }
 /*
 
    LISTS
@@ -2195,7 +2198,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .z-8 { z-index: 8; }
 .z-9 { z-index: 9; }
 .z-10 { z-index: 10; }
+.z-98 { z-index: 98; }
 .z-99 { z-index: 99; }
+.z-100 { z-index: 100; }
 .z-999 { z-index: 999; }
 .z-9999 { z-index: 9999; }
 .z-99999 { z-index: 99999; }
@@ -2231,6 +2236,37 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
+/* Variables */
+.t-none { transition: none; }
+.t-vf { transition-duration: .15s; }
+.t-f { transition-duration: .25s; }
+.t-n { transition-duration: .5s; }
+.t-s { transition-duration: 1s; }
+.t-vs { transition-duration: 2s; }
+.t-ease { transition-timing-function: ease; }
+.t-ease-in { transition-timing-function: ease-in; }
+.t-ease-out { transition-timing-function: ease-out; }
+.t-ease-in-out { transition-timing-function: ease-in-out; }
+.t-linear { transition-timing-function: linear; }
+.t-step-start { transition-timing-function: step-start; }
+.t-step-end { transition-timing-function: step-end; }
+.t-all { transition-property: all; }
+.t-opacity-ns { transition-property: opacity; }
+.t-opacity { transition-property: opacity; }
+.t-margin { transition-property: margin; }
+.t-padding { transition-property: padding; }
+.t-height { transition-property: height; }
+.t-width { transition-property: width; }
+.t-color { transition-property: color; }
+.t-background { transition-property: background; }
+.t-border { transition-property: border; }
+.t-box-shadow { transition-property: box-shadow; }
+.t-text-shadow { transition-property: text-shadow; }
+.t-delay-vf { transition-delay: .15s; }
+.t-delay-f { transition-delay: .25s; }
+.t-delay-n { transition-delay: .5s; }
+.t-delay-s { transition-delay: 1s; }
+.t-delay-vs { transition-delay: 2s; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
@@ -3009,6 +3045,35 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-mid-ns { vertical-align: middle; }
  .v-top-ns { vertical-align: top; }
  .v-btm-ns { vertical-align: bottom; }
+ .t-none-ns { transition: none; }
+ .t-vf-ns { transition-duration: .15s; }
+ .t-f-ns { transition-duration: .25s; }
+ .t-n-ns { transition-duration: .5s; }
+ .t-s-ns { transition-duration: 1s; }
+ .t-vs-ns { transition-duration: 2s; }
+ .t-ease-ns { transition-timing-function: ease; }
+ .t-ease-in-ns { transition-timing-function: ease-in; }
+ .t-ease-out-ns { transition-timing-function: ease-out; }
+ .t-ease-in-out-ns { transition-timing-function: ease-in-out; }
+ .t-linear-ns { transition-timing-function: linear; }
+ .t-step-start-ns { transition-timing-function: step-start; }
+ .t-step-end-ns { transition-timing-function: step-end; }
+ .t-all-ns { transition-property: all; }
+ .t-opacity-ns { transition-property: opacity; }
+ .t-margin-ns { transition-property: margin; }
+ .t-padding-ns { transition-property: padding; }
+ .t-height-ns { transition-property: height; }
+ .t-width-ns { transition-property: width; }
+ .t-color-ns { transition-property: color; }
+ .t-background-ns { transition-property: background; }
+ .t-border-ns { transition-property: border; }
+ .t-box-shadow-ns { transition-property: box-shadow; }
+ .t-text-shadow-ns { transition-property: text-shadow; }
+ .t-delay-vf-ns { transition-delay: .15s; }
+ .t-delay-f-ns { transition-delay: .25s; }
+ .t-delay-n-ns { transition-delay: .5s; }
+ .t-delay-s-ns { transition-delay: 1s; }
+ .t-delay-vs-ns { transition-delay: 2s; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .aspect-ratio-m { height: 0; position: relative; }
@@ -3714,6 +3779,35 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-mid-m { vertical-align: middle; }
  .v-top-m { vertical-align: top; }
  .v-btm-m { vertical-align: bottom; }
+ .t-none-m { transition: none; }
+ .t-vf-m { transition-duration: .15s; }
+ .t-f-m { transition-duration: .25s; }
+ .t-n-m { transition-duration: .5s; }
+ .t-s-m { transition-duration: 1s; }
+ .t-vs-m { transition-duration: 2s; }
+ .t-ease-m { transition-timing-function: ease; }
+ .t-ease-in-m { transition-timing-function: ease-in; }
+ .t-ease-out-m { transition-timing-function: ease-out; }
+ .t-ease-in-out-m { transition-timing-function: ease-in-out; }
+ .t-linear-m { transition-timing-function: linear; }
+ .t-step-start-m { transition-timing-function: step-start; }
+ .t-step-end-m { transition-timing-function: step-end; }
+ .t-all-m { transition-property: all; }
+ .t-opacity-m { transition-property: opacity; }
+ .t-margin-m { transition-property: margin; }
+ .t-padding-m { transition-property: padding; }
+ .t-height-m { transition-property: height; }
+ .t-width-m { transition-property: width; }
+ .t-color-m { transition-property: color; }
+ .t-background-m { transition-property: background; }
+ .t-border-m { transition-property: border; }
+ .t-box-shadow-m { transition-property: box-shadow; }
+ .t-text-shadow-m { transition-property: text-shadow; }
+ .t-delay-vf-m { transition-delay: .15s; }
+ .t-delay-f-m { transition-delay: .25s; }
+ .t-delay-n-m { transition-delay: .5s; }
+ .t-delay-s-m { transition-delay: 1s; }
+ .t-delay-vs-m { transition-delay: 2s; }
 }
 @media screen and (min-width: 60em) {
  .aspect-ratio-l { height: 0; position: relative; }
@@ -4419,5 +4513,34 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
+ .t-none-l { transition: none; }
+ .t-vf-l { transition-duration: .15s; }
+ .t-f-l { transition-duration: .25s; }
+ .t-n-l { transition-duration: .5s; }
+ .t-s-l { transition-duration: 1s; }
+ .t-vs-l { transition-duration: 2s; }
+ .t-ease-l { transition-timing-function: ease; }
+ .t-ease-in-l { transition-timing-function: ease-in; }
+ .t-ease-out-l { transition-timing-function: ease-out; }
+ .t-ease-in-out-l { transition-timing-function: ease-in-out; }
+ .t-linear-l { transition-timing-function: linear; }
+ .t-step-start-l { transition-timing-function: step-start; }
+ .t-step-end-l { transition-timing-function: step-end; }
+ .t-all-l { transition-property: all; }
+ .t-opacity-l { transition-property: opacity; }
+ .t-margin-l { transition-property: margin; }
+ .t-padding-l { transition-property: padding; }
+ .t-height-l { transition-property: height; }
+ .t-width-l { transition-property: width; }
+ .t-color-l { transition-property: color; }
+ .t-background-l { transition-property: background; }
+ .t-border-l { transition-property: border; }
+ .t-box-shadow-l { transition-property: box-shadow; }
+ .t-text-shadow-l { transition-property: text-shadow; }
+ .t-delay-vf-l { transition-delay: .15s; }
+ .t-delay-f-l { transition-delay: .25s; }
+ .t-delay-n-l { transition-delay: .5s; }
+ .t-delay-s-l { transition-delay: 1s; }
+ .t-delay-vs-l { transition-delay: 2s; }
 }
 
