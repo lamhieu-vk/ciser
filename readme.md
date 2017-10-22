@@ -27,6 +27,15 @@ version using: v4.8.1
 thanks for tachyons-css/tachyons
 
 
+
+# development commitment:
+
+this is a regularly updated version of the new features when we recommend that you use the latest version for the latest updates. During the development process we will retain the old structures and attributes so that they will not affect the features you are using.
+
+updated: **Oct 22, 2017 (UTC+7)**
+
+
+
 # usage
 
 ## npm
@@ -35,9 +44,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 1.0.3:
+use version 1.0.4:
 
-`npm install ciser@1.0.3`
+`npm install ciser@1.0.4`
 
 ## other
 
@@ -45,9 +54,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 1.0.3:
+use version 1.0.4:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.0.3/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.0.4/build/ciser.min.css">`
 
 ## local setup
 
@@ -309,7 +318,7 @@ default animation classname:
 
 # updated
 
-## version 1.0.3
+## version 1.0.4
 
 * add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
 * add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
