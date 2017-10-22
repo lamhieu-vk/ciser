@@ -1,6 +1,6 @@
 {
   "name": "ciser",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Functional CSS, help quickly build and design new UI without writing css.",
   "author": "lamhieu-vk",
   "style": "build/ciser.min.css",
@@ -26,8 +26,8 @@
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
     "normalize.css": "^7.0.0",
-    "tachyons-modules": "^1.1.10",
     "tachyons-cli": "^1.0.11",
+    "tachyons-modules": "^1.1.10",
     "watch": "^1.0.2"
   },
   "contributors": [
