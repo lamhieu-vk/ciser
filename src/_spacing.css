@@ -451,7 +451,7 @@
   margin-right: var(--spacing-extra-extra-extra-large);
 }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 30em) {
   .pa0-ns { padding: var(--spacing-none); }
   .pa0s-ns { padding: calc((var(--spacing-extra-small) - var(--spacing-none)) / 2); }
   .pa1-ns { padding: var(--spacing-extra-small); }
@@ -859,7 +859,7 @@
   }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .pa0-m { padding: var(--spacing-none); }
   .pa0s-m { padding: calc((var(--spacing-extra-small) - var(--spacing-none)) / 2); }
   .pa1-m { padding: var(--spacing-extra-small); }
@@ -1268,7 +1268,7 @@
 
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .pa0-l { padding: var(--spacing-none); }
   .pa0s-l { padding: calc((var(--spacing-extra-small) - var(--spacing-none)) / 2); }
   .pa1-l { padding: var(--spacing-extra-small); }

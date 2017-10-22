@@ -1,11 +1,16 @@
 /*! 
-    ciser (v1.2.1) - Lam Hieu <lamhieu.vk@gmail.com> | MIT license
-    github/lamhieu-vk/ciser | npmjs.com/package/ciser
+    Lam Hieu <lamhieu.vk@gmail.com> | lamhi.eu
+    ciser (v1.2.2) MIT license - github/lamhieu-vk/ciser | npmjs.com/package/ciser
 */
 
 /* External Library Includes */
 @import './_normalize';
 
+/*
+--b-reakpoint-not-small: screen and (min-width: 30em)
+--b-reakpoint-medium: screen and (min-width: 30em) and (max-width: 60em)
+--b-reakpoint-large: screen and (min-width: 60em)
+*/
 
 /* Modules */
 @import './_box-sizing';
@@ -65,7 +70,7 @@
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 @import './_colors';
-@import './_media-queries';
+/* @import './_media-queries'; */
 
 /* Debugging */
 @import './_debug-children';

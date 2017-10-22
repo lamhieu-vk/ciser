@@ -115,7 +115,7 @@
   animation-name: slide-to-top;
 }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 30em) {
   .a-none-ns { animation: none; }
   .a-zoom-in-out-ns {
     animation: zoom-in-out var(--duration-normal) ease;
@@ -222,7 +222,7 @@
   }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .a-none-m { animation: none; }
   .a-zoom-in-out-m {
     animation: zoom-in-out var(--duration-normal) ease;
@@ -329,7 +329,7 @@
   }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .a-none-l { animation: none; }
   .a-zoom-in-out-l {
     animation: zoom-in-out var(--duration-normal) ease;

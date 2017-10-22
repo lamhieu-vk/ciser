@@ -15,4 +15,16 @@
 */
 .cover { background-size: cover !important; }
 .contain { background-size: contain !important; }
+@media screen and (min-width: 30em) {
+ .cover-ns { background-size: cover !important; }
+ .contain-ns { background-size: contain !important; }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+ .cover-m { background-size: cover !important; }
+ .contain-m { background-size: contain !important; }
+}
+@media screen and (min-width: 60em) {
+ .cover-l { background-size: cover !important; }
+ .contain-l { background-size: contain !important; }
+}
 

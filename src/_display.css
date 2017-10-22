@@ -45,7 +45,7 @@
   width: 100%;
 }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 30em) {
   .dn-ns {              display: none; }
   .di-ns {              display: inline; }
   .db-ns {              display: block; }
@@ -64,7 +64,7 @@
   }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .dn-m {              display: none; }
   .di-m {              display: inline; }
   .db-m {              display: block; }
@@ -83,7 +83,7 @@
   }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .dn-l {              display: none; }
   .di-l {              display: inline; }
   .db-l {              display: block; }

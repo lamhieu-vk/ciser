@@ -48,7 +48,7 @@
 .f6 { font-size: .875rem; }
 .f7 { font-size: .75rem; } /* Small and hard to read for many people so use with extreme caution */
 
-@media (--breakpoint-not-small){
+@media screen and (min-width: 30em){
   .f-6-ns,
   .f-headline-ns { font-size: 6rem; }
   .f-5-ns,
@@ -62,7 +62,7 @@
   .f7-ns { font-size: .75rem; }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .f-6-m,
   .f-headline-m { font-size: 6rem; }
   .f-5-m,
@@ -76,7 +76,7 @@
   .f7-m { font-size: .75rem; }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .f-6-l,
   .f-headline-l {
     font-size: 6rem;

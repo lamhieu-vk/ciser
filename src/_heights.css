@@ -94,7 +94,7 @@
 .h-auto {     height: auto; }
 .h-inherit {  height: inherit; }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 30em) {
   .h1-ns { height: 1rem; }
   .h1s-ns { height: 1.5rem; }
   .h2-ns { height: 2rem; }
@@ -149,7 +149,7 @@
   .h-inherit-ns {  height: inherit; }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .h1-m { height: 1rem; }
   .h1s-m { height: 1.5rem; }
   .h2-m { height: 2rem; }
@@ -204,7 +204,7 @@
   .h-inherit-m {  height: inherit; }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .h1-l { height: 1rem; }
   .h1s-l { height: 1.5rem; }
   .h2-l { height: 2rem; }

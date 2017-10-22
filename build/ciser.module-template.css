@@ -6,4 +6,7 @@
   style architecture.
 
 */
+@media screen and (min-width: 30em) { }
+@media screen and (min-width: 30em) and (max-width: 60em) { }
+@media screen and (min-width: 60em) { }
 

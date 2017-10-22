@@ -1,14 +1,22 @@
 {
   "name": "ciser",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Functional CSS, help quickly build and design new UI without writing css.",
-  "author": "lamhieu-vk",
+  "author": {
+    "name": "Lam Hieu",
+    "email": "lamhieu.vk@gmail.com",
+    "url": "https://lamhi.eu"
+  },
   "style": "build/ciser.min.css",
   "main": "build/ciser.css",
   "files": [
     "build",
     "src"
   ],
+  "bugs": {
+    "url": "https://github.com/lamhieu-vk/ciser/issues",
+    "email": "lamhieu.vk@gmail.com"
+  },
   "repository": "lamhieu-vk/ciser",
   "keywords": [
     "css",

@@ -88,7 +88,7 @@
   left: 0;
 }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 30em) {
   .top-0-ns    { top:    0; }
   .right-0-ns  { right:  0; }
   .bottom-0-ns { bottom: 0; }
@@ -141,7 +141,7 @@
   }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .top-0-m    { top:    0; }
   .right-0-m  { right:  0; }
   .bottom-0-m { bottom: 0; }
@@ -194,7 +194,7 @@
   }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .top-0-l    { top:    0; }
   .right-0-l  { right:  0; }
   .bottom-0-l { bottom: 0; }

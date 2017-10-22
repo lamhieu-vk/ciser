@@ -43,7 +43,7 @@
 .t-delay-s { transition-delay: var(--duration-slow); }
 .t-delay-vs { transition-delay: var(--duration-very-slow); }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 30em) {
   .t-none-ns { transition: none; }
 
   .t-vf-ns { transition-duration: var(--duration-very-fast); }
@@ -79,7 +79,7 @@
   .t-delay-vs-ns { transition-delay: var(--duration-very-slow); }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .t-none-m { transition: none; }
 
   .t-vf-m { transition-duration: var(--duration-very-fast); }
@@ -115,7 +115,7 @@
   .t-delay-vs-m { transition-delay: var(--duration-very-slow); }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .t-none-l { transition: none; }
 
   .t-vf-l { transition-duration: var(--duration-very-fast); }

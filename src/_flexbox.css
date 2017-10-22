@@ -66,7 +66,7 @@
 .order-8 { order: 8; }
 .order-last { order: 99999; }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 30em) {
   .flex-ns { display: flex; }
   .inline-flex-ns { display: inline-flex; }
   .flex-auto-ns {
@@ -118,7 +118,7 @@
   .order-8-ns { order: 8; }
   .order-last-ns { order: 99999; }
 }
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .flex-m { display: flex; }
   .inline-flex-m { display: inline-flex; }
   .flex-auto-m {
@@ -171,7 +171,7 @@
   .order-last-m { order: 99999; }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .flex-l { display: flex; }
   .inline-flex-l { display: inline-flex; }
   .flex-auto-l {

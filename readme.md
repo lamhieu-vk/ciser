@@ -48,9 +48,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 1.2.1:
+use version 1.2.2:
 
-`npm install ciser@1.2.1`
+`npm install ciser@1.2.2`
 
 **other**
 
@@ -58,9 +58,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 1.2.1:
+use version 1.2.2:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.1/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.2/build/ciser.min.css">`
 
 
 ## require some prototypes:
@@ -69,9 +69,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">`
 
-use version 1.2.1:
+use version 1.2.2:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.1/build/ciser.[prototype].min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.2/build/ciser.[prototype].min.css">`
 
 list prototypes:
 
@@ -363,7 +363,7 @@ default animation classname:
 
 # updated
 
-## version 1.2.1
+## version 1.2.2
 
 * split the prototypes, [read more](https://github.com/lamhieu-vk/ciser/blob/master/build)
 * add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)

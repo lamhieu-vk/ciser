@@ -50,7 +50,7 @@
     z-index: 100;
 }
 
-@media (--breakpoint-not-small){
+@media screen and (min-width: 30em){
     .aspect-ratio-ns {
       height: 0;
       position: relative;
@@ -78,7 +78,7 @@
     }
 }
 
-@media (--breakpoint-medium){
+@media screen and (min-width: 30em) and (max-width: 60em){
     .aspect-ratio-m {
       height: 0;
       position: relative;
@@ -106,7 +106,7 @@
     }
 }
 
-@media (--breakpoint-large){
+@media screen and (min-width: 60em){
     .aspect-ratio-l {
       height: 0;
       position: relative;
