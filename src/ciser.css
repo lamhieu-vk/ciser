@@ -1,5 +1,5 @@
 /*! 
-    ciser (v0.2.6) - Lam Hieu <lamhieu.vk@gmail.com> | MIT license
+    ciser (v1.0.2) - Lam Hieu <lamhieu.vk@gmail.com> | MIT license
     github/lamhieu-vk/ciser | npmjs.com/package/ciser
 */
 
@@ -60,6 +60,7 @@
 @import './_nested';
 @import './_styles';
 @import './_transition';
+@import './_animation';
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
