@@ -32,31 +32,49 @@ thanks for tachyons-css/tachyons
 
 this is a regularly updated version of the new features when we recommend that you use the latest version for the latest updates. During the development process we will retain the old structures and attributes so that they will not affect the features you are using.
 
+if you don't want require all prototypes of ciser, you can require some prototypes and use it with tachyons if you like.
+
 updated: **Oct 22, 2017 (UTC+7)**
 
 
 
 # usage
 
-## npm
+## require all:
+
+**npm**
 
 use newest version:
 
 `npm install ciser`
 
-use version 1.1.0:
+use version 1.2.0:
 
-`npm install ciser@1.1.0`
+`npm install ciser@1.2.0`
 
-## other
+**other**
 
 use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 1.1.0:
+use version 1.2.0:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.1.0/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.0/build/ciser.min.css">`
+
+
+## require some prototypes:
+
+use newest version:
+
+`<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">`
+
+use version 1.2.0:
+
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.0/build/ciser.[prototype].min.css">`
+
+note: can use with tachyons, like ext.
+
 
 ## local setup
 
@@ -331,7 +349,7 @@ default animation classname:
 
 # updated
 
-## version 1.1.0
+## version 1.2.0
 
 * add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
 * add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)

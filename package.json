@@ -1,6 +1,6 @@
 {
   "name": "ciser",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Functional CSS, help quickly build and design new UI without writing css.",
   "author": "lamhieu-vk",
   "style": "build/ciser.min.css",
