@@ -35,9 +35,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 1.0.2:
+use version 1.0.3:
 
-`npm install ciser@1.0.2`
+`npm install ciser@1.0.3`
 
 ## other
 
@@ -45,9 +45,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 1.0.2:
+use version 1.0.3:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.0.2/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.0.3/build/ciser.min.css">`
 
 ## local setup
 
@@ -309,8 +309,9 @@ default animation classname:
 
 # updated
 
-## version 1.0.2
+## version 1.0.3
 
+* add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
 * add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
 * change box-shadow style, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_box-shadow.css)
 * add .center-box used to center, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_utilities.css)
