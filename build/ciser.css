@@ -1,5 +1,5 @@
 /*! 
-    ciser (v1.0.4) - Lam Hieu <lamhieu.vk@gmail.com> | MIT license
+    ciser (v1.1.0) - Lam Hieu <lamhieu.vk@gmail.com> | MIT license
     github/lamhieu-vk/ciser | npmjs.com/package/ciser
 */
 /* External Library Includes */
@@ -2269,6 +2269,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .t-delay-vs { transition-delay: 2.5s; }
 /* Variables */
 .a-none { -webkit-animation: none; animation: none; }
+.a-zoom-in-out { -webkit-animation: zoom-in-out 1s ease; animation: zoom-in-out 1s ease; }
+.a-zoom-out-in { -webkit-animation: zoom-out-in 1s ease; animation: zoom-out-in 1s ease; }
 .a-fade-in { -webkit-animation: fade-in 1s ease; animation: fade-in 1s ease; }
 .a-fade-out { -webkit-animation: fade-out 1s ease; animation: fade-out 1s ease; }
 .a-fade-in-out { -webkit-animation: fade-in-out 1s ease; animation: fade-in-out 1s ease; }
@@ -2312,6 +2314,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .a-delay-n { -webkit-animation-delay: 1s; animation-delay: 1s; }
 .a-delay-s { -webkit-animation-delay: 2s; animation-delay: 2s; }
 .a-delay-vs { -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
+.a--zoom-in-out { -webkit-animation-name: zoom-in-out; animation-name: zoom-in-out; }
+.a--zoom-out-in { -webkit-animation-name: zoom-out-in; animation-name: zoom-out-in; }
 .a--fade-in { -webkit-animation-name: fade-in; animation-name: fade-in; }
 .a--fade-out { -webkit-animation-name: fade-out; animation-name: fade-out; }
 .a--fade-in-out { -webkit-animation-name: fade-in-out; animation-name: fade-in-out; }
@@ -2320,21 +2324,49 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .a--slide-to-right { -webkit-animation-name: slide-to-right; animation-name: slide-to-right; }
 .a--slide-to-bottom { -webkit-animation-name: slide-to-bottom; animation-name: slide-to-bottom; }
 .a--slide-to-left { -webkit-animation-name: slide-to-top; animation-name: slide-to-top; }
+@-webkit-keyframes zoom-in-out {
+ 0% { opacity: 0; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+ 50% { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
+ 100% { opacity: 1; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+}
+@keyframes zoom-in-out {
+ 0% { opacity: 0; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+ 50% { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
+ 100% { opacity: 1; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+}
+@-webkit-keyframes zoom-out-in {
+ 0% { opacity: 0; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+ 50% { -webkit-transform: scale( .7 ); transform: scale( .7 ); }
+ 100% { opacity: 1; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+}
+@keyframes zoom-out-in {
+ 0% { opacity: 0; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+ 50% { -webkit-transform: scale( .7 ); transform: scale( .7 ); }
+ 100% { opacity: 1; -webkit-transform: scale( 1 ); transform: scale( 1 ); }
+}
+@-webkit-keyframes slide-to-top {
+ 0% { opacity: 0; -webkit-transform: translateY( 5em ); transform: translateY( 5em ); }
+ 100% { opacity: 1; -webkit-transform: translateY( 0 ); transform: translateY( 0 ); }
+}
+@keyframes slide-to-top {
+ 0% { opacity: 0; -webkit-transform: translateY( 5em ); transform: translateY( 5em ); }
+ 100% { opacity: 1; -webkit-transform: translateY( 0 ); transform: translateY( 0 ); }
+}
 @-webkit-keyframes fade-in {
- form { opacity: 0; }
- to { opacity: 1; }
+ 0% { opacity: 0; }
+ 100% { opacity: 1; }
 }
 @keyframes fade-in {
- form { opacity: 0; }
- to { opacity: 1; }
+ 0% { opacity: 0; }
+ 100% { opacity: 1; }
 }
 @-webkit-keyframes fade-out {
- from { opacity: 1; }
- to { opacity: 0; }
+ 0% { opacity: 1; }
+ 100% { opacity: 0; }
 }
 @keyframes fade-out {
- from { opacity: 1; }
- to { opacity: 0; }
+ 0% { opacity: 1; }
+ 100% { opacity: 0; }
 }
 @-webkit-keyframes fade-out-in {
  0% { opacity: 1; }
@@ -2356,37 +2388,33 @@ code, .code { font-family: Consolas, monaco, monospace; }
  50% { opacity: 1; }
  100% { opacity: 0; }
 }
-@-webkit-keyframes slide-to-top {
- from { opacity: 0; -webkit-transform: translate( 0, 5em ); transform: translate( 0, 5em ); }
- to { opacity: 1; -webkit-transform: translate( 0, 0 ); transform: translate( 0, 0 ); }
-}
 @keyframes slide-to-top {
- from { opacity: 0; -webkit-transform: translate( 0, 5em ); transform: translate( 0, 5em ); }
- to { opacity: 1; -webkit-transform: translate( 0, 0 ); transform: translate( 0, 0 ); }
+ 0% { opacity: 0; -webkit-transform: translateY( 5em ); transform: translateY( 5em ); }
+ 100% { opacity: 1; -webkit-transform: translateY( 0 ); transform: translateY( 0 ); }
 }
 @-webkit-keyframes slide-to-right {
- from { opacity: 0; -webkit-transform: translate( -5em, 0 ); transform: translate( -5em, 0 ); }
- to { opacity: 1; -webkit-transform: translate( 0, 0 ); transform: translate( 0, 0 ); }
+ 0% { opacity: 0; -webkit-transform: translateX( -5em ); transform: translateX( -5em ); }
+ 100% { opacity: 1; -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
 }
 @keyframes slide-to-right {
- from { opacity: 0; -webkit-transform: translate( -5em, 0 ); transform: translate( -5em, 0 ); }
- to { opacity: 1; -webkit-transform: translate( 0, 0 ); transform: translate( 0, 0 ); }
+ 0% { opacity: 0; -webkit-transform: translateX( -5em ); transform: translateX( -5em ); }
+ 100% { opacity: 1; -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
 }
 @-webkit-keyframes slide-to-bottom {
- from { opacity: 0; -webkit-transform: translate( 0, -5em ); transform: translate( 0, -5em ); }
- to { opacity: 1; -webkit-transform: translate( 0, 0 ); transform: translate( 0, 0 ); }
+ 0% { opacity: 0; -webkit-transform: translateY( -5em ); transform: translateY( -5em ); }
+ 100% { opacity: 1; -webkit-transform: translateY( 0 ); transform: translateY( 0 ); }
 }
 @keyframes slide-to-bottom {
- from { opacity: 0; -webkit-transform: translate( 0, -5em ); transform: translate( 0, -5em ); }
- to { opacity: 1; -webkit-transform: translate( 0, 0 ); transform: translate( 0, 0 ); }
+ 0% { opacity: 0; -webkit-transform: translateY( -5em ); transform: translateY( -5em ); }
+ 100% { opacity: 1; -webkit-transform: translateY( 0 ); transform: translateY( 0 ); }
 }
 @-webkit-keyframes slide-to-left {
- from { opacity: 0; -webkit-transform: translate( 5em, 0 ); transform: translate( 5em, 0 ); }
- to { opacity: 1; -webkit-transform: translate( 0, 0 ); transform: translate( 0, 0 ); }
+ 0% { opacity: 0; -webkit-transform: translateX( 5em ); transform: translateX( 5em ); }
+ 100% { opacity: 1; -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
 }
 @keyframes slide-to-left {
- from { opacity: 0; -webkit-transform: translate( 5em, 0 ); transform: translate( 5em, 0 ); }
- to { opacity: 1; -webkit-transform: translate( 0, 0 ); transform: translate( 0, 0 ); }
+ 0% { opacity: 0; -webkit-transform: translateX( 5em ); transform: translateX( 5em ); }
+ 100% { opacity: 1; -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
 }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
@@ -3196,6 +3224,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .t-delay-s-ns { transition-delay: 2s; }
  .t-delay-vs-ns { transition-delay: 2.5s; }
  .a-none-ns { -webkit-animation: none; animation: none; }
+ .a-zoom-in-out-ns { -webkit-animation: zoom-in-out 1s ease; animation: zoom-in-out 1s ease; }
+ .a-zoom-out-in-ns { -webkit-animation: zoom-out-in 1s ease; animation: zoom-out-in 1s ease; }
  .a-fade-in-ns { -webkit-animation: fade-in 1s ease; animation: fade-in 1s ease; }
  .a-fade-out-ns { -webkit-animation: fade-out 1s ease; animation: fade-out 1s ease; }
  .a-fade-in-out-ns { -webkit-animation: fade-in-out 1s ease; animation: fade-in-out 1s ease; }
@@ -3239,6 +3269,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .a-delay-n-ns { -webkit-animation-delay: 1s; animation-delay: 1s; }
  .a-delay-s-ns { -webkit-animation-delay: 2s; animation-delay: 2s; }
  .a-delay-vs-ns { -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
+ .a--zoom-in-out-ns { -webkit-animation-name: zoom-in-out; animation-name: zoom-in-out; }
+ .a--zoom-out-in-ns { -webkit-animation-name: zoom-out-in; animation-name: zoom-out-in; }
  .a--fade-in-ns { -webkit-animation-name: fade-in; animation-name: fade-in; }
  .a--fade-out-ns { -webkit-animation-name: fade-out; animation-name: fade-out; }
  .a--fade-in-out-ns { -webkit-animation-name: fade-in-out; animation-name: fade-in-out; }
@@ -3982,6 +4014,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .t-delay-s-m { transition-delay: 2s; }
  .t-delay-vs-m { transition-delay: 2.5s; }
  .a-none-m { -webkit-animation: none; animation: none; }
+ .a-zoom-in-out-m { -webkit-animation: zoom-in-out 1s ease; animation: zoom-in-out 1s ease; }
+ .a-zoom-out-in-m { -webkit-animation: zoom-out-in 1s ease; animation: zoom-out-in 1s ease; }
  .a-fade-in-m { -webkit-animation: fade-in 1s ease; animation: fade-in 1s ease; }
  .a-fade-out-m { -webkit-animation: fade-out 1s ease; animation: fade-out 1s ease; }
  .a-fade-in-out-m { -webkit-animation: fade-in-out 1s ease; animation: fade-in-out 1s ease; }
@@ -4025,6 +4059,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .a-delay-n-m { -webkit-animation-delay: 1s; animation-delay: 1s; }
  .a-delay-s-m { -webkit-animation-delay: 2s; animation-delay: 2s; }
  .a-delay-vs-m { -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
+ .a--zoom-in-out-m { -webkit-animation-name: zoom-in-out; animation-name: zoom-in-out; }
+ .a--zoom-out-in-m { -webkit-animation-name: zoom-out-in; animation-name: zoom-out-in; }
  .a--fade-in-m { -webkit-animation-name: fade-in; animation-name: fade-in; }
  .a--fade-out-m { -webkit-animation-name: fade-out; animation-name: fade-out; }
  .a--fade-in-out-m { -webkit-animation-name: fade-in-out; animation-name: fade-in-out; }
@@ -4768,6 +4804,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .t-delay-s-l { transition-delay: 2s; }
  .t-delay-vs-l { transition-delay: 2.5s; }
  .a-none-l { -webkit-animation: none; animation: none; }
+ .a-zoom-in-out-l { -webkit-animation: zoom-in-out 1s ease; animation: zoom-in-out 1s ease; }
+ .a-zoom-out-in-l { -webkit-animation: zoom-out-in 1s ease; animation: zoom-out-in 1s ease; }
  .a-fade-in-l { -webkit-animation: fade-in 1s ease; animation: fade-in 1s ease; }
  .a-fade-out-l { -webkit-animation: fade-out 1s ease; animation: fade-out 1s ease; }
  .a-fade-in-out-l { -webkit-animation: fade-in-out 1s ease; animation: fade-in-out 1s ease; }
@@ -4811,6 +4849,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .a-delay-n-l { -webkit-animation-delay: 1s; animation-delay: 1s; }
  .a-delay-s-l { -webkit-animation-delay: 2s; animation-delay: 2s; }
  .a-delay-vs-l { -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
+ .a--zoom-in-out-l { -webkit-animation-name: zoom-in-out; animation-name: zoom-in-out; }
+ .a--zoom-out-in-l { -webkit-animation-name: zoom-out-in; animation-name: zoom-out-in; }
  .a--fade-in-l { -webkit-animation-name: fade-in; animation-name: fade-in; }
  .a--fade-out-l { -webkit-animation-name: fade-out; animation-name: fade-out; }
  .a--fade-in-out-l { -webkit-animation-name: fade-in-out; animation-name: fade-in-out; }

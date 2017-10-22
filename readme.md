@@ -44,9 +44,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 1.0.4:
+use version 1.1.0:
 
-`npm install ciser@1.0.4`
+`npm install ciser@1.1.0`
 
 ## other
 
@@ -54,9 +54,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 1.0.4:
+use version 1.1.0:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.0.4/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.1.0/build/ciser.min.css">`
 
 ## local setup
 
@@ -215,6 +215,7 @@ prototype classname:
 
 ```
 .a-none { animation: none; }
+
 .a-vf { animation-duration: var(--duration-very-fast); }
 .a-f { animation-duration: var(--duration-fast); }
 .a-n { animation-duration: var(--duration-normal); }
@@ -257,6 +258,12 @@ prototype classname:
 .a-delay-s { animation-delay: var(--duration-slow); }
 .a-delay-vs { animation-delay: var(--duration-very-slow); }
 
+.a--zoom-in-out {
+  animation-name: zoom-in-out;
+}
+.a--zoom-out-in {
+  animation-name: zoom-out-in;
+}
 .a--fade-in {
   animation-name: fade-in;
 }
@@ -286,6 +293,12 @@ prototype classname:
 default animation classname:
 
 ```
+.a-zoom-in-out {
+  animation: zoom-in-out var(--duration-normal) ease;
+}
+.a-zoom-out-in {
+  animation: zoom-out-in var(--duration-normal) ease;
+}
 .a-fade-in {
   animation: fade-in var(--duration-normal) ease;
 }
@@ -318,7 +331,7 @@ default animation classname:
 
 # updated
 
-## version 1.0.4
+## version 1.1.0
 
 * add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
 * add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
