@@ -48,9 +48,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 1.2.0:
+use version 1.2.1:
 
-`npm install ciser@1.2.0`
+`npm install ciser@1.2.1`
 
 **other**
 
@@ -58,9 +58,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 1.2.0:
+use version 1.2.1:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.0/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.1/build/ciser.min.css">`
 
 
 ## require some prototypes:
@@ -69,9 +69,23 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">`
 
-use version 1.2.0:
+use version 1.2.1:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.0/build/ciser.[prototype].min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.1/build/ciser.[prototype].min.css">`
+
+list prototypes:
+
+```
+ animation | aspect-ratios | background-position | background-size | border-colors | border-radius | border-style | border-widths | borders | box-shadow | box-sizing | clears | code | colors | coordinates | debug-children | debug-grid | debug | display | flexbox | floats | font-family | font-style | font-weight | forms | heights | hovers | images | letter-spacing | line-height | links | lists | max-widths | media-queries | module-template | negative-margins | nested | normalize | opacity | outlines | overflow | position | rotations | skins-pseudo | skins | spacing | styles | tables | text-align | text-decoration | text-transform | transition | type-scale | typography | utilities | vertical-align | visibility | white-space | widths | word-break | z-index
+```
+
+read more prototypes at:
+
+`https://github.com/lamhieu-vk/ciser/blob/master/src/_[prototype].css`
+
+and after build at:
+
+`https://github.com/lamhieu-vk/ciser/blob/master/build/ciser.[prototype].css`
 
 note: can use with tachyons, like ext.
 
@@ -349,8 +363,9 @@ default animation classname:
 
 # updated
 
-## version 1.2.0
+## version 1.2.1
 
+* split the prototypes, [read more](https://github.com/lamhieu-vk/ciser/blob/master/build)
 * add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
 * add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
 * change box-shadow style, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_box-shadow.css)
