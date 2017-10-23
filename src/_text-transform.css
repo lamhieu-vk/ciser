@@ -14,7 +14,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -36,6 +36,13 @@
   .ttl-m { text-transform: lowercase; }
   .ttu-m { text-transform: uppercase; }
   .ttn-m { text-transform: none; }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .ttc-ml { text-transform: capitalize; }
+  .ttl-ml { text-transform: lowercase; }
+  .ttu-ml { text-transform: uppercase; }
+  .ttn-ml { text-transform: none; }
 }
 
 @media screen and (min-width: 60em) {

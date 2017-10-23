@@ -14,7 +14,7 @@
 
   Media Query Extensions:
     -ns = not-small
-    -m  = medium
+    -m  = medium       -ml = mobile landscape
     -l  = large
 
 */
@@ -33,6 +33,12 @@
  .tr-m { text-align: right; }
  .tc-m { text-align: center; }
  .tj-m { text-align: justify; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .tl-ml { text-align: left; }
+ .tr-ml { text-align: right; }
+ .tc-ml { text-align: center; }
+ .tj-ml { text-align: justify; }
 }
 @media screen and (min-width: 60em) {
  .tl-l { text-align: left; }

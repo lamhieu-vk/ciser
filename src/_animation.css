@@ -329,6 +329,113 @@
   }
 }
 
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .a-none-ml { animation: none; }
+  .a-zoom-in-out-ml {
+    animation: zoom-in-out var(--duration-normal) ease;
+  }
+  .a-zoom-out-in-ml {
+    animation: zoom-out-in var(--duration-normal) ease;
+  }
+  .a-fade-in-ml {
+    animation: fade-in var(--duration-normal) ease;
+  }
+  .a-fade-out-ml {
+    animation: fade-out var(--duration-normal) ease;
+  }
+  .a-fade-in-out-ml {
+    animation: fade-in-out var(--duration-normal) ease;
+  }
+  .a-fade-out-in-ml {
+    animation: fade-out-in var(--duration-normal) ease;
+  }
+  .a-slide-to-top-ml {
+    animation: slide-to-top var(--duration-normal) ease;
+  }
+  .a-slide-to-right-ml {
+    animation: slide-to-right var(--duration-normal) ease;
+  }
+  .a-slide-to-bottom-ml {
+    animation: slide-to-bottom var(--duration-normal) ease;
+  }
+  .a-slide-to-left-ml {
+    animation: slide-to-left var(--duration-normal) ease;
+  }
+
+  .a-vf-ml { animation-duration: var(--duration-very-fast); }
+  .a-f-ml { animation-duration: var(--duration-fast); }
+  .a-n-ml { animation-duration: var(--duration-normal); }
+  .a-s-ml { animation-duration: var(--duration-slow); }
+  .a-vs-ml { animation-duration: var(--duration-very-slow); }
+  .a-bs-ml { animation-duration: var(--duration-bind-slow); }
+  .a-ss-ml { animation-duration: var(--duration-super-slow); }
+
+  .a-normal-ml { animation-direction: normal; }
+  .a-reverse-ml { animation-direction: reverse; }
+  .a-alternate-ml { animation-direction: alternate; }
+  .a-alternate-reverse-ml { animation-direction: alternate-reverse; }
+
+  .a-ease-ml { animation-timing-function: ease; }
+  .a-ease-in-ml { animation-timing-function: ease-in; }
+  .a-ease-out-ml { animation-timing-function: ease-out; }
+  .a-ease-in-out-ml { animation-timing-function: ease-in-out; }
+  .a-linear-ml { animation-timing-function: linear; }
+  .a-step-start-ml { animation-timing-function: step-start; }
+  .a-step-end-ml { animation-timing-function: step-end; }
+
+  .a-infinite-ml { animation-iteration-count: infinite; }
+  .a-2s-ml { animation-iteration-count: 2; }
+  .a-3s-ml { animation-iteration-count: 3; }
+  .a-4s-ml { animation-iteration-count: 4; }
+  .a-5s-ml { animation-iteration-count: 5; }
+  .a-10s-ml { animation-iteration-count: 10; }
+
+  .a-running-ml { animation-play-state: running; }
+  .a-paused-ml { animation-play-state: paused; }
+
+  .a-fill-none-ml { animation-fill-mode: none; }
+  .a-fill-forwards-ml { animation-fill-mode: forwards; }
+  .a-fill-backwards-ml { animation-fill-mode: backwards; }
+  .a-fill-both-ml { animation-fill-mode: both; }
+
+  .a-delay-vf-ml { animation-delay: var(--duration-very-fast); }
+  .a-delay-f-ml { animation-delay: var(--duration-fast); }
+  .a-delay-n-ml { animation-delay: var(--duration-normal); }
+  .a-delay-s-ml { animation-delay: var(--duration-slow); }
+  .a-delay-vs-ml { animation-delay: var(--duration-very-slow); }
+
+  .a--zoom-in-out-ml {
+    animation-name: zoom-in-out;
+  }
+  .a--zoom-out-in-ml {
+    animation-name: zoom-out-in;
+  }
+  .a--fade-in-ml {
+    animation-name: fade-in;
+  }
+  .a--fade-out-ml {
+    animation-name: fade-out;
+  }
+  .a--fade-in-out-ml {
+    animation-name: fade-in-out;
+  }
+  .a--fade-out-in-ml {
+    animation-name: fade-out-in;
+  }
+  .a--slide-to-top-ml {
+    animation-name: slide-to-top;
+  }
+  .a--slide-to-right-ml {
+    animation-name: slide-to-right;
+  }
+  .a--slide-to-bottom-ml {
+    animation-name: slide-to-bottom;
+  }
+  .a--slide-to-left-ml {
+    animation-name: slide-to-top;
+  }
+}
+
 @media screen and (min-width: 60em) {
   .a-none-l { animation: none; }
   .a-zoom-in-out-l {

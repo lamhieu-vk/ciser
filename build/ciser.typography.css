@@ -2,7 +2,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -32,6 +32,14 @@
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-m { font-variant: small-caps; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .measure-ml { max-width: 30em; }
+ .measure-wide-ml { max-width: 34em; }
+ .measure-narrow-ml { max-width: 20em; }
+ .indent-ml { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+ .small-caps-ml { font-variant: small-caps; }
+ .truncate-ml { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
 @media screen and (min-width: 60em) {
  .measure-l { max-width: 30em; }

@@ -2,7 +2,7 @@
 
 ciser like a version update forked from tachyons with some new function classname css. like tachyons, ciser help quickly build and design new UI without writing css.
 
-forked from tachyons and updated by [Lam Hieu (@lamhieu-vk)](https://lamhi.eu/). in ciser, I updated many classname fn to make the design work easier than ever, the size of the attributes is added in a reasonable proportion, carefully calculated. 
+forked from tachyons and updated by [Lam Hieu (@lamhieu-vk)](https://lamhi.eu/). in ciser, I updated many classname fn to make the design work easier than ever, the size of the attributes is added in a reasonable proportion, carefully calculated. full support all responsive queries (since version 2.0.0).
 
 most of the properties of the tachyons are retained, so switching from tachyons to ciser will not affect the current interface.
 
@@ -51,9 +51,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 1.2.3:
+use version 2.0.0:
 
-`npm install ciser@1.2.3`
+`npm install ciser@2.0.0`
 
 **other**
 
@@ -61,9 +61,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 1.2.3:
+use version 2.0.0:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.3/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@2.0.0/build/ciser.min.css">`
 
 
 ## require some prototypes:
@@ -72,9 +72,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">`
 
-use version 1.2.3:
+use version 2.0.0:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.3/build/ciser.[prototype].min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@2.0.0/build/ciser.[prototype].min.css">`
 
 list prototypes:
 
@@ -106,6 +106,33 @@ npm install
 
 
 # what's new?
+
+## responsive
+
+with *tachyons*:
+
+```
+.[fn classname]-[ns | m | l]
+/*
+  media query extensions:
+    -ns = not-small
+    -m  = medium       
+    -l  = large
+*/
+```
+with **ciser**:
+
+```
+.[fn classname]-[ns | m | ml | l]
+/*
+  media query extensions:
+    -ns = not-small
+    -m  = medium       
+    -ml = mobile landscape
+    -l  = large
+*/
+```
+
 
 ## widths, heights normal
 
@@ -366,8 +393,9 @@ default animation classname:
 
 # updated
 
-## version 1.2.3
+## version 2.0.0
 
+* add new media query extensions
 * split the prototypes, [read more](https://github.com/lamhieu-vk/ciser/blob/master/build)
 * add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
 * add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)

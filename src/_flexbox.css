@@ -4,7 +4,7 @@
 
   Media Query Extensions:
    -ns = not-small
-   -m  = medium
+   -m  = medium       -ml = mobile landscape
    -l  = large
 
 */
@@ -169,6 +169,59 @@
   .order-7-m { order: 7; }
   .order-8-m { order: 8; }
   .order-last-m { order: 99999; }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .flex-ml { display: flex; }
+  .inline-flex-ml { display: inline-flex; }
+  .flex-auto-ml {
+    flex: 1 1 auto;
+    min-width: 0; /* 1 */
+    min-height: 0; /* 1 */
+  }
+  .flex-none-ml { flex: none; }
+  .flex-column-ml { flex-direction: column; }
+  .flex-row-m     { flex-direction: row; }
+  .flex-wrap-ml { flex-wrap: wrap; }
+  .flex-nowrap-ml { flex-wrap: nowrap; }
+  .flex-wrap-reverse-ml { flex-wrap: wrap-reverse; }
+  .flex-column-reverse-ml { flex-direction: column-reverse; }
+  .flex-row-reverse-ml { flex-direction: row-reverse; }
+  .items-start-ml { align-items: flex-start; }
+  .items-end-ml { align-items: flex-end; }
+  .items-center-ml { align-items: center; }
+  .items-baseline-ml { align-items: baseline; }
+  .items-stretch-ml { align-items: stretch; }
+
+  .self-start-ml { align-self: flex-start; }
+  .self-end-ml { align-self: flex-end; }
+  .self-center-ml { align-self: center; }
+  .self-baseline-ml { align-self: baseline; }
+  .self-stretch-ml { align-self: stretch; }
+
+  .justify-start-ml { justify-content: flex-start; }
+  .justify-end-ml { justify-content: flex-end; }
+  .justify-center-ml { justify-content: center; }
+  .justify-between-ml { justify-content: space-between; }
+  .justify-around-ml { justify-content: space-around; }
+
+  .content-start-ml { align-content: flex-start; }
+  .content-end-ml { align-content: flex-end; }
+  .content-center-ml { align-content: center; }
+  .content-between-ml { align-content: space-between; }
+  .content-around-ml { align-content: space-around; }
+  .content-stretch-ml { align-content: stretch; }
+
+  .order-0-ml { order: 0; }
+  .order-1-ml { order: 1; }
+  .order-2-ml { order: 2; }
+  .order-3-ml { order: 3; }
+  .order-4-ml { order: 4; }
+  .order-5-ml { order: 5; }
+  .order-6-ml { order: 6; }
+  .order-7-ml { order: 7; }
+  .order-8-ml { order: 8; }
+  .order-last-ml { order: 99999; }
 }
 
 @media screen and (min-width: 60em) {

@@ -4,7 +4,7 @@
 
   Media Query Extensions:
    -ns = not-small
-   -m  = medium
+   -m  = medium       -ml = mobile landscape
    -l  = large
 
 */
@@ -139,6 +139,50 @@
  .order-7-m { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
  .order-8-m { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
  .order-last-m { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .flex-ml { display: -webkit-box; display: -ms-flexbox; display: flex; }
+ .inline-flex-ml { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
+ .flex-auto-ml { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
+ .flex-none-ml { -webkit-box-flex: 0; -ms-flex: none; flex: none; }
+ .flex-column-ml { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+ .flex-row-m { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+ .flex-wrap-ml { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+ .flex-nowrap-ml { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+ .flex-wrap-reverse-ml { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+ .flex-column-reverse-ml { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+ .flex-row-reverse-ml { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+ .items-start-ml { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+ .items-end-ml { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+ .items-center-ml { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+ .items-baseline-ml { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+ .items-stretch-ml { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+ .self-start-ml { -ms-flex-item-align: start; align-self: flex-start; }
+ .self-end-ml { -ms-flex-item-align: end; align-self: flex-end; }
+ .self-center-ml { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+ .self-baseline-ml { -ms-flex-item-align: baseline; align-self: baseline; }
+ .self-stretch-ml { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
+ .justify-start-ml { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+ .justify-end-ml { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+ .justify-center-ml { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+ .justify-between-ml { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+ .justify-around-ml { -ms-flex-pack: distribute; justify-content: space-around; }
+ .content-start-ml { -ms-flex-line-pack: start; align-content: flex-start; }
+ .content-end-ml { -ms-flex-line-pack: end; align-content: flex-end; }
+ .content-center-ml { -ms-flex-line-pack: center; align-content: center; }
+ .content-between-ml { -ms-flex-line-pack: justify; align-content: space-between; }
+ .content-around-ml { -ms-flex-line-pack: distribute; align-content: space-around; }
+ .content-stretch-ml { -ms-flex-line-pack: stretch; align-content: stretch; }
+ .order-0-ml { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; }
+ .order-1-ml { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+ .order-2-ml { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
+ .order-3-ml { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
+ .order-4-ml { -webkit-box-ordinal-group: 5; -ms-flex-order: 4; order: 4; }
+ .order-5-ml { -webkit-box-ordinal-group: 6; -ms-flex-order: 5; order: 5; }
+ .order-6-ml { -webkit-box-ordinal-group: 7; -ms-flex-order: 6; order: 6; }
+ .order-7-ml { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
+ .order-8-ml { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
+ .order-last-ml { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999; }
 }
 @media screen and (min-width: 60em) {
  .flex-l { display: -webkit-box; display: -ms-flexbox; display: flex; }

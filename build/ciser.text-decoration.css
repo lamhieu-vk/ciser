@@ -6,7 +6,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -22,6 +22,11 @@
  .strike-m { text-decoration: line-through; }
  .underline-m { text-decoration: underline; }
  .no-underline-m { text-decoration: none; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .strike-ml { text-decoration: line-through; }
+ .underline-ml { text-decoration: underline; }
+ .no-underline-ml { text-decoration: none; }
 }
 @media screen and (min-width: 60em) {
  .strike-l { text-decoration: line-through; }

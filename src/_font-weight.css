@@ -19,7 +19,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -51,18 +51,18 @@
   .fw9-ns    { font-weight: 900; }
 }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
-  .normal-m { font-weight: normal; }
-  .b-m      { font-weight: bold; }
-  .fw1-m    { font-weight: 100; }
-  .fw2-m    { font-weight: 200; }
-  .fw3-m    { font-weight: 300; }
-  .fw4-m    { font-weight: 400; }
-  .fw5-m    { font-weight: 500; }
-  .fw6-m    { font-weight: 600; }
-  .fw7-m    { font-weight: 700; }
-  .fw8-m    { font-weight: 800; }
-  .fw9-m    { font-weight: 900; }
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .normal-ml { font-weight: normal; }
+  .b-ml      { font-weight: bold; }
+  .fw1-ml    { font-weight: 100; }
+  .fw2-ml    { font-weight: 200; }
+  .fw3-ml    { font-weight: 300; }
+  .fw4-ml    { font-weight: 400; }
+  .fw5-ml    { font-weight: 500; }
+  .fw6-ml    { font-weight: 600; }
+  .fw7-ml    { font-weight: 700; }
+  .fw8-ml    { font-weight: 800; }
+  .fw9-ml    { font-weight: 900; }
 }
 
 @media screen and (min-width: 60em) {

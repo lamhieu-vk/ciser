@@ -58,6 +58,21 @@
  .aspect-ratio--1x1-m { padding-bottom: 100%; }
  .aspect-ratio--object-m { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 }
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .aspect-ratio-ml { height: 0; position: relative; }
+ .aspect-ratio--16x9-ml { padding-bottom: 56.25%; }
+ .aspect-ratio--9x16-ml { padding-bottom: 177.77%; }
+ .aspect-ratio--4x3-ml { padding-bottom: 75%; }
+ .aspect-ratio--3x4-ml { padding-bottom: 133.33%; }
+ .aspect-ratio--6x4-ml { padding-bottom: 66.6%; }
+ .aspect-ratio--4x6-ml { padding-bottom: 150%; }
+ .aspect-ratio--8x5-ml { padding-bottom: 62.5%; }
+ .aspect-ratio--5x8-ml { padding-bottom: 160%; }
+ .aspect-ratio--7x5-ml { padding-bottom: 71.42%; }
+ .aspect-ratio--5x7-ml { padding-bottom: 140%; }
+ .aspect-ratio--1x1-ml { padding-bottom: 100%; }
+ .aspect-ratio--object-ml { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+}
 @media screen and (min-width: 60em) {
  .aspect-ratio-l { height: 0; position: relative; }
  .aspect-ratio--16x9-l { padding-bottom: 56.25%; }

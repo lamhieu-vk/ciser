@@ -4,7 +4,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -23,6 +23,12 @@
   .outline-m { outline: 1px solid; }
   .outline-transparent-m { outline: 1px solid transparent; }
   .outline-0-m { outline: 0; }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .outline-ml { outline: 1px solid; }
+  .outline-transparent-ml { outline: 1px solid transparent; }
+  .outline-0-ml { outline: 0; }
 }
 
 @media screen and (min-width: 60em) {

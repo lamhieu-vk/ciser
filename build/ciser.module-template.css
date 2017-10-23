@@ -8,5 +8,6 @@
 */
 @media screen and (min-width: 30em) { }
 @media screen and (min-width: 30em) and (max-width: 60em) { }
+@media screen and (max-width: 60em) and (orientation: landscape) { }
 @media screen and (min-width: 60em) { }
 

@@ -4,7 +4,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -24,6 +24,12 @@
   .ws-normal-m { white-space: normal; }
   .nowrap-m { white-space: nowrap; }
   .pre-m { white-space: pre; }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .ws-normal-ml { white-space: normal; }
+  .nowrap-ml { white-space: nowrap; }
+  .pre-ml { white-space: pre; }
 }
 
 @media screen and (min-width: 60em) {

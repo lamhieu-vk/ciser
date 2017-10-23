@@ -24,7 +24,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -71,6 +71,20 @@
   .mw9-m  {  max-width: 96rem; }
 
   .mw-none-m { max-width: none; }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .mw1-ml  {  max-width: 1rem; }
+  .mw2-ml  {  max-width: 2rem; }
+  .mw3-ml  {  max-width: 4rem; }
+  .mw4-ml  {  max-width: 8rem; }
+  .mw5-ml  {  max-width: 16rem; }
+  .mw6-ml  {  max-width: 32rem; }
+  .mw7-ml  {  max-width: 48rem; }
+  .mw8-ml  {  max-width: 64rem; }
+  .mw9-ml  {  max-width: 96rem; }
+
+  .mw-none-ml { max-width: none; }
 }
 
 @media screen and (min-width: 60em) {

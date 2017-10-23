@@ -28,6 +28,15 @@
  .rotate-270-m { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
  .rotate-315-m { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
 }
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .rotate-45-ml { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+ .rotate-90-ml { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+ .rotate-135-ml { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+ .rotate-180-ml { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+ .rotate-225-ml { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+ .rotate-270-ml { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+ .rotate-315-ml { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
+}
 @media screen and (min-width: 60em) {
  .rotate-45-l { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
  .rotate-90-l { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }

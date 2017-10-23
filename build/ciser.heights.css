@@ -23,7 +23,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -190,6 +190,60 @@
  .max-vh-100-m { max-height: 100vh; }
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .h1-ml { height: 1rem; }
+ .h1s-ml { height: 1.5rem; }
+ .h2-ml { height: 2rem; }
+ .h2s-ml { height: 3rem; }
+ .h3-ml { height: 4rem; }
+ .h3s-ml { height: 6rem; }
+ .h4-ml { height: 8rem; }
+ .h4s-ml { height: 12rem; }
+ .h5-ml { height: 16rem; }
+ .h5s-ml { height: 22rem; }
+ .h-10-ml { height: 10%; }
+ .h-20-ml { height: 20%; }
+ .h-25-ml { height: 25%; }
+ .h-30-ml { height: 30%; }
+ .h-40-ml { height: 40%; }
+ .h-50-ml { height: 50%; }
+ .h-60-ml { height: 60%; }
+ .h-70-ml { height: 70%; }
+ .h-75-ml { height: 75%; }
+ .h-80-ml { height: 80%; }
+ .h-90-ml { height: 90%; }
+ .h-100-ml { height: 100%; }
+ .min-h-25-ml { min-height: 25%; }
+ .min-h-50-ml { min-height: 50%; }
+ .min-h-75-ml { min-height: 100%; }
+ .min-h-100-ml { min-height: 100%; }
+ .max-h-25-ml { max-height: 25%; }
+ .max-h-50-ml { max-height: 50%; }
+ .max-h-75-ml { max-height: 75%; }
+ .max-h-100-ml { max-height: 100%; }
+ .vh-10-ml { height: 10vh; }
+ .vh-20-ml { height: 20vh; }
+ .vh-25-ml { height: 25vh; }
+ .vh-30-ml { height: 30vh; }
+ .vh-40-ml { height: 40vh; }
+ .vh-50-ml { height: 50vh; }
+ .vh-60-ml { height: 60vh; }
+ .vh-70-ml { height: 70vh; }
+ .vh-75-ml { height: 75vh; }
+ .vh-80-ml { height: 80vh; }
+ .vh-90-ml { height: 90vh; }
+ .vh-100-ml { height: 100vh; }
+ .min-vh-25-ml { min-height: 25vh; }
+ .min-vh-50-ml { min-height: 50vh; }
+ .min-vh-75-ml { min-height: 75vh; }
+ .min-vh-100-ml { min-height: 100vh; }
+ .max-vh-25-ml { max-height: 25vh; }
+ .max-vh-50-ml { max-height: 50vh; }
+ .max-vh-75-ml { max-height: 75vh; }
+ .max-vh-100-ml { max-height: 100vh; }
+ .h-auto-ml { height: auto; }
+ .h-inherit-ml { height: inherit; }
 }
 @media screen and (min-width: 60em) {
  .h1-l { height: 1rem; }

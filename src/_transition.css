@@ -115,6 +115,42 @@
   .t-delay-vs-m { transition-delay: var(--duration-very-slow); }
 }
 
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .t-none-ml { transition: none; }
+
+  .t-vf-ml { transition-duration: var(--duration-very-fast); }
+  .t-f-ml { transition-duration: var(--duration-fast); }
+  .t-n-ml { transition-duration: var(--duration-normal); }
+  .t-s-ml { transition-duration: var(--duration-slow); }
+  .t-vs-ml { transition-duration: var(--duration-very-slow); }
+
+  .t-ease-ml { transition-timing-function: ease; }
+  .t-ease-in-ml { transition-timing-function: ease-in; }
+  .t-ease-out-ml { transition-timing-function: ease-out; }
+  .t-ease-in-out-ml { transition-timing-function: ease-in-out; }
+  .t-linear-ml { transition-timing-function: linear; }
+  .t-step-start-ml { transition-timing-function: step-start; }
+  .t-step-end-ml { transition-timing-function: step-end; }
+
+  .t-all-ml { transition-property: all; }
+  .t-opacity-ml { transition-property: opacity; }
+  .t-margin-ml { transition-property: margin; }
+  .t-padding-ml { transition-property: padding; }
+  .t-height-ml { transition-property: height; }
+  .t-width-ml { transition-property: width; }
+  .t-color-ml { transition-property: color; }
+  .t-background-ml { transition-property: background; }
+  .t-border-ml { transition-property: border; }
+  .t-box-shadow-ml { transition-property: box-shadow; }
+  .t-text-shadow-ml { transition-property: text-shadow; }
+
+  .t-delay-vf-ml { transition-delay: var(--duration-very-fast); }
+  .t-delay-f-ml { transition-delay: var(--duration-fast); }
+  .t-delay-n-ml { transition-delay: var(--duration-normal); }
+  .t-delay-s-ml { transition-delay: var(--duration-slow); }
+  .t-delay-vs-ml { transition-delay: var(--duration-very-slow); }
+}
+
 @media screen and (min-width: 60em) {
   .t-none-l { transition: none; }
 

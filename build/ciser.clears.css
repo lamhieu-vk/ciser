@@ -25,6 +25,12 @@
  .cb-m { clear: both; }
  .cn-m { clear: none; }
 }
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .cl-ml { clear: left; }
+ .cr-ml { clear: right; }
+ .cb-ml { clear: both; }
+ .cn-ml { clear: none; }
+}
 @media screen and (min-width: 60em) {
  .cl-l { clear: left; }
  .cr-l { clear: right; }

@@ -26,7 +26,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -202,6 +202,63 @@
  .w-third-m { width: calc( 100% / 3 ); }
  .w-two-thirds-m { width: calc( 100% / 1.5 ); }
  .w-auto-m { width: auto; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .w1-ml { width: 1rem; }
+ .w1s-ml { width: 1.5rem; }
+ .w2-ml { width: 2rem; }
+ .w2s-ml { width: 3rem; }
+ .w3-ml { width: 4rem; }
+ .w3s-ml { width: 6rem; }
+ .w4-ml { width: 8rem; }
+ .w4s-ml { width: 12rem; }
+ .w5-ml { width: 16rem; }
+ .w5s-ml { width: 22rem; }
+ .w-10-ml { width: 10%; }
+ .w-20-ml { width: 20%; }
+ .w-25-ml { width: 25%; }
+ .w-30-ml { width: 30%; }
+ .w-40-ml { width: 40%; }
+ .w-50-ml { width: 50%; }
+ .w-60-ml { width: 60%; }
+ .w-70-ml { width: 70%; }
+ .w-75-ml { width: 75%; }
+ .w-80-ml { width: 80%; }
+ .w-90-ml { width: 90%; }
+ .w-100-ml { width: 100%; }
+ .min-w-25-ml { min-width: 25%; }
+ .min-w-50-ml { min-width: 50%; }
+ .min-w-75-ml { min-width: 100%; }
+ .min-w-100-ml { min-width: 100%; }
+ .max-w-25-ml { max-width: 25%; }
+ .max-w-50-ml { max-width: 50%; }
+ .max-w-75-ml { max-width: 75%; }
+ .max-w-100-ml { max-width: 100%; }
+ .vw-10-ml { width: 10vw; }
+ .vw-20-ml { width: 20vw; }
+ .vw-25-ml { width: 25vw; }
+ .vw-30-ml { width: 30vw; }
+ .vw-40-ml { width: 40vw; }
+ .vw-50-ml { width: 50vw; }
+ .vw-60-ml { width: 60vw; }
+ .vw-70-ml { width: 70vw; }
+ .vw-75-ml { width: 75vw; }
+ .vw-80-ml { width: 80vw; }
+ .vw-90-ml { width: 90vw; }
+ .vw-100-ml { width: 100vw; }
+ .min-vw-25-ml { min-width: 25vw; }
+ .min-vw-50-ml { min-width: 50vw; }
+ .min-vw-75-ml { min-width: 75vw; }
+ .min-vw-100-ml { min-width: 100vw; }
+ .max-vw-25-ml { max-width: 25vw; }
+ .max-vw-50-ml { max-width: 50vw; }
+ .max-vw-75-ml { max-width: 75vw; }
+ .max-vw-100-ml { max-width: 100vw; }
+ .w-auto-ml { width: auto; }
+ .w-inherit-ml { width: inherit; }
+ .w-third-ml { width: calc( 100% / 3 ); }
+ .w-two-thirds-ml { width: calc( 100% / 1.5 ); }
+ .w-auto-ml { width: auto; }
 }
 @media screen and (min-width: 60em) {
  .w1-l { width: 1rem; }

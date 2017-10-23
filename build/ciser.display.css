@@ -19,7 +19,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -66,6 +66,20 @@
  .dt-column-m { display: table-column; }
  .dt-column-group-m { display: table-column-group; }
  .dt--fixed-m { table-layout: fixed; width: 100%; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .dn-ml { display: none; }
+ .di-ml { display: inline; }
+ .db-ml { display: block; }
+ .dib-ml { display: inline-block; }
+ .dit-ml { display: inline-table; }
+ .dt-ml { display: table; }
+ .dtc-ml { display: table-cell; }
+ .dt-row-ml { display: table-row; }
+ .dt-row-group-ml { display: table-row-group; }
+ .dt-column-ml { display: table-column; }
+ .dt-column-group-ml { display: table-column-group; }
+ .dt--fixed-ml { table-layout: fixed; width: 100%; }
 }
 @media screen and (min-width: 60em) {
  .dn-l { display: none; }

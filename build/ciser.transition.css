@@ -91,6 +91,37 @@
  .t-delay-s-m { transition-delay: 1s; }
  .t-delay-vs-m { transition-delay: 2s; }
 }
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .t-none-ml { transition: none; }
+ .t-vf-ml { transition-duration: .15s; }
+ .t-f-ml { transition-duration: .25s; }
+ .t-n-ml { transition-duration: .5s; }
+ .t-s-ml { transition-duration: 1s; }
+ .t-vs-ml { transition-duration: 2s; }
+ .t-ease-ml { transition-timing-function: ease; }
+ .t-ease-in-ml { transition-timing-function: ease-in; }
+ .t-ease-out-ml { transition-timing-function: ease-out; }
+ .t-ease-in-out-ml { transition-timing-function: ease-in-out; }
+ .t-linear-ml { transition-timing-function: linear; }
+ .t-step-start-ml { transition-timing-function: step-start; }
+ .t-step-end-ml { transition-timing-function: step-end; }
+ .t-all-ml { transition-property: all; }
+ .t-opacity-ml { transition-property: opacity; }
+ .t-margin-ml { transition-property: margin; }
+ .t-padding-ml { transition-property: padding; }
+ .t-height-ml { transition-property: height; }
+ .t-width-ml { transition-property: width; }
+ .t-color-ml { transition-property: color; }
+ .t-background-ml { transition-property: background; }
+ .t-border-ml { transition-property: border; }
+ .t-box-shadow-ml { transition-property: box-shadow; }
+ .t-text-shadow-ml { transition-property: text-shadow; }
+ .t-delay-vf-ml { transition-delay: .15s; }
+ .t-delay-f-ml { transition-delay: .25s; }
+ .t-delay-n-ml { transition-delay: .5s; }
+ .t-delay-s-ml { transition-delay: 1s; }
+ .t-delay-vs-ml { transition-delay: 2s; }
+}
 @media screen and (min-width: 60em) {
  .t-none-l { transition: none; }
  .t-vf-l { transition-duration: .15s; }

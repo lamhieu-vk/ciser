@@ -5,7 +5,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -21,6 +21,11 @@
  .lh-solid-m { line-height: 1; }
  .lh-title-m { line-height: 1.25; }
  .lh-copy-m { line-height: 1.5; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .lh-solid-ml { line-height: 1; }
+ .lh-title-ml { line-height: 1.25; }
+ .lh-copy-ml { line-height: 1.5; }
 }
 @media screen and (min-width: 60em) {
  .lh-solid-l { line-height: 1; }

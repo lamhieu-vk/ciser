@@ -20,7 +20,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -162,6 +162,53 @@
  .bottom--5-m { bottom: -5rem; }
  .left--5-m { left: -5rem; }
  .absolute--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .top-0-ml { top: 0; }
+ .right-0-ml { right: 0; }
+ .bottom-0-ml { bottom: 0; }
+ .left-0-ml { left: 0; }
+ .top-1-ml { top: 1rem; }
+ .right-1-ml { right: 1rem; }
+ .bottom-1-ml { bottom: 1rem; }
+ .left-1-ml { left: 1rem; }
+ .top-2-ml { top: 2rem; }
+ .right-2-ml { right: 2rem; }
+ .bottom-2-ml { bottom: 2rem; }
+ .left-2-ml { left: 2rem; }
+ .top-3-ml { top: 3rem; }
+ .right-3-ml { right: 3rem; }
+ .bottom-3-ml { bottom: 3rem; }
+ .left-3-ml { left: 3rem; }
+ .top-4-ml { top: 4rem; }
+ .right-4-ml { right: 4rem; }
+ .bottom-4-ml { bottom: 4rem; }
+ .left-4-ml { left: 4rem; }
+ .top-5-ml { top: 5rem; }
+ .right-5-ml { right: 5rem; }
+ .bottom-5-ml { bottom: 5rem; }
+ .left-5-ml { left: 5rem; }
+ .top--1-ml { top: -1rem; }
+ .right--1-ml { right: -1rem; }
+ .bottom--1-ml { bottom: -1rem; }
+ .left--1-ml { left: -1rem; }
+ .top--2-ml { top: -2rem; }
+ .right--2-ml { right: -2rem; }
+ .bottom--2-ml { bottom: -2rem; }
+ .left--2-ml { left: -2rem; }
+ .top--3-ml { top: -3rem; }
+ .right--3-ml { right: -3rem; }
+ .bottom--3-ml { bottom: -3rem; }
+ .left--3-ml { left: -3rem; }
+ .top--4-ml { top: -4rem; }
+ .right--4-ml { right: -4rem; }
+ .bottom--4-ml { bottom: -4rem; }
+ .left--4-ml { left: -4rem; }
+ .top--5-ml { top: -5rem; }
+ .right--5-ml { right: -5rem; }
+ .bottom--5-ml { bottom: -5rem; }
+ .left--5-ml { left: -5rem; }
+ .absolute--fill-ml { top: 0; right: 0; bottom: 0; left: 0; }
 }
 @media screen and (min-width: 60em) {
  .top-0-l { top: 0; }

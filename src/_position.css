@@ -5,7 +5,8 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
+     -ml = mobile landscape
      -l  = large
 
 */
@@ -27,6 +28,13 @@
   .relative-m  { position: relative; }
   .absolute-m  { position: absolute; }
   .fixed-m  { position: fixed; }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .static-ml { position: static; }
+  .relative-ml  { position: relative; }
+  .absolute-ml  { position: absolute; }
+  .fixed-ml  { position: fixed; }
 }
 
 @media screen and (min-width: 60em) {

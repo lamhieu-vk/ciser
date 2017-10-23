@@ -19,7 +19,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -40,6 +40,12 @@
   .fl-m { float: left; _display: inline; }
   .fr-m { float: right; _display: inline; }
   .fn-m { float: none; }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .fl-ml { float: left; _display: inline; }
+  .fr-ml { float: right; _display: inline; }
+  .fn-ml { float: none; }
 }
 
 @media screen and (min-width: 60em) {

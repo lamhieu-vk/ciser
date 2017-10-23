@@ -32,6 +32,16 @@
   .rotate-315-m { transform: rotate(315deg); }
 }
 
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .rotate-45-ml { transform: rotate(45deg); }
+  .rotate-90-ml { transform: rotate(90deg); }
+  .rotate-135-ml { transform: rotate(135deg); }
+  .rotate-180-ml { transform: rotate(180deg); }
+  .rotate-225-ml { transform: rotate(225deg); }
+  .rotate-270-ml { transform: rotate(270deg); }
+  .rotate-315-ml { transform: rotate(315deg); }
+}
+
 @media screen and (min-width: 60em){
   .rotate-45-l { transform: rotate(45deg); }
   .rotate-90-l { transform: rotate(90deg); }

@@ -4,7 +4,7 @@
 
     Media Query Extensions:
       -ns = not-small
-      -m  = medium
+      -m  = medium       -ml = mobile landscape
       -l  = large
 
  */
@@ -55,6 +55,23 @@
   .overflow-y-hidden-m { overflow-y: hidden; }
   .overflow-y-scroll-m { overflow-y: scroll; }
   .overflow-y-auto-m { overflow-y: auto; }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .overflow-visible-ml { overflow: visible; }
+  .overflow-hidden-ml { overflow: hidden; }
+  .overflow-scroll-ml { overflow: scroll; }
+  .overflow-auto-ml { overflow: auto; }
+
+  .overflow-x-visible-ml { overflow-x: visible; }
+  .overflow-x-hidden-ml { overflow-x: hidden; }
+  .overflow-x-scroll-ml { overflow-x: scroll; }
+  .overflow-x-auto-ml { overflow-x: auto; }
+
+  .overflow-y-visible-ml { overflow-y: visible; }
+  .overflow-y-hidden-ml { overflow-y: hidden; }
+  .overflow-y-scroll-ml { overflow-y: scroll; }
+  .overflow-y-auto-ml { overflow-y: auto; }
 }
 
 @media screen and (min-width: 60em) {

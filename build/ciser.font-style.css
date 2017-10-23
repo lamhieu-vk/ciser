@@ -5,7 +5,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 
 */
@@ -18,6 +18,10 @@
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .i-m { font-style: italic; }
  .fs-normal-m { font-style: normal; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .i-ml { font-style: italic; }
+ .fs-normal-ml { font-style: normal; }
 }
 @media screen and (min-width: 60em) {
  .i-l { font-style: italic; }

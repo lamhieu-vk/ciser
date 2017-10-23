@@ -17,7 +17,7 @@
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium
+     -m  = medium       -ml = mobile landscape
      -l  = large
 */
 
@@ -74,6 +74,20 @@
   .f5-m { font-size: 1rem; }
   .f6-m { font-size: .875rem; }
   .f7-m { font-size: .75rem; }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .f-6-ml,
+  .f-headline-ml { font-size: 6rem; }
+  .f-5-ml,
+  .f-subheadline-ml { font-size: 5rem; }
+  .f1-ml { font-size: 3rem; }
+  .f2-ml { font-size: 2.25rem; }
+  .f3-ml { font-size: 1.5rem; }
+  .f4-ml { font-size: 1.25rem; }
+  .f5-ml { font-size: 1rem; }
+  .f6-ml { font-size: .875rem; }
+  .f7-ml { font-size: .75rem; }
 }
 
 @media screen and (min-width: 60em) {
