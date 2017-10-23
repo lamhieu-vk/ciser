@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/8.6.0/bin/node /usr/local/Cellar/yarn/1.2.0/libexec/bin/yarn.js publish
+  /usr/local/Cellar/node/8.6.0/bin/node /usr/local/Cellar/yarn/1.2.0/libexec/bin/yarn.js
 
 PATH: 
   /Users/lamhieu/bin:/usr/local/bin:/Users/lamhieu/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lamhieu/bin:/Users/lamhieu/.npm-packages/bin:/Users/lamhieu/.npm-global/bin/:/Users/lamhieu/.npm-global/bin/
@@ -16,15 +16,23 @@ Platform:
 npm manifest: 
   {
     "name": "ciser",
-    "version": "1.1.0",
+    "version": "1.2.3",
     "description": "Functional CSS, help quickly build and design new UI without writing css.",
-    "author": "lamhieu-vk",
+    "author": {
+      "name": "Lam Hieu",
+      "email": "lamhieu.vk@gmail.com",
+      "url": "https://lamhi.eu"
+    },
     "style": "build/ciser.min.css",
     "main": "build/ciser.css",
     "files": [
       "build",
       "src"
     ],
+    "bugs": {
+      "url": "https://github.com/lamhieu-vk/ciser/issues",
+      "email": "lamhieu.vk@gmail.com"
+    },
     "repository": "lamhieu-vk/ciser",
     "keywords": [
       "css",
@@ -42,8 +50,8 @@ npm manifest:
       "copy-files": "^0.1.0",
       "immutable-css-cli": "^1.1.1",
       "normalize.css": "^7.0.0",
-      "tachyons-modules": "^1.1.10",
       "tachyons-cli": "^1.0.11",
+      "tachyons-modules": "^1.1.10",
       "watch": "^1.0.2"
     },
     "contributors": [
@@ -69,14 +77,4 @@ Lockfile:
   No lockfile
 
 Trace: 
-  Error: https://registry.yarnpkg.com/ciser: You cannot publish over the previously published version 1.1.0.
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.2.0/libexec/lib/cli.js:61949:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.2.0/libexec/lib/cli.js:122920:22)
-      at emitTwo (events.js:125:13)
-      at Request.emit (events.js:213:7)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.2.0/libexec/lib/cli.js:123903:10)
-      at emitOne (events.js:115:13)
-      at Request.emit (events.js:210:7)
-      at Gunzip.<anonymous> (/usr/local/Cellar/yarn/1.2.0/libexec/lib/cli.js:123823:12)
-      at Object.onceWrapper (events.js:314:30)
-      at emitNone (events.js:110:20)
+  Error: EACCES: permission denied, unlink '/Users/lamhieu/Workspaces/github/ciser/node_modules/.bin/browserslist'

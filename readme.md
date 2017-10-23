@@ -2,9 +2,12 @@
 
 ciser like a version update forked from tachyons with some new function classname css. like tachyons, ciser help quickly build and design new UI without writing css.
 
-forked from tachyons and updated by Lam Hieu (@lamhieu-vk). in ciser, I updated many classname fn to make the design work easier than ever, the size of the attributes is added in a reasonable proportion, carefully calculated. 
+forked from tachyons and updated by [Lam Hieu (@lamhieu-vk)](https://lamhi.eu/). in ciser, I updated many classname fn to make the design work easier than ever, the size of the attributes is added in a reasonable proportion, carefully calculated. 
 
 most of the properties of the tachyons are retained, so switching from tachyons to ciser will not affect the current interface.
+
+visit my profile at, style by ciser: `https://lamhi.eu/`
+
 
 ## principles
 
@@ -48,9 +51,9 @@ use newest version:
 
 `npm install ciser`
 
-use version 1.2.2:
+use version 1.2.3:
 
-`npm install ciser@1.2.2`
+`npm install ciser@1.2.3`
 
 **other**
 
@@ -58,9 +61,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
 
-use version 1.2.2:
+use version 1.2.3:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.2/build/ciser.min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.3/build/ciser.min.css">`
 
 
 ## require some prototypes:
@@ -69,9 +72,9 @@ use newest version:
 
 `<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">`
 
-use version 1.2.2:
+use version 1.2.3:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.2/build/ciser.[prototype].min.css">`
+`<link rel="stylesheet" href="https://unpkg.com/ciser@1.2.3/build/ciser.[prototype].min.css">`
 
 list prototypes:
 
@@ -363,7 +366,7 @@ default animation classname:
 
 # updated
 
-## version 1.2.2
+## version 1.2.3
 
 * split the prototypes, [read more](https://github.com/lamhieu-vk/ciser/blob/master/build)
 * add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
