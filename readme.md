@@ -49,46 +49,64 @@ updated: **Oct 22, 2017 (UTC+7)**
 
 use newest version:
 
-`npm install ciser`
+```bash
+npm install ciser
+```
+
 
 use version 2.0.0:
 
-`npm install ciser@2.0.0`
+```bash
+npm install ciser@2.0.0
+```
+
 
 **other**
 
 use newest version:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">`
+```html
+<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">
+```
 
 use version 2.0.0:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@2.0.0/build/ciser.min.css">`
+```html
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.0.0/build/ciser.min.css">
+```
 
 
 ## require some prototypes:
 
 use newest version:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">`
+```html
+<link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">
+```
 
 use version 2.0.0:
 
-`<link rel="stylesheet" href="https://unpkg.com/ciser@2.0.0/build/ciser.[prototype].min.css">`
+```html
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.0.0/build/ciser.[prototype].min.css">
+```
 
 list prototypes:
 
-```
+```css
  animation | aspect-ratios | background-position | background-size | border-colors | border-radius | border-style | border-widths | borders | box-shadow | box-sizing | clears | code | colors | coordinates | debug-children | debug-grid | debug | display | flexbox | floats | font-family | font-style | font-weight | forms | heights | hovers | images | letter-spacing | line-height | links | lists | max-widths | media-queries | module-template | negative-margins | nested | normalize | opacity | outlines | overflow | position | rotations | skins-pseudo | skins | spacing | styles | tables | text-align | text-decoration | text-transform | transition | type-scale | typography | utilities | vertical-align | visibility | white-space | widths | word-break | z-index
 ```
 
 read more prototypes at:
 
-`https://github.com/lamhieu-vk/ciser/blob/master/src/_[prototype].css`
+```html
+<link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser/blob/master/src/_[prototype].css">
+```
 
 and after build at:
 
-`https://github.com/lamhieu-vk/ciser/blob/master/build/ciser.[prototype].css`
+```html
+<link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser/blob/master/build/ciser.[prototype].css">
+```
 
 note: can use with tachyons, like ext.
 
@@ -97,7 +115,7 @@ note: can use with tachyons, like ext.
 
 clone the repo from github and install dependencies through npm.
 
-```
+```bash
 git clone https://github.com/lamhieu-vk/ciser.git
 cd ciser
 npm install
@@ -111,7 +129,7 @@ npm install
 
 with *tachyons*:
 
-```
+```css
 .[fn classname]-[ns | m | l]
 /*
   media query extensions:
@@ -122,7 +140,7 @@ with *tachyons*:
 ```
 with **ciser**:
 
-```
+```css
 .[fn classname]-[ns | m | ml | l]
 /*
   media query extensions:
@@ -138,7 +156,7 @@ with **ciser**:
 
 with *tachyons*, classname is:
 
-```
+```css
 .w[1 | 2 | 3 | 4 | 5]
 
 // not support min widths
@@ -154,7 +172,7 @@ with *tachyons*, classname is:
 
 with **ciser**:
 
-```
+```css
 .w[1 | 1s | 2 | 2s | 3 | 3s | 4 | 4s | 5 | 5s]
 
 .min-w-[25 | 50 | 75 | 100]
@@ -170,13 +188,15 @@ with **ciser**:
 
 note:
 
-`.w[x]s = (w[x+1] - w[x]) / 2`
+```pascal
+.w[x]s = (w[x+1] - w[x]) / 2
+```
 
 ## widths, heights screen width percentage
 
 with *tachyons*, classname is:
 
-```
+```css
 .vh-[25 | 50 | 75 | 100]
 
 // not support min height percentage
@@ -192,7 +212,7 @@ with *tachyons*, classname is:
 
 with **ciser**:
 
-```
+```css
 .vh-[10 | 20 | 25 | 30 | 40 | 50 | 60 | 70 | 75 | 80 | 90 | 100]
 
 .min-vh-[25 | 50 | 75 | 100]
@@ -210,7 +230,7 @@ with **ciser**:
 
 with *tachyons*:
 
-```
+```css
 .p[a | t | r | b | l][0 | 1 | 2 | 3 | 4 | 5 | 6 | 7]
 
 .m[a | t | r | b | l][0 | 1 | 2 | 3 | 4 | 5 | 6 | 7]
@@ -218,7 +238,7 @@ with *tachyons*:
 
 width **ciser**:
 
-```
+```css
 .p[a | t | r | b | l][0 | 0s | 1 | 1s | 2 | 2s | 3 | 3s | 4 | 4s | 5 | 5s | 6 | 6s | 7]
 
 .m[a | t | r | b | l][0 | 0s | 1 | 1s | 2 | 2s | 3 | 3s | 4 | 4s | 5 | 5s | 6 | 6s | 7]
@@ -226,7 +246,7 @@ width **ciser**:
 
 note:
 
-```
+```css
 .p][x]s = (p[x+1] - p[x]) / 2)
 
 .m][x]s = (m[x+1] - m[x]) / 2)
@@ -234,7 +254,7 @@ note:
 
 ## transition:
 
-```
+```css
 .t-none { transition: none; }
 
 .t-vf { transition-duration: var(--duration-very-fast); }
@@ -275,7 +295,7 @@ note:
 
 prototype classname:
 
-```
+```css
 .a-none { animation: none; }
 
 .a-vf { animation-duration: var(--duration-very-fast); }
@@ -354,7 +374,7 @@ prototype classname:
 
 default animation classname:
 
-```
+```css
 .a-zoom-in-out {
   animation: zoom-in-out var(--duration-normal) ease;
 }
