@@ -54,10 +54,10 @@ npm install ciser
 ```
 
 
-use version 2.2.0:
+use version 2.2.1:
 
 ```bash
-npm install ciser@2.2.0
+npm install ciser@2.2.1
 ```
 
 
@@ -69,10 +69,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">
 ```
 
-use version 2.2.0:
+use version 2.2.1:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.0/build/ciser.min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.1/build/ciser.min.css">
 ```
 
 
@@ -84,10 +84,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">
 ```
 
-use version 2.2.0:
+use version 2.2.1:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.0/build/ciser.[prototype].min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.1/build/ciser.[prototype].min.css">
 ```
 
 list prototypes:
@@ -125,7 +125,7 @@ npm install
 
 # what's new?
 
-## version 2.2.0
+## version 2.2.1
 
 * enriched many spacing max-width, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_max-widths.css)
 * add new some animation, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
@@ -481,8 +481,8 @@ default animation classname:
 .a-wobble {
   animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
-.a-wobble {
-  animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+.a-rotate {
+  animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-tilt-right {
   animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;

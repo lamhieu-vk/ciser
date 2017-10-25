@@ -59,8 +59,8 @@
 .a-wobble {
   animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
-.a-wobble {
-  animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+.a-rotate {
+  animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-tilt-right {
   animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
@@ -214,8 +214,8 @@
   .a-wobble-ns {
     animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
   }
-  .a-wobble-ns {
-    animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  .a-rotate-ns {
+    animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
   }
   .a-tilt-right-ns {
     animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
@@ -381,8 +381,8 @@
   .a-wobble-m {
     animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
   }
-  .a-wobble-m {
-    animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  .a-rotate-m {
+    animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
   }
   .a-tilt-right-m {
     animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
@@ -547,8 +547,8 @@
   .a-wobble-ml {
     animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
   }
-  .a-wobble-ml {
-    animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  .a-rotate-ml {
+    animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
   }
   .a-tilt-right-ml {
     animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
@@ -713,8 +713,8 @@
   .a-wobble-l {
     animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
   }
-  .a-wobble-l {
-    animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  .a-rotate-l {
+    animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
   }
   .a-tilt-right-l {
     animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;

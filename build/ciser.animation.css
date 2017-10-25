@@ -16,7 +16,7 @@
 .a-slide-toggle-right { -webkit-animation: slide-toggle-right 1s ease, fade-in 1s ease; animation: slide-toggle-right 1s ease, fade-in 1s ease; }
 .a-shake { -webkit-animation: shake 1s ease, fade-in 1s ease; animation: shake 1s ease, fade-in 1s ease; }
 .a-wobble { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
-.a-wobble { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
+.a-rotate { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
 .a-tilt-right { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
 .a-tilt-left { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
 .a-restart.e-tigger, .a-restart.e-active:active, .a-restart.e-hover:hover { -webkit-animation-name: none; animation-name: none; }
@@ -276,7 +276,7 @@
  .a-slide-toggle-right-ns { -webkit-animation: slide-toggle-right 1s ease, fade-in 1s ease; animation: slide-toggle-right 1s ease, fade-in 1s ease; }
  .a-shake-ns { -webkit-animation: shake 1s ease, fade-in 1s ease; animation: shake 1s ease, fade-in 1s ease; }
  .a-wobble-ns { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
- .a-wobble-ns { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
+ .a-rotate-ns { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
  .a-tilt-right-ns { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
  .a-tilt-left-ns { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
  .a-restart-ns.e-tigger, .a-restart-ns.e-active:active,
@@ -354,7 +354,7 @@
  .a-slide-toggle-right-m { -webkit-animation: slide-toggle-right 1s ease, fade-in 1s ease; animation: slide-toggle-right 1s ease, fade-in 1s ease; }
  .a-shake-m { -webkit-animation: shake 1s ease, fade-in 1s ease; animation: shake 1s ease, fade-in 1s ease; }
  .a-wobble-m { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
- .a-wobble-m { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
+ .a-rotate-m { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
  .a-tilt-right-m { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
  .a-tilt-left-m { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
  .a-restart-m.e-tigger, .a-restart-m.e-active:active, .a-restart-m.e-hover:hover { -webkit-animation-name: none; animation-name: none; }
@@ -431,7 +431,7 @@
  .a-slide-toggle-right-ml { -webkit-animation: slide-toggle-right 1s ease, fade-in 1s ease; animation: slide-toggle-right 1s ease, fade-in 1s ease; }
  .a-shake-ml { -webkit-animation: shake 1s ease, fade-in 1s ease; animation: shake 1s ease, fade-in 1s ease; }
  .a-wobble-ml { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
- .a-wobble-ml { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
+ .a-rotate-ml { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
  .a-tilt-right-ml { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
  .a-tilt-left-ml { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
  .a-restart-ml.e-tigger, .a-restart-ml.e-active:active,
@@ -509,7 +509,7 @@
  .a-slide-toggle-right-l { -webkit-animation: slide-toggle-right 1s ease, fade-in 1s ease; animation: slide-toggle-right 1s ease, fade-in 1s ease; }
  .a-shake-l { -webkit-animation: shake 1s ease, fade-in 1s ease; animation: shake 1s ease, fade-in 1s ease; }
  .a-wobble-l { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
- .a-wobble-l { -webkit-animation: wobble 1s ease, fade-in 1s ease; animation: wobble 1s ease, fade-in 1s ease; }
+ .a-rotate-l { -webkit-animation: rotate 1s ease, fade-in 1s ease; animation: rotate 1s ease, fade-in 1s ease; }
  .a-tilt-right-l { -webkit-animation: tilt-right 1s ease, fade-in 1s ease; animation: tilt-right 1s ease, fade-in 1s ease; }
  .a-tilt-left-l { -webkit-animation: tilt-left 1s ease, fade-in 1s ease; animation: tilt-left 1s ease, fade-in 1s ease; }
  .a-restart-l.e-tigger, .a-restart-l.e-active:active, .a-restart-l.e-hover:hover { -webkit-animation-name: none; animation-name: none; }
