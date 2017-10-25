@@ -2,7 +2,7 @@
 
 ciser like a version update forked from tachyons with some new function classname css. like tachyons, ciser help quickly build and design new UI without writing css.
 
-forked from tachyons and updated by [Lam Hieu (@lamhieu-vk)](https://lamhi.eu/). in ciser, I updated many classname fn to make the design work easier than ever, the size of the attributes is added in a reasonable proportion, carefully calculated. full support all responsive queries (since version 2.1.0).
+forked from tachyons and updated by [Lam Hieu (@lamhieu-vk)](https://lamhi.eu/). in ciser, I updated many classname fn to make the design work easier than ever, the size of the attributes is added in a reasonable proportion, carefully calculated. full support all responsive queries (since version 2.0.0).
 
 most of the properties of the tachyons are retained, so switching from tachyons to ciser will not affect the current interface.
 
@@ -54,10 +54,10 @@ npm install ciser
 ```
 
 
-use version 2.1.0:
+use version 2.2.0:
 
 ```bash
-npm install ciser@2.1.0
+npm install ciser@2.2.0
 ```
 
 
@@ -69,10 +69,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">
 ```
 
-use version 2.1.0:
+use version 2.2.0:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.1.0/build/ciser.min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.0/build/ciser.min.css">
 ```
 
 
@@ -84,10 +84,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">
 ```
 
-use version 2.1.0:
+use version 2.2.0:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.1.0/build/ciser.[prototype].min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.0/build/ciser.[prototype].min.css">
 ```
 
 list prototypes:
@@ -125,8 +125,9 @@ npm install
 
 # what's new?
 
-## version 2.1.0
+## version 2.2.0
 
+* enriched many spacing max-width, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_max-widths.css)
 * add new some animation, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
 * add new media query extensions
 * split the prototypes, [read more](https://github.com/lamhieu-vk/ciser/blob/master/build)
@@ -169,6 +170,25 @@ with **ciser**:
 */
 ```
 
+## max-widths
+
+with *tachyons*, classname is:
+
+```css
+.mw[1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]
+```
+
+with **ciser**:
+
+```css
+.mw[1 | 1s | 2 | 2s | 3 | 3s | 4 | 4s | 5 | 5s | 6 | 6s | 7 | 7s | 8 | 8s | 9]
+```
+
+note:
+
+```css
+.mw[x]s = mw[x+1] - (mw[x+1] - mw[x]) / 2
+```
 
 ## widths, heights normal
 
@@ -206,8 +226,8 @@ with **ciser**:
 
 note:
 
-```pascal
-.w[x]s = (w[x+1] - w[x]) / 2
+```css
+.w[x]s = w[x+1] - (w[x+1] - w[x]) / 2
 ```
 
 ## widths, heights screen width percentage
@@ -265,9 +285,9 @@ width **ciser**:
 note:
 
 ```css
-.p][x]s = (p[x+1] - p[x]) / 2)
+.p][x]s = p[x+1] - (p[x+1] - p[x]) / 2)
 
-.m][x]s = (m[x+1] - m[x]) / 2)
+.m][x]s = m[x+1] - (m[x+1] - m[x]) / 2)
 ```
 
 ## transition:
@@ -409,6 +429,7 @@ prototype classname:
 }
 ```
 
+
 default animation classname:
 
 ```css
@@ -470,7 +491,6 @@ default animation classname:
   animation: tilt-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 ```
-
 
 *and many classname fn added, check update always to update new fn*
 

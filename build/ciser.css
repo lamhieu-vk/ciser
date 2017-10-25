@@ -1,6 +1,6 @@
 /*! 
     Lam Hieu <lamhieu.vk@gmail.com> | lamhi.eu
-    ciser (v2.1.0) MIT license - github/lamhieu-vk/ciser | npmjs.com/package/ciser
+    ciser (v2.2.0) MIT license - github/lamhieu-vk/ciser | npmjs.com/package/ciser
 */
 /* External Library Includes */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -1032,13 +1032,21 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 /* Max Width Scale */
 .mw1 { max-width: 1rem; }
+.mw1s { max-width: 1.5rem; }
 .mw2 { max-width: 2rem; }
+.mw2s { max-width: 3rem; }
 .mw3 { max-width: 4rem; }
+.mw3s { max-width: 6rem; }
 .mw4 { max-width: 8rem; }
+.mw4s { max-width: 12rem; }
 .mw5 { max-width: 16rem; }
+.mw5s { max-width: 24rem; }
 .mw6 { max-width: 32rem; }
+.mw6s { max-width: 40rem; }
 .mw7 { max-width: 48rem; }
+.mw7s { max-width: 56rem; }
 .mw8 { max-width: 64rem; }
+.mw8s { max-width: 80rem; }
 .mw9 { max-width: 96rem; }
 /* Max Width String Properties */
 .mw-none { max-width: none; }
@@ -2841,13 +2849,21 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .lh-title-ns { line-height: 1.25; }
  .lh-copy-ns { line-height: 1.5; }
  .mw1-ns { max-width: 1rem; }
+ .mw1s-ns { max-width: 1.5rem; }
  .mw2-ns { max-width: 2rem; }
+ .mw2s-ns { max-width: 3rem; }
  .mw3-ns { max-width: 4rem; }
+ .mw3s-ns { max-width: 6rem; }
  .mw4-ns { max-width: 8rem; }
+ .mw4s-ns { max-width: 12rem; }
  .mw5-ns { max-width: 16rem; }
+ .mw5s-ns { max-width: 24rem; }
  .mw6-ns { max-width: 32rem; }
+ .mw6s-ns { max-width: 40rem; }
  .mw7-ns { max-width: 48rem; }
+ .mw7s-ns { max-width: 56rem; }
  .mw8-ns { max-width: 64rem; }
+ .mw8s-ns { max-width: 80rem; }
  .mw9-ns { max-width: 96rem; }
  .mw-none-ns { max-width: none; }
  .w1-ns { width: 1rem; }
@@ -3640,13 +3656,21 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .lh-title-m { line-height: 1.25; }
  .lh-copy-m { line-height: 1.5; }
  .mw1-m { max-width: 1rem; }
+ .mw1s-m { max-width: 1.5rem; }
  .mw2-m { max-width: 2rem; }
+ .mw2s-m { max-width: 3rem; }
  .mw3-m { max-width: 4rem; }
+ .mw3s-m { max-width: 6rem; }
  .mw4-m { max-width: 8rem; }
+ .mw4s-m { max-width: 12rem; }
  .mw5-m { max-width: 16rem; }
+ .mw5s-m { max-width: 24rem; }
  .mw6-m { max-width: 32rem; }
+ .mw6s-m { max-width: 40rem; }
  .mw7-m { max-width: 48rem; }
+ .mw7s-m { max-width: 56rem; }
  .mw8-m { max-width: 64rem; }
+ .mw8s-m { max-width: 80rem; }
  .mw9-m { max-width: 96rem; }
  .mw-none-m { max-width: none; }
  .w1-m { width: 1rem; }
@@ -4449,13 +4473,21 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .lh-title-ml { line-height: 1.25; }
  .lh-copy-ml { line-height: 1.5; }
  .mw1-ml { max-width: 1rem; }
+ .mw1s-ml { max-width: 1.5rem; }
  .mw2-ml { max-width: 2rem; }
+ .mw2s-ml { max-width: 3rem; }
  .mw3-ml { max-width: 4rem; }
+ .mw3s-ml { max-width: 6rem; }
  .mw4-ml { max-width: 8rem; }
+ .mw4s-ml { max-width: 12rem; }
  .mw5-ml { max-width: 16rem; }
+ .mw5s-ml { max-width: 24rem; }
  .mw6-ml { max-width: 32rem; }
+ .mw6s-ml { max-width: 40rem; }
  .mw7-ml { max-width: 48rem; }
+ .mw7s-ml { max-width: 56rem; }
  .mw8-ml { max-width: 64rem; }
+ .mw8s-ml { max-width: 80rem; }
  .mw9-ml { max-width: 96rem; }
  .mw-none-ml { max-width: none; }
  .w1-ml { width: 1rem; }
@@ -5259,13 +5291,21 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .lh-title-l { line-height: 1.25; }
  .lh-copy-l { line-height: 1.5; }
  .mw1-l { max-width: 1rem; }
+ .mw1s-l { max-width: 1.5rem; }
  .mw2-l { max-width: 2rem; }
+ .mw2s-l { max-width: 3rem; }
  .mw3-l { max-width: 4rem; }
+ .mw3s-l { max-width: 6rem; }
  .mw4-l { max-width: 8rem; }
+ .mw4s-l { max-width: 12rem; }
  .mw5-l { max-width: 16rem; }
+ .mw5s-l { max-width: 24rem; }
  .mw6-l { max-width: 32rem; }
+ .mw6s-l { max-width: 40rem; }
  .mw7-l { max-width: 48rem; }
+ .mw7s-l { max-width: 56rem; }
  .mw8-l { max-width: 64rem; }
+ .mw8s-l { max-width: 80rem; }
  .mw9-l { max-width: 96rem; }
  .mw-none-l { max-width: none; }
  .w1-l { width: 1rem; }
