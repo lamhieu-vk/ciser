@@ -2,7 +2,7 @@
 
 ciser like a version update forked from tachyons with some new function classname css. like tachyons, ciser help quickly build and design new UI without writing css.
 
-forked from tachyons and updated by [Lam Hieu (@lamhieu-vk)](https://lamhi.eu/). in ciser, I updated many classname fn to make the design work easier than ever, the size of the attributes is added in a reasonable proportion, carefully calculated. full support all responsive queries (since version 2.0.0).
+forked from tachyons and updated by [Lam Hieu (@lamhieu-vk)](https://lamhi.eu/). in ciser, I updated many classname fn to make the design work easier than ever, the size of the attributes is added in a reasonable proportion, carefully calculated. full support all responsive queries (since version 2.1.0).
 
 most of the properties of the tachyons are retained, so switching from tachyons to ciser will not affect the current interface.
 
@@ -54,10 +54,10 @@ npm install ciser
 ```
 
 
-use version 2.0.0:
+use version 2.1.0:
 
 ```bash
-npm install ciser@2.0.0
+npm install ciser@2.1.0
 ```
 
 
@@ -69,10 +69,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">
 ```
 
-use version 2.0.0:
+use version 2.1.0:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.0.0/build/ciser.min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.1.0/build/ciser.min.css">
 ```
 
 
@@ -84,10 +84,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">
 ```
 
-use version 2.0.0:
+use version 2.1.0:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.0.0/build/ciser.[prototype].min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.1.0/build/ciser.[prototype].min.css">
 ```
 
 list prototypes:
@@ -124,6 +124,24 @@ npm install
 
 
 # what's new?
+
+## version 2.1.0
+
+* add new some animation, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
+* add new media query extensions
+* split the prototypes, [read more](https://github.com/lamhieu-vk/ciser/blob/master/build)
+* add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
+* add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
+* change box-shadow style, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_box-shadow.css)
+* add .center-box used to center, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_utilities.css)
+* add some widths, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_widths.css)
+* add some heights, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_heights.css)
+* add some z-index, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_z-index.css)
+* enriched many spacing margins and paddings, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_spacing.css)
+* enriched many spacing negative margins, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_negative-margins.css)
+* add some fonts style in font-family, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_font-family.css)
+* ...
+
 
 ## responsive
 
@@ -254,6 +272,8 @@ note:
 
 ## transition:
 
+[read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
+
 ```css
 .t-none { transition: none; }
 
@@ -292,6 +312,8 @@ note:
 ```
 
 ## animation:
+
+[read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
 
 prototype classname:
 
@@ -368,7 +390,22 @@ prototype classname:
   animation-name: slide-to-bottom;
 }
 .a--slide-to-left {
-  animation-name: slide-to-top;
+  animation-name: slide-to-left;
+}
+.a--shake {
+  animation-name: shake;
+}
+.a--wobble {
+  animation-name: wobble;
+}
+.a--rotate {
+  animation-name: rotate;
+}
+.a--tilt-right {
+  animation-name: tilt-right;
+}
+.a--tilt-left {
+  animation-name: tilt-left;
 }
 ```
 
@@ -376,10 +413,10 @@ default animation classname:
 
 ```css
 .a-zoom-in-out {
-  animation: zoom-in-out var(--duration-normal) ease;
+  animation: zoom-in-out var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-zoom-out-in {
-  animation: zoom-out-in var(--duration-normal) ease;
+  animation: zoom-out-in var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-fade-in {
   animation: fade-in var(--duration-normal) ease;
@@ -394,16 +431,43 @@ default animation classname:
   animation: fade-out-in var(--duration-normal) ease;
 }
 .a-slide-to-top {
-  animation: slide-to-top var(--duration-normal) ease;
+  animation: slide-to-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-slide-to-right {
-  animation: slide-to-right var(--duration-normal) ease;
+  animation: slide-to-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-slide-to-bottom {
-  animation: slide-to-bottom var(--duration-normal) ease;
+  animation: slide-to-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-slide-to-left {
-  animation: slide-to-left var(--duration-normal) ease;
+  animation: slide-to-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+}
+.a-slide-toggle-top {
+  animation: slide-toggle-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+}
+.a-slide-toggle-right {
+  animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+}
+.a-slide-toggle-bottom {
+  animation: slide-toggle-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+}
+.a-slide-toggle-right {
+  animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+}
+.a-shake {
+  animation: shake var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+}
+.a-wobble {
+  animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+}
+.a-wobble {
+  animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+}
+.a-tilt-right {
+  animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+}
+.a-tilt-left {
+  animation: tilt-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 ```
 
@@ -411,29 +475,11 @@ default animation classname:
 *and many classname fn added, check update always to update new fn*
 
 
-# updated
-
-## version 2.0.0
-
-* add new media query extensions
-* split the prototypes, [read more](https://github.com/lamhieu-vk/ciser/blob/master/build)
-* add animation function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
-* add transition function classname, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_transition.css)
-* change box-shadow style, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_box-shadow.css)
-* add .center-box used to center, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_utilities.css)
-* add some widths, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_widths.css)
-* add some heights, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_heights.css)
-* add some z-index, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_z-index.css)
-* enriched many spacing margins and paddings, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_spacing.css)
-* enriched many spacing negative margins, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_negative-margins.css)
-* add some fonts style in font-family, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_font-family.css)
-* ...
-
-
 
 # help
 
 if you have a question or need help feel free to [open an issue here](https://github.com/lamhieu-vk/ciser/issues/new).
+
 
 
 # license
