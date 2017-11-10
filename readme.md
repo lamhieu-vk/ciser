@@ -54,10 +54,10 @@ npm install ciser
 ```
 
 
-use version 2.2.3:
+use version 2.2.4:
 
 ```bash
-npm install ciser@2.2.3
+npm install ciser@2.2.4
 ```
 
 
@@ -69,10 +69,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">
 ```
 
-use version 2.2.3:
+use version 2.2.4:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.3/build/ciser.min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.4/build/ciser.min.css">
 ```
 
 
@@ -84,10 +84,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">
 ```
 
-use version 2.2.3:
+use version 2.2.4:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.3/build/ciser.[prototype].min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.4/build/ciser.[prototype].min.css">
 ```
 
 list prototypes:
@@ -125,7 +125,7 @@ npm install
 
 # what's new?
 
-## version 2.2.3
+## version 2.2.4
 
 * enriched many spacing max-width, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_max-widths.css)
 * add new some animation, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)

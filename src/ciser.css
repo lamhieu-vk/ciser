@@ -1,6 +1,6 @@
 /*! 
-    Lam Hieu <lamhieu.vk@gmail.com> | lamhi.eu
-    ciser (v2.2.3) MIT license - github/lamhieu-vk/ciser | npmjs.com/package/ciser
+    Lam Hieu <lamhieu.vk@gmail.com>
+    ciser (v2.2.4) MIT license - github/lamhieu-vk/ciser | npmjs.com/package/ciser
 */
 
 /* External Library Includes */
@@ -61,9 +61,9 @@
 @import './_white-space';
 @import './_vertical-align';
 @import './_hovers';
-@import './_z-index';
 @import './_nested';
 @import './_styles';
+@import './_z-index';
 @import './_transition';
 @import './_animation';
 

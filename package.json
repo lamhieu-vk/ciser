@@ -1,6 +1,6 @@
 {
   "name": "ciser",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Functional CSS, help quickly build and design new UI without writing css.",
   "author": {
     "name": "Lam Hieu",
@@ -27,7 +27,9 @@
     "ciser",
     "design",
     "responsive",
-    "performance"
+    "performance",
+    "shorter",
+    "style"
   ],
   "license": "MIT",
   "devDependencies": {
