@@ -53,10 +53,10 @@ npm install ciser
 ```
 
 
-use version 2.2.6:
+use version 2.2.7:
 
 ```bash
-npm install ciser@2.2.6
+npm install ciser@2.2.7
 ```
 
 
@@ -68,10 +68,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">
 ```
 
-use version 2.2.6:
+use version 2.2.7:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.6/build/ciser.min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.7/build/ciser.min.css">
 ```
 
 
@@ -83,10 +83,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">
 ```
 
-use version 2.2.6:
+use version 2.2.7:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.6/build/ciser.[prototype].min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.7/build/ciser.[prototype].min.css">
 ```
 
 list prototypes:
@@ -101,10 +101,10 @@ read more prototypes newest version at:
 <link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser/blob/master/src/_[prototype].css">
 ```
 
-and version 2.2.6 at:
+and version 2.2.7 at:
 
 ```html
-<link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser@2.2.6/blob/master/src/_[prototype].css">
+<link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser@2.2.7/blob/master/src/_[prototype].css">
 ```
 
 and after build at:
@@ -143,7 +143,7 @@ read more info prototypes at [docs](https://github.com/lamhieu-vk/ciser/blob/mas
 *created by tachyons-cli*
 
 
-## version 2.2.6
+## version 2.2.7
 
 * enriched many spacing max-width, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_max-widths.css)
 * add new some animation, [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_animation.css)
