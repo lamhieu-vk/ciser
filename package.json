@@ -1,16 +1,16 @@
 {
   "name": "ciser",
-  "version": "2.2.4",
+  "version": "2.2.6",
   "description": "Functional CSS, help quickly build and design new UI without writing css.",
   "author": {
     "name": "Lam Hieu",
-    "email": "lamhieu.vk@gmail.com",
-    "url": "https://lamhi.eu"
+    "email": "lamhieu.vk@gmail.com"
   },
   "style": "build/ciser.min.css",
   "main": "build/ciser.css",
   "files": [
     "build",
+    "docs",
     "src"
   ],
   "bugs": {
@@ -49,7 +49,9 @@
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/ciser.css --strict",
-    "build": "npm run build:css && npm run build:minify",
+    "build": "npm run build:css && npm run build:minify && npm run build:files && npm run build:docs",
+    "build:files": "bash build.files.sh",
+    "build:docs": "bash build.docs.sh",
     "build:css": "tachyons src/ciser.css > build/ciser.css",
     "build:minify": "tachyons src/ciser.css -m > build/ciser.min.css",
     "build:watch": "watch \"npm run build\" ./src/"
