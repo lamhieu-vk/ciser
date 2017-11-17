@@ -40,6 +40,14 @@ updated: **Oct 22, 2017 (UTC+7)**
 
 
 
+# help
+
+if you have a question or need help feel free to [open an issue here](https://github.com/lamhieu-vk/ciser/issues/new).
+
+or join slack [ciser](https://join.slack.com/t/ciser-css/shared_invite/enQtMjc0MTIyNjA3OTQxLTVjMDU5NzJmZTgwZjZkY2JlNjk3Y2Y5MjlmMzc2ZWE0ZmNjNGUxMWY5NzlkODI1MjEyYjk1MGU1NmI4YTc4Yjk)
+
+
+
 # usage
 
 ## require all:
@@ -511,12 +519,6 @@ default animation classname:
 ```
 
 *and many classname fn added, check update always to update new fn*
-
-
-
-# help
-
-if you have a question or need help feel free to [open an issue here](https://github.com/lamhieu-vk/ciser/issues/new).
 
 
 
