@@ -4,7 +4,7 @@ Postprocess tachyons stylesheets
 
 #### Stats
 
-2982 | 501 | 942
+2984 | 501 | 942
 ---|---|---
 bytes | selectors | declarations
 
@@ -75,7 +75,6 @@ Running `$ npm start` will process the source css and place the built css in the
 
 ```css
 /* Variables */
-.a-none { -webkit-animation: none; animation: none; }
 .a-zoom-in-out { -webkit-animation: zoom-in-out 1s ease, fade-in 1s ease; animation: zoom-in-out 1s ease, fade-in 1s ease; }
 .a-zoom-out-in { -webkit-animation: zoom-out-in 1s ease, fade-in 1s ease; animation: zoom-out-in 1s ease, fade-in 1s ease; }
 .a-fade-in { -webkit-animation: fade-in 1s ease; animation: fade-in 1s ease; }
@@ -146,6 +145,7 @@ Running `$ npm start` will process the source css and place the built css in the
 .a--rotate { -webkit-animation-name: rotate; animation-name: rotate; }
 .a--tilt-right { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
 .a--tilt-left { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+.a-none { -webkit-animation: none; animation: none; }
 @-webkit-keyframes zoom-in-out {
  0% { -webkit-transform: scale( 1 ); transform: scale( 1 ); }
  50% { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
@@ -279,13 +279,13 @@ Running `$ npm start` will process the source css and place the built css in the
  100% { -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
 }
 @-webkit-keyframes shake {
- 10%, 90% { -webkit-transform: translate3d( -.025rem, 0, 0 ); transform: translate3d( -.025rem, 0, 0 ); }
+ 10%, 90% { -webkit-transform: translate3d( -0.025rem, 0, 0 ); transform: translate3d( -0.025rem, 0, 0 ); }
  20%, 80% { -webkit-transform: translate3d( .5rem, 0, 0 ); transform: translate3d( .5rem, 0, 0 ); }
  30%, 50%, 70% { -webkit-transform: translate3d( -1rem, 0, 0 ); transform: translate3d( -1rem, 0, 0 ); }
  40%, 60% { -webkit-transform: translate3d( 1rem, 0, 0 ); transform: translate3d( 1rem, 0, 0 ); }
 }
 @keyframes shake {
- 10%, 90% { -webkit-transform: translate3d( -.025rem, 0, 0 ); transform: translate3d( -.025rem, 0, 0 ); }
+ 10%, 90% { -webkit-transform: translate3d( -0.025rem, 0, 0 ); transform: translate3d( -0.025rem, 0, 0 ); }
  20%, 80% { -webkit-transform: translate3d( .5rem, 0, 0 ); transform: translate3d( .5rem, 0, 0 ); }
  30%, 50%, 70% { -webkit-transform: translate3d( -1rem, 0, 0 ); transform: translate3d( -1rem, 0, 0 ); }
  40%, 60% { -webkit-transform: translate3d( 1rem, 0, 0 ); transform: translate3d( 1rem, 0, 0 ); }
@@ -294,7 +294,7 @@ Running `$ npm start` will process the source css and place the built css in the
  16.65% { -webkit-transform: translateY( 2rem ); transform: translateY( 2rem ); }
  33.3% { -webkit-transform: translateY( -1.5rem ); transform: translateY( -1.5rem ); }
  49.95% { -webkit-transform: translateY( 1rem ); transform: translateY( 1rem ); }
- 66.6% { -webkit-transform: translateY( -.5rem ); transform: translateY( -.5rem ); }
+ 66.6% { -webkit-transform: translateY( -0.5rem ); transform: translateY( -0.5rem ); }
  83.25% { -webkit-transform: translateY( .25rem ); transform: translateY( .25rem ); }
  100% { -webkit-transform: translateY( 0 ); transform: translateY( 0 ); }
 }
@@ -302,7 +302,7 @@ Running `$ npm start` will process the source css and place the built css in the
  16.65% { -webkit-transform: translateY( 2rem ); transform: translateY( 2rem ); }
  33.3% { -webkit-transform: translateY( -1.5rem ); transform: translateY( -1.5rem ); }
  49.95% { -webkit-transform: translateY( 1rem ); transform: translateY( 1rem ); }
- 66.6% { -webkit-transform: translateY( -.5rem ); transform: translateY( -.5rem ); }
+ 66.6% { -webkit-transform: translateY( -0.5rem ); transform: translateY( -0.5rem ); }
  83.25% { -webkit-transform: translateY( .25rem ); transform: translateY( .25rem ); }
  100% { -webkit-transform: translateY( 0 ); transform: translateY( 0 ); }
 }
@@ -335,7 +335,6 @@ Running `$ npm start` will process the source css and place the built css in the
  100% { -webkit-transform: rotate( 0 ) scale( 1 ); transform: rotate( 0 ) scale( 1 ); }
 }
 @media screen and (min-width: 30em) {
- .a-none-ns { -webkit-animation: none; animation: none; }
  .a-zoom-in-out-ns { -webkit-animation: zoom-in-out 1s ease, fade-in 1s ease; animation: zoom-in-out 1s ease, fade-in 1s ease; }
  .a-zoom-out-in-ns { -webkit-animation: zoom-out-in 1s ease, fade-in 1s ease; animation: zoom-out-in 1s ease, fade-in 1s ease; }
  .a-fade-in-ns { -webkit-animation: fade-in 1s ease; animation: fade-in 1s ease; }
@@ -411,9 +410,9 @@ Running `$ npm start` will process the source css and place the built css in the
  .a--rotate-ns { -webkit-animation-name: rotate; animation-name: rotate; }
  .a--tilt-right-ns { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-ns { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+ .a-none-ns { -webkit-animation: none; animation: none; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
- .a-none-m { -webkit-animation: none; animation: none; }
  .a-zoom-in-out-m { -webkit-animation: zoom-in-out 1s ease, fade-in 1s ease; animation: zoom-in-out 1s ease, fade-in 1s ease; }
  .a-zoom-out-in-m { -webkit-animation: zoom-out-in 1s ease, fade-in 1s ease; animation: zoom-out-in 1s ease, fade-in 1s ease; }
  .a-fade-in-m { -webkit-animation: fade-in 1s ease; animation: fade-in 1s ease; }
@@ -488,9 +487,9 @@ Running `$ npm start` will process the source css and place the built css in the
  .a--rotate-m { -webkit-animation-name: rotate; animation-name: rotate; }
  .a--tilt-right-m { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-m { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+ .a-none-m { -webkit-animation: none; animation: none; }
 }
 @media screen and (max-width: 60em) and (orientation: landscape) {
- .a-none-ml { -webkit-animation: none; animation: none; }
  .a-zoom-in-out-ml { -webkit-animation: zoom-in-out 1s ease, fade-in 1s ease; animation: zoom-in-out 1s ease, fade-in 1s ease; }
  .a-zoom-out-in-ml { -webkit-animation: zoom-out-in 1s ease, fade-in 1s ease; animation: zoom-out-in 1s ease, fade-in 1s ease; }
  .a-fade-in-ml { -webkit-animation: fade-in 1s ease; animation: fade-in 1s ease; }
@@ -566,9 +565,9 @@ Running `$ npm start` will process the source css and place the built css in the
  .a--rotate-ml { -webkit-animation-name: rotate; animation-name: rotate; }
  .a--tilt-right-ml { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-ml { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+ .a-none-ml { -webkit-animation: none; animation: none; }
 }
 @media screen and (min-width: 60em) {
- .a-none-l { -webkit-animation: none; animation: none; }
  .a-zoom-in-out-l { -webkit-animation: zoom-in-out 1s ease, fade-in 1s ease; animation: zoom-in-out 1s ease, fade-in 1s ease; }
  .a-zoom-out-in-l { -webkit-animation: zoom-out-in 1s ease, fade-in 1s ease; animation: zoom-out-in 1s ease, fade-in 1s ease; }
  .a-fade-in-l { -webkit-animation: fade-in 1s ease; animation: fade-in 1s ease; }
@@ -643,6 +642,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .a--rotate-l { -webkit-animation-name: rotate; animation-name: rotate; }
  .a--tilt-right-l { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-l { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
+ .a-none-l { -webkit-animation: none; animation: none; }
 }
 ```
 

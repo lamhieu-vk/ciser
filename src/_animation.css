@@ -1,8 +1,8 @@
 /* Variables */
 
 :root {
-  --duration-very-fast: .25s;
-  --duration-fast: .5s;
+  --duration-very-fast: 0.25s;
+  --duration-fast: 0.5s;
   --duration-normal: 1s;
   --duration-slow: 2s;
   --duration-very-slow: 2.5s;
@@ -10,12 +10,13 @@
   --duration-super-slow: 5s;
 }
 
-.a-none { animation: none; }
 .a-zoom-in-out {
-  animation: zoom-in-out var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: zoom-in-out var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-zoom-out-in {
-  animation: zoom-out-in var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: zoom-out-in var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-fade-in {
   animation: fade-in var(--duration-normal) ease;
@@ -30,43 +31,56 @@
   animation: fade-out-in var(--duration-normal) ease;
 }
 .a-slide-to-top {
-  animation: slide-to-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: slide-to-top var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-to-right {
-  animation: slide-to-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: slide-to-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-to-bottom {
-  animation: slide-to-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: slide-to-bottom var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-to-left {
-  animation: slide-to-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: slide-to-left var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-toggle-top {
-  animation: slide-toggle-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: slide-toggle-top var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-toggle-right {
-  animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: slide-toggle-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-toggle-bottom {
-  animation: slide-toggle-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: slide-toggle-bottom var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-toggle-right {
-  animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: slide-toggle-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-shake {
-  animation: shake var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: shake var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-wobble {
-  animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: wobble var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-rotate {
-  animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: rotate var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-tilt-right {
-  animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: tilt-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-tilt-left {
-  animation: tilt-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: tilt-left var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 
 .a-restart.e-tigger,
@@ -75,48 +89,117 @@
   animation-name: none;
 }
 
-.a-vf { animation-duration: var(--duration-very-fast); }
-.a-f { animation-duration: var(--duration-fast); }
-.a-n { animation-duration: var(--duration-normal); }
-.a-s { animation-duration: var(--duration-slow); }
-.a-vs { animation-duration: var(--duration-very-slow); }
-.a-bs { animation-duration: var(--duration-bind-slow); }
-.a-ss { animation-duration: var(--duration-super-slow); }
+.a-vf {
+  animation-duration: var(--duration-very-fast);
+}
+.a-f {
+  animation-duration: var(--duration-fast);
+}
+.a-n {
+  animation-duration: var(--duration-normal);
+}
+.a-s {
+  animation-duration: var(--duration-slow);
+}
+.a-vs {
+  animation-duration: var(--duration-very-slow);
+}
+.a-bs {
+  animation-duration: var(--duration-bind-slow);
+}
+.a-ss {
+  animation-duration: var(--duration-super-slow);
+}
 
-.a-normal { animation-direction: normal; }
-.a-reverse { animation-direction: reverse; }
-.a-alternate { animation-direction: alternate; }
-.a-alternate-reverse { animation-direction: alternate-reverse; }
+.a-normal {
+  animation-direction: normal;
+}
+.a-reverse {
+  animation-direction: reverse;
+}
+.a-alternate {
+  animation-direction: alternate;
+}
+.a-alternate-reverse {
+  animation-direction: alternate-reverse;
+}
 
-.a-ease { animation-timing-function: ease; }
-.a-ease-in { animation-timing-function: ease-in; }
-.a-ease-out { animation-timing-function: ease-out; }
-.a-ease-in-out { animation-timing-function: ease-in-out; }
-.a-linear { animation-timing-function: linear; }
-.a-step-start { animation-timing-function: step-start; }
-.a-step-end { animation-timing-function: step-end; }
+.a-ease {
+  animation-timing-function: ease;
+}
+.a-ease-in {
+  animation-timing-function: ease-in;
+}
+.a-ease-out {
+  animation-timing-function: ease-out;
+}
+.a-ease-in-out {
+  animation-timing-function: ease-in-out;
+}
+.a-linear {
+  animation-timing-function: linear;
+}
+.a-step-start {
+  animation-timing-function: step-start;
+}
+.a-step-end {
+  animation-timing-function: step-end;
+}
 
-.a-infinite { animation-iteration-count: infinite; }
-.a-2s { animation-iteration-count: 2; }
-.a-3s { animation-iteration-count: 3; }
-.a-4s { animation-iteration-count: 4; }
-.a-5s { animation-iteration-count: 5; }
-.a-10s { animation-iteration-count: 10; }
+.a-infinite {
+  animation-iteration-count: infinite;
+}
+.a-2s {
+  animation-iteration-count: 2;
+}
+.a-3s {
+  animation-iteration-count: 3;
+}
+.a-4s {
+  animation-iteration-count: 4;
+}
+.a-5s {
+  animation-iteration-count: 5;
+}
+.a-10s {
+  animation-iteration-count: 10;
+}
 
-.a-paused { animation-play-state: paused; }
-.a-running { animation-play-state: running; }
+.a-paused {
+  animation-play-state: paused;
+}
+.a-running {
+  animation-play-state: running;
+}
 
+.a-fill-none {
+  animation-fill-mode: none;
+}
+.a-fill-forwards {
+  animation-fill-mode: forwards;
+}
+.a-fill-backwards {
+  animation-fill-mode: backwards;
+}
+.a-fill-both {
+  animation-fill-mode: both;
+}
 
-.a-fill-none { animation-fill-mode: none; }
-.a-fill-forwards { animation-fill-mode: forwards; }
-.a-fill-backwards { animation-fill-mode: backwards; }
-.a-fill-both { animation-fill-mode: both; }
-
-.a-delay-vf { animation-delay: var(--duration-very-fast); }
-.a-delay-f { animation-delay: var(--duration-fast); }
-.a-delay-n { animation-delay: var(--duration-normal); }
-.a-delay-s { animation-delay: var(--duration-slow); }
-.a-delay-vs { animation-delay: var(--duration-very-slow); }
+.a-delay-vf {
+  animation-delay: var(--duration-very-fast);
+}
+.a-delay-f {
+  animation-delay: var(--duration-fast);
+}
+.a-delay-n {
+  animation-delay: var(--duration-normal);
+}
+.a-delay-s {
+  animation-delay: var(--duration-slow);
+}
+.a-delay-vs {
+  animation-delay: var(--duration-very-slow);
+}
 
 .a--zoom-in-out {
   animation-name: zoom-in-out;
@@ -164,13 +247,18 @@
   animation-name: tilt-left;
 }
 
+.a-none {
+  animation: none;
+}
+
 @media screen and (min-width: 30em) {
-  .a-none-ns { animation: none; }
   .a-zoom-in-out-ns {
-    animation: zoom-in-out var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: zoom-in-out var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-zoom-out-in-ns {
-    animation: zoom-out-in var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: zoom-out-in var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-fade-in-ns {
     animation: fade-in var(--duration-normal) ease;
@@ -185,43 +273,56 @@
     animation: fade-out-in var(--duration-normal) ease;
   }
   .a-slide-to-top-ns {
-    animation: slide-to-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-top var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-right-ns {
-    animation: slide-to-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-bottom-ns {
-    animation: slide-to-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-bottom var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-left-ns {
-    animation: slide-to-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-top-ns {
-    animation: slide-toggle-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-top var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-right-ns {
-    animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-bottom-ns {
-    animation: slide-toggle-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-bottom var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-right-ns {
-    animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-shake-ns {
-    animation: shake var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: shake var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-wobble-ns {
-    animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: wobble var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-rotate-ns {
-    animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: rotate var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-tilt-right-ns {
-    animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: tilt-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-tilt-left-ns {
-    animation: tilt-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: tilt-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
 
   .a-restart-ns.e-tigger,
@@ -230,47 +331,117 @@
     animation-name: none;
   }
 
-  .a-vf-ns { animation-duration: var(--duration-very-fast); }
-  .a-f-ns { animation-duration: var(--duration-fast); }
-  .a-n-ns { animation-duration: var(--duration-normal); }
-  .a-s-ns { animation-duration: var(--duration-slow); }
-  .a-vs-ns { animation-duration: var(--duration-very-slow); }
-  .a-bs-ns { animation-duration: var(--duration-bind-slow); }
-  .a-ss-ns { animation-duration: var(--duration-super-slow); }
+  .a-vf-ns {
+    animation-duration: var(--duration-very-fast);
+  }
+  .a-f-ns {
+    animation-duration: var(--duration-fast);
+  }
+  .a-n-ns {
+    animation-duration: var(--duration-normal);
+  }
+  .a-s-ns {
+    animation-duration: var(--duration-slow);
+  }
+  .a-vs-ns {
+    animation-duration: var(--duration-very-slow);
+  }
+  .a-bs-ns {
+    animation-duration: var(--duration-bind-slow);
+  }
+  .a-ss-ns {
+    animation-duration: var(--duration-super-slow);
+  }
 
-  .a-normal-ns { animation-direction: normal; }
-  .a-reverse-ns { animation-direction: reverse; }
-  .a-alternate-ns { animation-direction: alternate; }
-  .a-alternate-reverse-ns { animation-direction: alternate-reverse; }
+  .a-normal-ns {
+    animation-direction: normal;
+  }
+  .a-reverse-ns {
+    animation-direction: reverse;
+  }
+  .a-alternate-ns {
+    animation-direction: alternate;
+  }
+  .a-alternate-reverse-ns {
+    animation-direction: alternate-reverse;
+  }
 
-  .a-ease-ns { animation-timing-function: ease; }
-  .a-ease-in-ns { animation-timing-function: ease-in; }
-  .a-ease-out-ns { animation-timing-function: ease-out; }
-  .a-ease-in-out-ns { animation-timing-function: ease-in-out; }
-  .a-linear-ns { animation-timing-function: linear; }
-  .a-step-start-ns { animation-timing-function: step-start; }
-  .a-step-end-ns { animation-timing-function: step-end; }
+  .a-ease-ns {
+    animation-timing-function: ease;
+  }
+  .a-ease-in-ns {
+    animation-timing-function: ease-in;
+  }
+  .a-ease-out-ns {
+    animation-timing-function: ease-out;
+  }
+  .a-ease-in-out-ns {
+    animation-timing-function: ease-in-out;
+  }
+  .a-linear-ns {
+    animation-timing-function: linear;
+  }
+  .a-step-start-ns {
+    animation-timing-function: step-start;
+  }
+  .a-step-end-ns {
+    animation-timing-function: step-end;
+  }
 
-  .a-infinite-ns { animation-iteration-count: infinite; }
-  .a-2s-ns { animation-iteration-count: 2; }
-  .a-3s-ns { animation-iteration-count: 3; }
-  .a-4s-ns { animation-iteration-count: 4; }
-  .a-5s-ns { animation-iteration-count: 5; }
-  .a-10s-ns { animation-iteration-count: 10; }
+  .a-infinite-ns {
+    animation-iteration-count: infinite;
+  }
+  .a-2s-ns {
+    animation-iteration-count: 2;
+  }
+  .a-3s-ns {
+    animation-iteration-count: 3;
+  }
+  .a-4s-ns {
+    animation-iteration-count: 4;
+  }
+  .a-5s-ns {
+    animation-iteration-count: 5;
+  }
+  .a-10s-ns {
+    animation-iteration-count: 10;
+  }
 
-  .a-paused-ns { animation-play-state: paused; }
-  .a-running-ns { animation-play-state: running; }
+  .a-paused-ns {
+    animation-play-state: paused;
+  }
+  .a-running-ns {
+    animation-play-state: running;
+  }
 
-  .a-fill-none-ns { animation-fill-mode: none; }
-  .a-fill-forwards-ns { animation-fill-mode: forwards; }
-  .a-fill-backwards-ns { animation-fill-mode: backwards; }
-  .a-fill-both-ns { animation-fill-mode: both; }
+  .a-fill-none-ns {
+    animation-fill-mode: none;
+  }
+  .a-fill-forwards-ns {
+    animation-fill-mode: forwards;
+  }
+  .a-fill-backwards-ns {
+    animation-fill-mode: backwards;
+  }
+  .a-fill-both-ns {
+    animation-fill-mode: both;
+  }
 
-  .a-delay-vf-ns { animation-delay: var(--duration-very-fast); }
-  .a-delay-f-ns { animation-delay: var(--duration-fast); }
-  .a-delay-n-ns { animation-delay: var(--duration-normal); }
-  .a-delay-s-ns { animation-delay: var(--duration-slow); }
-  .a-delay-vs-ns { animation-delay: var(--duration-very-slow); }
+  .a-delay-vf-ns {
+    animation-delay: var(--duration-very-fast);
+  }
+  .a-delay-f-ns {
+    animation-delay: var(--duration-fast);
+  }
+  .a-delay-n-ns {
+    animation-delay: var(--duration-normal);
+  }
+  .a-delay-s-ns {
+    animation-delay: var(--duration-slow);
+  }
+  .a-delay-vs-ns {
+    animation-delay: var(--duration-very-slow);
+  }
 
   .a--zoom-in-out-ns {
     animation-name: zoom-in-out;
@@ -329,15 +500,20 @@
   .a--tilt-left-ns {
     animation-name: tilt-left;
   }
+
+  .a-none-ns {
+    animation: none;
+  }
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
-  .a-none-m { animation: none; }
   .a-zoom-in-out-m {
-    animation: zoom-in-out var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: zoom-in-out var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-zoom-out-in-m {
-    animation: zoom-out-in var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: zoom-out-in var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-fade-in-m {
     animation: fade-in var(--duration-normal) ease;
@@ -352,43 +528,56 @@
     animation: fade-out-in var(--duration-normal) ease;
   }
   .a-slide-to-top-m {
-    animation: slide-to-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-top var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-right-m {
-    animation: slide-to-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-bottom-m {
-    animation: slide-to-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-bottom var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-left-m {
-    animation: slide-to-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-top-m {
-    animation: slide-toggle-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-top var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-right-m {
-    animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-bottom-m {
-    animation: slide-toggle-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-bottom var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-right-m {
-    animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-shake-m {
-    animation: shake var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: shake var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-wobble-m {
-    animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: wobble var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-rotate-m {
-    animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: rotate var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-tilt-right-m {
-    animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: tilt-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-tilt-left-m {
-    animation: tilt-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: tilt-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-restart-m.e-tigger,
   .a-restart-m.e-active:active,
@@ -396,47 +585,117 @@
     animation-name: none;
   }
 
-  .a-vf-m { animation-duration: var(--duration-very-fast); }
-  .a-f-m { animation-duration: var(--duration-fast); }
-  .a-n-m { animation-duration: var(--duration-normal); }
-  .a-s-m { animation-duration: var(--duration-slow); }
-  .a-vs-m { animation-duration: var(--duration-very-slow); }
-  .a-bs-m { animation-duration: var(--duration-bind-slow); }
-  .a-ss-m { animation-duration: var(--duration-super-slow); }
+  .a-vf-m {
+    animation-duration: var(--duration-very-fast);
+  }
+  .a-f-m {
+    animation-duration: var(--duration-fast);
+  }
+  .a-n-m {
+    animation-duration: var(--duration-normal);
+  }
+  .a-s-m {
+    animation-duration: var(--duration-slow);
+  }
+  .a-vs-m {
+    animation-duration: var(--duration-very-slow);
+  }
+  .a-bs-m {
+    animation-duration: var(--duration-bind-slow);
+  }
+  .a-ss-m {
+    animation-duration: var(--duration-super-slow);
+  }
 
-  .a-normal-m { animation-direction: normal; }
-  .a-reverse-m { animation-direction: reverse; }
-  .a-alternate-m { animation-direction: alternate; }
-  .a-alternate-reverse-m { animation-direction: alternate-reverse; }
+  .a-normal-m {
+    animation-direction: normal;
+  }
+  .a-reverse-m {
+    animation-direction: reverse;
+  }
+  .a-alternate-m {
+    animation-direction: alternate;
+  }
+  .a-alternate-reverse-m {
+    animation-direction: alternate-reverse;
+  }
 
-  .a-ease-m { animation-timing-function: ease; }
-  .a-ease-in-m { animation-timing-function: ease-in; }
-  .a-ease-out-m { animation-timing-function: ease-out; }
-  .a-ease-in-out-m { animation-timing-function: ease-in-out; }
-  .a-linear-m { animation-timing-function: linear; }
-  .a-step-start-m { animation-timing-function: step-start; }
-  .a-step-end-m { animation-timing-function: step-end; }
+  .a-ease-m {
+    animation-timing-function: ease;
+  }
+  .a-ease-in-m {
+    animation-timing-function: ease-in;
+  }
+  .a-ease-out-m {
+    animation-timing-function: ease-out;
+  }
+  .a-ease-in-out-m {
+    animation-timing-function: ease-in-out;
+  }
+  .a-linear-m {
+    animation-timing-function: linear;
+  }
+  .a-step-start-m {
+    animation-timing-function: step-start;
+  }
+  .a-step-end-m {
+    animation-timing-function: step-end;
+  }
 
-  .a-infinite-m { animation-iteration-count: infinite; }
-  .a-2s-m { animation-iteration-count: 2; }
-  .a-3s-m { animation-iteration-count: 3; }
-  .a-4s-m { animation-iteration-count: 4; }
-  .a-5s-m { animation-iteration-count: 5; }
-  .a-10s-m { animation-iteration-count: 10; }
+  .a-infinite-m {
+    animation-iteration-count: infinite;
+  }
+  .a-2s-m {
+    animation-iteration-count: 2;
+  }
+  .a-3s-m {
+    animation-iteration-count: 3;
+  }
+  .a-4s-m {
+    animation-iteration-count: 4;
+  }
+  .a-5s-m {
+    animation-iteration-count: 5;
+  }
+  .a-10s-m {
+    animation-iteration-count: 10;
+  }
 
-  .a-paused-m { animation-play-state: paused; }
-  .a-running-m { animation-play-state: running; }
+  .a-paused-m {
+    animation-play-state: paused;
+  }
+  .a-running-m {
+    animation-play-state: running;
+  }
 
-  .a-fill-none-m { animation-fill-mode: none; }
-  .a-fill-forwards-m { animation-fill-mode: forwards; }
-  .a-fill-backwards-m { animation-fill-mode: backwards; }
-  .a-fill-both-m { animation-fill-mode: both; }
+  .a-fill-none-m {
+    animation-fill-mode: none;
+  }
+  .a-fill-forwards-m {
+    animation-fill-mode: forwards;
+  }
+  .a-fill-backwards-m {
+    animation-fill-mode: backwards;
+  }
+  .a-fill-both-m {
+    animation-fill-mode: both;
+  }
 
-  .a-delay-vf-m { animation-delay: var(--duration-very-fast); }
-  .a-delay-f-m { animation-delay: var(--duration-fast); }
-  .a-delay-n-m { animation-delay: var(--duration-normal); }
-  .a-delay-s-m { animation-delay: var(--duration-slow); }
-  .a-delay-vs-m { animation-delay: var(--duration-very-slow); }
+  .a-delay-vf-m {
+    animation-delay: var(--duration-very-fast);
+  }
+  .a-delay-f-m {
+    animation-delay: var(--duration-fast);
+  }
+  .a-delay-n-m {
+    animation-delay: var(--duration-normal);
+  }
+  .a-delay-s-m {
+    animation-delay: var(--duration-slow);
+  }
+  .a-delay-vs-m {
+    animation-delay: var(--duration-very-slow);
+  }
 
   .a--zoom-in-out-m {
     animation-name: zoom-in-out;
@@ -495,15 +754,19 @@
   .a--tilt-left-m {
     animation-name: tilt-left;
   }
+  .a-none-m {
+    animation: none;
+  }
 }
 
 @media screen and (max-width: 60em) and (orientation: landscape) {
-  .a-none-ml { animation: none; }
   .a-zoom-in-out-ml {
-    animation: zoom-in-out var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: zoom-in-out var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-zoom-out-in-ml {
-    animation: zoom-out-in var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: zoom-out-in var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-fade-in-ml {
     animation: fade-in var(--duration-normal) ease;
@@ -518,43 +781,56 @@
     animation: fade-out-in var(--duration-normal) ease;
   }
   .a-slide-to-top-ml {
-    animation: slide-to-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-top var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-right-ml {
-    animation: slide-to-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-bottom-ml {
-    animation: slide-to-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-bottom var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-left-ml {
-    animation: slide-to-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-top-ml {
-    animation: slide-toggle-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-top var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-right-ml {
-    animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-bottom-ml {
-    animation: slide-toggle-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-bottom var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-right-ml {
-    animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-shake-ml {
-    animation: shake var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: shake var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-wobble-ml {
-    animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: wobble var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-rotate-ml {
-    animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: rotate var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-tilt-right-ml {
-    animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: tilt-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-tilt-left-ml {
-    animation: tilt-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: tilt-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-restart-ml.e-tigger,
   .a-restart-ml.e-active:active,
@@ -562,47 +838,117 @@
     animation-name: none;
   }
 
-  .a-vf-ml { animation-duration: var(--duration-very-fast); }
-  .a-f-ml { animation-duration: var(--duration-fast); }
-  .a-n-ml { animation-duration: var(--duration-normal); }
-  .a-s-ml { animation-duration: var(--duration-slow); }
-  .a-vs-ml { animation-duration: var(--duration-very-slow); }
-  .a-bs-ml { animation-duration: var(--duration-bind-slow); }
-  .a-ss-ml { animation-duration: var(--duration-super-slow); }
+  .a-vf-ml {
+    animation-duration: var(--duration-very-fast);
+  }
+  .a-f-ml {
+    animation-duration: var(--duration-fast);
+  }
+  .a-n-ml {
+    animation-duration: var(--duration-normal);
+  }
+  .a-s-ml {
+    animation-duration: var(--duration-slow);
+  }
+  .a-vs-ml {
+    animation-duration: var(--duration-very-slow);
+  }
+  .a-bs-ml {
+    animation-duration: var(--duration-bind-slow);
+  }
+  .a-ss-ml {
+    animation-duration: var(--duration-super-slow);
+  }
 
-  .a-normal-ml { animation-direction: normal; }
-  .a-reverse-ml { animation-direction: reverse; }
-  .a-alternate-ml { animation-direction: alternate; }
-  .a-alternate-reverse-ml { animation-direction: alternate-reverse; }
+  .a-normal-ml {
+    animation-direction: normal;
+  }
+  .a-reverse-ml {
+    animation-direction: reverse;
+  }
+  .a-alternate-ml {
+    animation-direction: alternate;
+  }
+  .a-alternate-reverse-ml {
+    animation-direction: alternate-reverse;
+  }
 
-  .a-ease-ml { animation-timing-function: ease; }
-  .a-ease-in-ml { animation-timing-function: ease-in; }
-  .a-ease-out-ml { animation-timing-function: ease-out; }
-  .a-ease-in-out-ml { animation-timing-function: ease-in-out; }
-  .a-linear-ml { animation-timing-function: linear; }
-  .a-step-start-ml { animation-timing-function: step-start; }
-  .a-step-end-ml { animation-timing-function: step-end; }
+  .a-ease-ml {
+    animation-timing-function: ease;
+  }
+  .a-ease-in-ml {
+    animation-timing-function: ease-in;
+  }
+  .a-ease-out-ml {
+    animation-timing-function: ease-out;
+  }
+  .a-ease-in-out-ml {
+    animation-timing-function: ease-in-out;
+  }
+  .a-linear-ml {
+    animation-timing-function: linear;
+  }
+  .a-step-start-ml {
+    animation-timing-function: step-start;
+  }
+  .a-step-end-ml {
+    animation-timing-function: step-end;
+  }
 
-  .a-infinite-ml { animation-iteration-count: infinite; }
-  .a-2s-ml { animation-iteration-count: 2; }
-  .a-3s-ml { animation-iteration-count: 3; }
-  .a-4s-ml { animation-iteration-count: 4; }
-  .a-5s-ml { animation-iteration-count: 5; }
-  .a-10s-ml { animation-iteration-count: 10; }
+  .a-infinite-ml {
+    animation-iteration-count: infinite;
+  }
+  .a-2s-ml {
+    animation-iteration-count: 2;
+  }
+  .a-3s-ml {
+    animation-iteration-count: 3;
+  }
+  .a-4s-ml {
+    animation-iteration-count: 4;
+  }
+  .a-5s-ml {
+    animation-iteration-count: 5;
+  }
+  .a-10s-ml {
+    animation-iteration-count: 10;
+  }
 
-  .a-paused-ml { animation-play-state: paused; }
-  .a-running-ml { animation-play-state: running; }
+  .a-paused-ml {
+    animation-play-state: paused;
+  }
+  .a-running-ml {
+    animation-play-state: running;
+  }
 
-  .a-fill-none-ml { animation-fill-mode: none; }
-  .a-fill-forwards-ml { animation-fill-mode: forwards; }
-  .a-fill-backwards-ml { animation-fill-mode: backwards; }
-  .a-fill-both-ml { animation-fill-mode: both; }
+  .a-fill-none-ml {
+    animation-fill-mode: none;
+  }
+  .a-fill-forwards-ml {
+    animation-fill-mode: forwards;
+  }
+  .a-fill-backwards-ml {
+    animation-fill-mode: backwards;
+  }
+  .a-fill-both-ml {
+    animation-fill-mode: both;
+  }
 
-  .a-delay-vf-ml { animation-delay: var(--duration-very-fast); }
-  .a-delay-f-ml { animation-delay: var(--duration-fast); }
-  .a-delay-n-ml { animation-delay: var(--duration-normal); }
-  .a-delay-s-ml { animation-delay: var(--duration-slow); }
-  .a-delay-vs-ml { animation-delay: var(--duration-very-slow); }
+  .a-delay-vf-ml {
+    animation-delay: var(--duration-very-fast);
+  }
+  .a-delay-f-ml {
+    animation-delay: var(--duration-fast);
+  }
+  .a-delay-n-ml {
+    animation-delay: var(--duration-normal);
+  }
+  .a-delay-s-ml {
+    animation-delay: var(--duration-slow);
+  }
+  .a-delay-vs-ml {
+    animation-delay: var(--duration-very-slow);
+  }
 
   .a--zoom-in-out-ml {
     animation-name: zoom-in-out;
@@ -661,15 +1007,19 @@
   .a--tilt-left-ml {
     animation-name: tilt-left;
   }
+  .a-none-ml {
+    animation: none;
+  }
 }
 
 @media screen and (min-width: 60em) {
-  .a-none-l { animation: none; }
   .a-zoom-in-out-l {
-    animation: zoom-in-out var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: zoom-in-out var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-zoom-out-in-l {
-    animation: zoom-out-in var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: zoom-out-in var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-fade-in-l {
     animation: fade-in var(--duration-normal) ease;
@@ -684,43 +1034,56 @@
     animation: fade-out-in var(--duration-normal) ease;
   }
   .a-slide-to-top-l {
-    animation: slide-to-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-top var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-right-l {
-    animation: slide-to-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-bottom-l {
-    animation: slide-to-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-bottom var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-to-left-l {
-    animation: slide-to-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-to-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-top-l {
-    animation: slide-toggle-top var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-top var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-right-l {
-    animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-bottom-l {
-    animation: slide-toggle-bottom var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-bottom var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-slide-toggle-right-l {
-    animation: slide-toggle-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: slide-toggle-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-shake-l {
-    animation: shake var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: shake var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-wobble-l {
-    animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: wobble var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-rotate-l {
-    animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: rotate var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-tilt-right-l {
-    animation: tilt-right var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: tilt-right var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-tilt-left-l {
-    animation: tilt-left var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+    animation: tilt-left var(--duration-normal) ease,
+      fade-in var(--duration-normal) ease;
   }
   .a-restart-l.e-tigger,
   .a-restart-l.e-active:active,
@@ -728,47 +1091,117 @@
     animation-name: none;
   }
 
-  .a-vf-l { animation-duration: var(--duration-very-fast); }
-  .a-f-l { animation-duration: var(--duration-fast); }
-  .a-n-l { animation-duration: var(--duration-normal); }
-  .a-s-l { animation-duration: var(--duration-slow); }
-  .a-vs-l { animation-duration: var(--duration-very-slow); }
-  .a-bs-l { animation-duration: var(--duration-bind-slow); }
-  .a-ss-l { animation-duration: var(--duration-super-slow); }
+  .a-vf-l {
+    animation-duration: var(--duration-very-fast);
+  }
+  .a-f-l {
+    animation-duration: var(--duration-fast);
+  }
+  .a-n-l {
+    animation-duration: var(--duration-normal);
+  }
+  .a-s-l {
+    animation-duration: var(--duration-slow);
+  }
+  .a-vs-l {
+    animation-duration: var(--duration-very-slow);
+  }
+  .a-bs-l {
+    animation-duration: var(--duration-bind-slow);
+  }
+  .a-ss-l {
+    animation-duration: var(--duration-super-slow);
+  }
 
-  .a-normal-l { animation-direction: normal; }
-  .a-reverse-l { animation-direction: reverse; }
-  .a-alternate-l { animation-direction: alternate; }
-  .a-alternate-reverse-l { animation-direction: alternate-reverse; }
+  .a-normal-l {
+    animation-direction: normal;
+  }
+  .a-reverse-l {
+    animation-direction: reverse;
+  }
+  .a-alternate-l {
+    animation-direction: alternate;
+  }
+  .a-alternate-reverse-l {
+    animation-direction: alternate-reverse;
+  }
 
-  .a-ease-l { animation-timing-function: ease; }
-  .a-ease-in-l { animation-timing-function: ease-in; }
-  .a-ease-out-l { animation-timing-function: ease-out; }
-  .a-ease-in-out-l { animation-timing-function: ease-in-out; }
-  .a-linear-l { animation-timing-function: linear; }
-  .a-step-start-l { animation-timing-function: step-start; }
-  .a-step-end-l { animation-timing-function: step-end; }
+  .a-ease-l {
+    animation-timing-function: ease;
+  }
+  .a-ease-in-l {
+    animation-timing-function: ease-in;
+  }
+  .a-ease-out-l {
+    animation-timing-function: ease-out;
+  }
+  .a-ease-in-out-l {
+    animation-timing-function: ease-in-out;
+  }
+  .a-linear-l {
+    animation-timing-function: linear;
+  }
+  .a-step-start-l {
+    animation-timing-function: step-start;
+  }
+  .a-step-end-l {
+    animation-timing-function: step-end;
+  }
 
-  .a-infinite-l { animation-iteration-count: infinite; }
-  .a-2s-l { animation-iteration-count: 2; }
-  .a-3s-l { animation-iteration-count: 3; }
-  .a-4s-l { animation-iteration-count: 4; }
-  .a-5s-l { animation-iteration-count: 5; }
-  .a-10s-l { animation-iteration-count: 10; }
+  .a-infinite-l {
+    animation-iteration-count: infinite;
+  }
+  .a-2s-l {
+    animation-iteration-count: 2;
+  }
+  .a-3s-l {
+    animation-iteration-count: 3;
+  }
+  .a-4s-l {
+    animation-iteration-count: 4;
+  }
+  .a-5s-l {
+    animation-iteration-count: 5;
+  }
+  .a-10s-l {
+    animation-iteration-count: 10;
+  }
 
-  .a-paused-l { animation-play-state: paused; }
-  .a-running-l { animation-play-state: running; }
+  .a-paused-l {
+    animation-play-state: paused;
+  }
+  .a-running-l {
+    animation-play-state: running;
+  }
 
-  .a-fill-none-l { animation-fill-mode: none; }
-  .a-fill-forwards-l { animation-fill-mode: forwards; }
-  .a-fill-backwards-l { animation-fill-mode: backwards; }
-  .a-fill-both-l { animation-fill-mode: both; }
+  .a-fill-none-l {
+    animation-fill-mode: none;
+  }
+  .a-fill-forwards-l {
+    animation-fill-mode: forwards;
+  }
+  .a-fill-backwards-l {
+    animation-fill-mode: backwards;
+  }
+  .a-fill-both-l {
+    animation-fill-mode: both;
+  }
 
-  .a-delay-vf-l { animation-delay: var(--duration-very-fast); }
-  .a-delay-f-l { animation-delay: var(--duration-fast); }
-  .a-delay-n-l { animation-delay: var(--duration-normal); }
-  .a-delay-s-l { animation-delay: var(--duration-slow); }
-  .a-delay-vs-l { animation-delay: var(--duration-very-slow); }
+  .a-delay-vf-l {
+    animation-delay: var(--duration-very-fast);
+  }
+  .a-delay-f-l {
+    animation-delay: var(--duration-fast);
+  }
+  .a-delay-n-l {
+    animation-delay: var(--duration-normal);
+  }
+  .a-delay-s-l {
+    animation-delay: var(--duration-slow);
+  }
+  .a-delay-vs-l {
+    animation-delay: var(--duration-very-slow);
+  }
 
   .a--zoom-in-out-l {
     animation-name: zoom-in-out;
@@ -827,6 +1260,9 @@
   .a--tilt-left-l {
     animation-name: tilt-left;
   }
+  .a-none-l {
+    animation: none;
+  }
 }
 @keyframes zoom-in-out {
   0% {
@@ -844,7 +1280,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(.7);
+    transform: scale(0.7);
   }
   100% {
     transform: scale(1);
@@ -879,7 +1315,7 @@
     opacity: 1;
   }
   50% {
-    opacity: .2;
+    opacity: 0.2;
   }
   100% {
     opacity: 1;
@@ -890,7 +1326,7 @@
     opacity: 0;
   }
   50% {
-    opacity: .8;
+    opacity: 0.8;
   }
   100% {
     opacity: 0;
@@ -973,16 +1409,21 @@
   }
 }
 @keyframes shake {
-  10%, 90% {
-    transform: translate3d(-.025rem, 0, 0);
+  10%,
+  90% {
+    transform: translate3d(-0.025rem, 0, 0);
   }
-  20%, 80% {
-    transform: translate3d(.5rem, 0, 0);
+  20%,
+  80% {
+    transform: translate3d(0.5rem, 0, 0);
   }
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     transform: translate3d(-1rem, 0, 0);
   }
-  40%, 60% {
+  40%,
+  60% {
     transform: translate3d(1rem, 0, 0);
   }
 }
@@ -997,10 +1438,10 @@
     transform: translateY(1rem);
   }
   66.6% {
-    transform: translateY(-.5rem);
+    transform: translateY(-0.5rem);
   }
   83.25% {
-    transform: translateY(.25rem);
+    transform: translateY(0.25rem);
   }
   100% {
     transform: translateY(0);

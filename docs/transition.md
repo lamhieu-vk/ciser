@@ -4,7 +4,7 @@ Postprocess tachyons stylesheets
 
 #### Stats
 
-1032 | 195 | 195
+1007 | 195 | 195
 ---|---|---
 bytes | selectors | declarations
 
@@ -75,6 +75,16 @@ Running `$ npm start` will process the source css and place the built css in the
 
 ```css
 /* Variables */
+.t-all-ease { transition: all .5s ease; }
+.t-opacity-ease { transition: opacity .5s ease; }
+.t-margin-ease { transition: margin .5s ease; }
+.t-padding-ease { transition: padding .5s ease; }
+.t-height-ease { transition: height .5s ease; }
+.t-width-ease { transition: width .5s ease; }
+.t-color-ease { transition: color .5s ease; }
+.t-background-ease { transition: background .5s ease; }
+.t-box-shadow-ease { transition: box-shadow .5s ease; }
+.t-text-shadow-ease { transition: text-shadow .5s ease; }
 .t-none { transition: none; }
 .t-vf { transition-duration: .15s; }
 .t-f { transition-duration: .25s; }
@@ -104,17 +114,17 @@ Running `$ npm start` will process the source css and place the built css in the
 .t-delay-n { transition-delay: .5s; }
 .t-delay-s { transition-delay: 1s; }
 .t-delay-vs { transition-delay: 2s; }
-.t-all-ease { transition: all .5s ease; }
-.t-opacity-ease { transition: opacity .5s ease; }
-.t-margin-ease { transition: margin .5s ease; }
-.t-padding-ease { transition: padding .5s ease; }
-.t-height-ease { transition: height .5s ease; }
-.t-width-ease { transition: width .5s ease; }
-.t-color-ease { transition: color .5s ease; }
-.t-background-ease { transition: background .5s ease; }
-.t-box-shadow-ease { transition: box-shadow .5s ease; }
-.t-text-shadow-ease { transition: text-shadow .5s ease; }
 @media screen and (min-width: 30em) {
+ .t-all-ease-ns { transition: all .5s ease; }
+ .t-opacity-ease-ns { transition: opacity .5s ease; }
+ .t-margin-ease-ns { transition: margin .5s ease; }
+ .t-padding-ease-ns { transition: padding .5s ease; }
+ .t-height-ease-ns { transition: height .5s ease; }
+ .t-width-ease-ns { transition: width .5s ease; }
+ .t-color-ease-ns { transition: color .5s ease; }
+ .t-background-ease-ns { transition: background .5s ease; }
+ .t-box-shadow-ease-ns { transition: box-shadow .5s ease; }
+ .t-text-shadow-ease-ns { transition: text-shadow .5s ease; }
  .t-none-ns { transition: none; }
  .t-vf-ns { transition-duration: .15s; }
  .t-f-ns { transition-duration: .25s; }
@@ -144,18 +154,18 @@ Running `$ npm start` will process the source css and place the built css in the
  .t-delay-n-ns { transition-delay: .5s; }
  .t-delay-s-ns { transition-delay: 1s; }
  .t-delay-vs-ns { transition-delay: 2s; }
- .t-all-ease-ns { transition: all .5s ease; }
- .t-opacity-ease-ns { transition: opacity .5s ease; }
- .t-margin-ease-ns { transition: margin .5s ease; }
- .t-padding-ease-ns { transition: padding .5s ease; }
- .t-height-ease-ns { transition: height .5s ease; }
- .t-width-ease-ns { transition: width .5s ease; }
- .t-color-ease-ns { transition: color .5s ease; }
- .t-background-ease-ns { transition: background .5s ease; }
- .t-box-shadow-ease-ns { transition: box-shadow .5s ease; }
- .t-text-shadow-ease-ns { transition: text-shadow .5s ease; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
+ .t-all-ease-m { transition: all .5s ease; }
+ .t-opacity-ease-m { transition: opacity .5s ease; }
+ .t-margin-ease-m { transition: margin .5s ease; }
+ .t-padding-ease-m { transition: padding .5s ease; }
+ .t-height-ease-m { transition: height .5s ease; }
+ .t-width-ease-m { transition: width .5s ease; }
+ .t-color-ease-m { transition: color .5s ease; }
+ .t-background-ease-m { transition: background .5s ease; }
+ .t-box-shadow-ease-m { transition: box-shadow .5s ease; }
+ .t-text-shadow-ease-m { transition: text-shadow .5s ease; }
  .t-none-m { transition: none; }
  .t-vf-m { transition-duration: .15s; }
  .t-f-m { transition-duration: .25s; }
@@ -185,18 +195,18 @@ Running `$ npm start` will process the source css and place the built css in the
  .t-delay-n-m { transition-delay: .5s; }
  .t-delay-s-m { transition-delay: 1s; }
  .t-delay-vs-m { transition-delay: 2s; }
- .t-all-ease-m { transition: all .5s ease; }
- .t-opacity-ease-m { transition: opacity .5s ease; }
- .t-margin-ease-m { transition: margin .5s ease; }
- .t-padding-ease-m { transition: padding .5s ease; }
- .t-height-ease-m { transition: height .5s ease; }
- .t-width-ease-m { transition: width .5s ease; }
- .t-color-ease-m { transition: color .5s ease; }
- .t-background-ease-m { transition: background .5s ease; }
- .t-box-shadow-ease-m { transition: box-shadow .5s ease; }
- .t-text-shadow-ease-m { transition: text-shadow .5s ease; }
 }
 @media screen and (max-width: 60em) and (orientation: landscape) {
+ .t-all-ease-ml { transition: all .5s ease; }
+ .t-opacity-ease-ml { transition: opacity .5s ease; }
+ .t-margin-ease-ml { transition: margin .5s ease; }
+ .t-padding-ease-ml { transition: padding .5s ease; }
+ .t-height-ease-ml { transition: height .5s ease; }
+ .t-width-ease-ml { transition: width .5s ease; }
+ .t-color-ease-ml { transition: color .5s ease; }
+ .t-background-ease-ml { transition: background .5s ease; }
+ .t-box-shadow-ease-ml { transition: box-shadow .5s ease; }
+ .t-text-shadow-ease-ml { transition: text-shadow .5s ease; }
  .t-none-ml { transition: none; }
  .t-vf-ml { transition-duration: .15s; }
  .t-f-ml { transition-duration: .25s; }
@@ -226,18 +236,18 @@ Running `$ npm start` will process the source css and place the built css in the
  .t-delay-n-ml { transition-delay: .5s; }
  .t-delay-s-ml { transition-delay: 1s; }
  .t-delay-vs-ml { transition-delay: 2s; }
- .t-all-ease-ml { transition: all .5s ease; }
- .t-opacity-ease-ml { transition: opacity .5s ease; }
- .t-margin-ease-ml { transition: margin .5s ease; }
- .t-padding-ease-ml { transition: padding .5s ease; }
- .t-height-ease-ml { transition: height .5s ease; }
- .t-width-ease-ml { transition: width .5s ease; }
- .t-color-ease-ml { transition: color .5s ease; }
- .t-background-ease-ml { transition: background .5s ease; }
- .t-box-shadow-ease-ml { transition: box-shadow .5s ease; }
- .t-text-shadow-ease-ml { transition: text-shadow .5s ease; }
 }
 @media screen and (min-width: 60em) {
+ .t-all-ease-l { transition: all .5s ease; }
+ .t-opacity-ease-l { transition: opacity .5s ease; }
+ .t-margin-ease-l { transition: margin .5s ease; }
+ .t-padding-ease-l { transition: padding .5s ease; }
+ .t-height-ease-l { transition: height .5s ease; }
+ .t-width-ease-l { transition: width .5s ease; }
+ .t-color-ease-l { transition: color .5s ease; }
+ .t-background-ease-l { transition: background .5s ease; }
+ .t-box-shadow-ease-l { transition: box-shadow .5s ease; }
+ .t-text-shadow-ease-l { transition: text-shadow .5s ease; }
  .t-none-l { transition: none; }
  .t-vf-l { transition-duration: .15s; }
  .t-f-l { transition-duration: .25s; }
@@ -267,16 +277,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .t-delay-n-l { transition-delay: .5s; }
  .t-delay-s-l { transition-delay: 1s; }
  .t-delay-vs-l { transition-delay: 2s; }
- .t-all-ease-l { transition: all .5s ease; }
- .t-opacity-ease-l { transition: opacity .5s ease; }
- .t-margin-ease-l { transition: margin .5s ease; }
- .t-padding-ease-l { transition: padding .5s ease; }
- .t-height-ease-l { transition: height .5s ease; }
- .t-width-ease-l { transition: width .5s ease; }
- .t-color-ease-l { transition: color .5s ease; }
- .t-background-ease-l { transition: background .5s ease; }
- .t-box-shadow-ease-l { transition: box-shadow .5s ease; }
- .t-text-shadow-ease-l { transition: text-shadow .5s ease; }
 }
 ```
 
