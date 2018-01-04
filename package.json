@@ -47,6 +47,7 @@
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/ciser.css --strict",
+    "deploy": "npm run build:all && npm publish",
     "build": "npm run build:css && npm run build:minify",
     "build:all":
       "npm run build:css && npm run build:minify && npm run build:files && npm run build:docs",
