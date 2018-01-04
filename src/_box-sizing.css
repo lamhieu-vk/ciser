@@ -1,5 +1,5 @@
 /*
- 
+
   BOX SIZING
 
 */
@@ -18,7 +18,12 @@ legend,
 pre,
 code,
 a,
-h1,h2,h3,h4,h5,h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p,
 ul,
 ol,
@@ -27,10 +32,15 @@ dl,
 dt,
 dd,
 textarea,
-table, 
+table,
 td,
 th,
 tr,
+aside,
+nav,
+blockquote,
+figcaption,
+figure,
 input[type="email"],
 input[type="number"],
 input[type="password"],
@@ -40,4 +50,3 @@ input[type="url"],
 .border-box {
   box-sizing: border-box;
 }
-
