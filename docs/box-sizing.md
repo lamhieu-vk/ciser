@@ -4,7 +4,7 @@ Postprocess tachyons stylesheets
 
 #### Stats
 
-241 | 39 | 1
+266 | 44 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -75,14 +75,15 @@ Running `$ npm start` will process the source css and place the built css in the
 
 ```css
 /*
- 
+
   BOX SIZING
 
 */
 html, body, div, article, section, main, footer, header, form, fieldset, legend,
 pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, textarea, table,
-td, th, tr, input[type="email"], input[type="number"], input[type="password"],
-input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
+td, th, tr, aside, nav, blockquote, figcaption, figure, input[type="email"],
+input[type="number"], input[type="password"], input[type="tel"],
+input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 ```
 
 ## Contributing

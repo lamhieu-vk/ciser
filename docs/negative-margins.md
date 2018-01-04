@@ -4,7 +4,7 @@ Postprocess tachyons stylesheets
 
 #### Stats
 
-1650 | 495 | 615
+1454 | 429 | 533
 ---|---|---
 bytes | selectors | declarations
 
@@ -97,12 +97,11 @@ Running `$ npm start` will process the source css and place the built css in the
 
    Media Query Extensions:
      -ns = not-small
-     -m  = medium       -ml = mobile landscape
+     -m  = medium
+     -ml = mobile landscape
      -l  = large
 
 */
-.na0 { margin: undefined; }
-.na0s { margin: undefined; }
 .na1 { margin: undefined; }
 .na1s { margin: undefined; }
 .na2 { margin: undefined; }
@@ -116,8 +115,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .na6 { margin: undefined; }
 .na6s { margin: undefined; }
 .na7 { margin: undefined; }
-.nl0 { margin-left: undefined; }
-.nl0s { margin-left: undefined; }
 .nl1 { margin-left: undefined; }
 .nl1s { margin-left: undefined; }
 .nl2 { margin-left: undefined; }
@@ -131,8 +128,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .nl6 { margin-left: undefined; }
 .nl6s { margin-left: undefined; }
 .nl7 { margin-left: undefined; }
-.nr0 { margin-right: undefined; }
-.nr0s { margin-right: undefined; }
 .nr1 { margin-right: undefined; }
 .nr1s { margin-right: undefined; }
 .nr2 { margin-right: undefined; }
@@ -146,8 +141,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .nr6 { margin-right: undefined; }
 .nr6s { margin-right: undefined; }
 .nr7 { margin-right: undefined; }
-.nb0 { margin-bottom: undefined; }
-.nb0s { margin-bottom: undefined; }
 .nb1 { margin-bottom: undefined; }
 .nb1s { margin-bottom: undefined; }
 .nb2 { margin-bottom: undefined; }
@@ -161,8 +154,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .nb6 { margin-bottom: undefined; }
 .nb6s { margin-bottom: undefined; }
 .nb7 { margin-bottom: undefined; }
-.nt0 { margin-top: undefined; }
-.nt0s { margin-top: undefined; }
 .nt1 { margin-top: undefined; }
 .nt1s { margin-top: undefined; }
 .nt2 { margin-top: undefined; }
@@ -177,8 +168,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .nt6s { margin-top: undefined; }
 .nt7 { margin-top: undefined; }
 @media screen and (min-width: 30em) {
- .na0-ns { margin: undefined; }
- .na0s-ns { margin: undefined; }
  .na1-ns { margin: undefined; }
  .na1s-ns { margin: undefined; }
  .na2-ns { margin: undefined; }
@@ -192,8 +181,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .na6-ns { margin: undefined; }
  .na6s-ns { margin: undefined; }
  .na7-ns { margin: undefined; }
- .nl0-ns { margin-left: undefined; }
- .nl0s-ns { margin-left: undefined; }
  .nl1-ns { margin-left: undefined; }
  .nl1s-ns { margin-left: undefined; }
  .nl2-ns { margin-left: undefined; }
@@ -207,8 +194,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nl6-ns { margin-left: undefined; }
  .nl6s-ns { margin-left: undefined; }
  .nl7-ns { margin-left: undefined; }
- .nr0-ns { margin-right: undefined; }
- .nr0s-ns { margin-right: undefined; }
  .nr1-ns { margin-right: undefined; }
  .nr1s-ns { margin-right: undefined; }
  .nr2-ns { margin-right: undefined; }
@@ -222,8 +207,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nr6-ns { margin-right: undefined; }
  .nr6s-ns { margin-right: undefined; }
  .nr7-ns { margin-right: undefined; }
- .nb0-ns { margin-bottom: undefined; }
- .nb0s-ns { margin-bottom: undefined; }
  .nb1-ns { margin-bottom: undefined; }
  .nb1s-ns { margin-bottom: undefined; }
  .nb2-ns { margin-bottom: undefined; }
@@ -237,8 +220,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nb6-ns { margin-bottom: undefined; }
  .nb6s-ns { margin-bottom: undefined; }
  .nb7-ns { margin-bottom: undefined; }
- .nt0-ns { margin-top: undefined; }
- .nt0s-ns { margin-top: undefined; }
  .nt1-ns { margin-top: undefined; }
  .nt1s-ns { margin-top: undefined; }
  .nt2-ns { margin-top: undefined; }
@@ -252,8 +233,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nt6-ns { margin-top: undefined; }
  .nt6s-ns { margin-top: undefined; }
  .nt7-ns { margin-top: undefined; }
- .nv0-ns { margin-top: undefined; margin-bottom: undefined; }
- .nv0s-ns { margin-top: undefined; margin-bottom: undefined; }
  .nv1-ns { margin-top: undefined; margin-bottom: undefined; }
  .nv1s-ns { margin-top: undefined; margin-bottom: undefined; }
  .nv2-ns { margin-top: undefined; margin-bottom: undefined; }
@@ -267,8 +246,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nv6-ns { margin-top: undefined; margin-bottom: undefined; }
  .nv6s-ns { margin-top: undefined; margin-bottom: undefined; }
  .nv7-ns { margin-top: undefined; margin-bottom: undefined; }
- .nh0-ns { margin-left: undefined; margin-right: undefined; }
- .nh0s-ns { margin-left: undefined; margin-right: undefined; }
  .nh1-ns { margin-left: undefined; margin-right: undefined; }
  .nh1s-ns { margin-left: undefined; margin-right: undefined; }
  .nh2-ns { margin-left: undefined; margin-right: undefined; }
@@ -284,8 +261,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nh7-ns { margin-left: undefined; margin-right: undefined; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
- .na0-m { margin: undefined; }
- .na0s-m { margin: undefined; }
  .na1-m { margin: undefined; }
  .na1s-m { margin: undefined; }
  .na2-m { margin: undefined; }
@@ -299,8 +274,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .na6-m { margin: undefined; }
  .na6s-m { margin: undefined; }
  .na7-m { margin: undefined; }
- .nl0-m { margin-left: undefined; }
- .nl0s-m { margin-left: undefined; }
  .nl1-m { margin-left: undefined; }
  .nl1s-m { margin-left: undefined; }
  .nl2-m { margin-left: undefined; }
@@ -314,8 +287,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nl6-m { margin-left: undefined; }
  .nl6s-m { margin-left: undefined; }
  .nl7-m { margin-left: undefined; }
- .nr0-m { margin-right: undefined; }
- .nr0s-m { margin-right: undefined; }
  .nr1-m { margin-right: undefined; }
  .nr1s-m { margin-right: undefined; }
  .nr2-m { margin-right: undefined; }
@@ -329,8 +300,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nr6-m { margin-right: undefined; }
  .nr6s-m { margin-right: undefined; }
  .nr7-m { margin-right: undefined; }
- .nb0-m { margin-bottom: undefined; }
- .nb0s-m { margin-bottom: undefined; }
  .nb1-m { margin-bottom: undefined; }
  .nb1s-m { margin-bottom: undefined; }
  .nb2-m { margin-bottom: undefined; }
@@ -344,8 +313,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nb6-m { margin-bottom: undefined; }
  .nb6s-m { margin-bottom: undefined; }
  .nb7-m { margin-bottom: undefined; }
- .nt0-m { margin-top: undefined; }
- .nt0s-m { margin-top: undefined; }
  .nt1-m { margin-top: undefined; }
  .nt1s-m { margin-top: undefined; }
  .nt2-m { margin-top: undefined; }
@@ -359,8 +326,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nt6-m { margin-top: undefined; }
  .nt6s-m { margin-top: undefined; }
  .nt7-m { margin-top: undefined; }
- .nv0-m { margin-top: undefined; margin-bottom: undefined; }
- .nv0s-m { margin-top: undefined; margin-bottom: undefined; }
  .nv1-m { margin-top: undefined; margin-bottom: undefined; }
  .nv1s-m { margin-top: undefined; margin-bottom: undefined; }
  .nv2-m { margin-top: undefined; margin-bottom: undefined; }
@@ -374,8 +339,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nv6-m { margin-top: undefined; margin-bottom: undefined; }
  .nv6s-m { margin-top: undefined; margin-bottom: undefined; }
  .nv7-m { margin-top: undefined; margin-bottom: undefined; }
- .nh0-m { margin-left: undefined; margin-right: undefined; }
- .nh0s-m { margin-left: undefined; margin-right: undefined; }
  .nh1-m { margin-left: undefined; margin-right: undefined; }
  .nh1s-m { margin-left: undefined; margin-right: undefined; }
  .nh2-m { margin-left: undefined; margin-right: undefined; }
@@ -391,8 +354,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nh7-m { margin-left: undefined; margin-right: undefined; }
 }
 @media screen and (max-width: 60em) and (orientation: landscape) {
- .na0-ml { margin: undefined; }
- .na0s-ml { margin: undefined; }
  .na1-ml { margin: undefined; }
  .na1s-ml { margin: undefined; }
  .na2-ml { margin: undefined; }
@@ -406,8 +367,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .na6-ml { margin: undefined; }
  .na6s-ml { margin: undefined; }
  .na7-ml { margin: undefined; }
- .nl0-ml { margin-left: undefined; }
- .nl0s-ml { margin-left: undefined; }
  .nl1-ml { margin-left: undefined; }
  .nl1s-ml { margin-left: undefined; }
  .nl2-ml { margin-left: undefined; }
@@ -421,8 +380,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nl6-ml { margin-left: undefined; }
  .nl6s-ml { margin-left: undefined; }
  .nl7-ml { margin-left: undefined; }
- .nr0-ml { margin-right: undefined; }
- .nr0s-ml { margin-right: undefined; }
  .nr1-ml { margin-right: undefined; }
  .nr1s-ml { margin-right: undefined; }
  .nr2-ml { margin-right: undefined; }
@@ -436,8 +393,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nr6-ml { margin-right: undefined; }
  .nr6s-ml { margin-right: undefined; }
  .nr7-ml { margin-right: undefined; }
- .nb0-ml { margin-bottom: undefined; }
- .nb0s-ml { margin-bottom: undefined; }
  .nb1-ml { margin-bottom: undefined; }
  .nb1s-ml { margin-bottom: undefined; }
  .nb2-ml { margin-bottom: undefined; }
@@ -451,8 +406,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nb6-ml { margin-bottom: undefined; }
  .nb6s-ml { margin-bottom: undefined; }
  .nb7-ml { margin-bottom: undefined; }
- .nt0-ml { margin-top: undefined; }
- .nt0s-ml { margin-top: undefined; }
  .nt1-ml { margin-top: undefined; }
  .nt1s-ml { margin-top: undefined; }
  .nt2-ml { margin-top: undefined; }
@@ -466,8 +419,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nt6-ml { margin-top: undefined; }
  .nt6s-ml { margin-top: undefined; }
  .nt7-ml { margin-top: undefined; }
- .nv0-ml { margin-top: undefined; margin-bottom: undefined; }
- .nv0s-ml { margin-top: undefined; margin-bottom: undefined; }
  .nv1-ml { margin-top: undefined; margin-bottom: undefined; }
  .nv1s-ml { margin-top: undefined; margin-bottom: undefined; }
  .nv2-ml { margin-top: undefined; margin-bottom: undefined; }
@@ -481,8 +432,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nv6-ml { margin-top: undefined; margin-bottom: undefined; }
  .nv6s-ml { margin-top: undefined; margin-bottom: undefined; }
  .nv7-ml { margin-top: undefined; margin-bottom: undefined; }
- .nh0-ml { margin-left: undefined; margin-right: undefined; }
- .nh0s-ml { margin-left: undefined; margin-right: undefined; }
  .nh1-ml { margin-left: undefined; margin-right: undefined; }
  .nh1s-ml { margin-left: undefined; margin-right: undefined; }
  .nh2-ml { margin-left: undefined; margin-right: undefined; }
@@ -498,8 +447,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nh7-ml { margin-left: undefined; margin-right: undefined; }
 }
 @media screen and (min-width: 60em) {
- .na0-l { margin: undefined; }
- .na0s-l { margin: undefined; }
  .na1-l { margin: undefined; }
  .na1s-l { margin: undefined; }
  .na2-l { margin: undefined; }
@@ -513,8 +460,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .na6-l { margin: undefined; }
  .na6s-l { margin: undefined; }
  .na7-l { margin: undefined; }
- .nl0-l { margin-left: undefined; }
- .nl0s-l { margin-left: undefined; }
  .nl1-l { margin-left: undefined; }
  .nl1s-l { margin-left: undefined; }
  .nl2-l { margin-left: undefined; }
@@ -528,8 +473,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nl6-l { margin-left: undefined; }
  .nl6s-l { margin-left: undefined; }
  .nl7-l { margin-left: undefined; }
- .nr0-l { margin-right: undefined; }
- .nr0s-l { margin-right: undefined; }
  .nr1-l { margin-right: undefined; }
  .nr1s-l { margin-right: undefined; }
  .nr2-l { margin-right: undefined; }
@@ -543,8 +486,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nr6-l { margin-right: undefined; }
  .nr6s-l { margin-right: undefined; }
  .nr7-l { margin-right: undefined; }
- .nb0-l { margin-bottom: undefined; }
- .nb0s-l { margin-bottom: undefined; }
  .nb1-l { margin-bottom: undefined; }
  .nb1s-l { margin-bottom: undefined; }
  .nb2-l { margin-bottom: undefined; }
@@ -558,8 +499,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nb6-l { margin-bottom: undefined; }
  .nb6s-l { margin-bottom: undefined; }
  .nb7-l { margin-bottom: undefined; }
- .nt0-l { margin-top: undefined; }
- .nt0s-l { margin-top: undefined; }
  .nt1-l { margin-top: undefined; }
  .nt1s-l { margin-top: undefined; }
  .nt2-l { margin-top: undefined; }
@@ -573,8 +512,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nt6-l { margin-top: undefined; }
  .nt6s-l { margin-top: undefined; }
  .nt7-l { margin-top: undefined; }
- .nv0-l { margin-top: undefined; margin-bottom: undefined; }
- .nv0s-l { margin-top: undefined; margin-bottom: undefined; }
  .nv1-l { margin-top: undefined; margin-bottom: undefined; }
  .nv1s-l { margin-top: undefined; margin-bottom: undefined; }
  .nv2-l { margin-top: undefined; margin-bottom: undefined; }
@@ -588,8 +525,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .nv6-l { margin-top: undefined; margin-bottom: undefined; }
  .nv6s-l { margin-top: undefined; margin-bottom: undefined; }
  .nv7-l { margin-top: undefined; margin-bottom: undefined; }
- .nh0-l { margin-left: undefined; margin-right: undefined; }
- .nh0s-l { margin-left: undefined; margin-right: undefined; }
  .nh1-l { margin-left: undefined; margin-right: undefined; }
  .nh1s-l { margin-left: undefined; margin-right: undefined; }
  .nh2-l { margin-left: undefined; margin-right: undefined; }
