@@ -422,8 +422,10 @@ note:
 prototype classname:
 
 ```css
-.a-none {
-  animation: none;
+.a-restart.e-tigger,
+.a-restart.e-active:active,
+.a-restart.e-hover:hover {
+  animation-name: none;
 }
 
 .a-vf {
@@ -502,11 +504,11 @@ prototype classname:
   animation-iteration-count: 10;
 }
 
-.a-running {
-  animation-play-state: running;
-}
 .a-paused {
   animation-play-state: paused;
+}
+.a-running {
+  animation-play-state: running;
 }
 
 .a-fill-none {
@@ -583,20 +585,22 @@ prototype classname:
 .a--tilt-left {
   animation-name: tilt-left;
 }
+
+.a-none {
+  animation: none;
+}
 ```
 
 default animation classname:
 
 ```css
 .a-zoom-in-out {
-  animation: zoom-in-out var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: zoom-in-out var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-zoom-out-in {
-  animation: zoom-out-in var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: zoom-out-in var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-fade-in {
   animation: fade-in var(--duration-normal) ease;
@@ -611,63 +615,56 @@ default animation classname:
   animation: fade-out-in var(--duration-normal) ease;
 }
 .a-slide-to-top {
-  animation: slide-to-top var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: slide-to-top var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-to-right {
-  animation: slide-to-right var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: slide-to-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-to-bottom {
-  animation: slide-to-bottom var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: slide-to-bottom var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-to-left {
-  animation: slide-to-left var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: slide-to-left var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-toggle-top {
-  animation: slide-toggle-top var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: slide-toggle-top var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-toggle-right {
-  animation: slide-toggle-right var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: slide-toggle-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-toggle-bottom {
-  animation: slide-toggle-bottom var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: slide-toggle-bottom var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-slide-toggle-right {
-  animation: slide-toggle-right var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: slide-toggle-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-shake {
-  animation: shake var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: shake var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-wobble {
-  animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: wobble var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-rotate {
-  animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
+  animation: rotate var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-tilt-right {
-  animation: tilt-right var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: tilt-right var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 .a-tilt-left {
-  animation: tilt-left var(--duration-normal) ease, fade-in var(
-        --duration-normal
-      ) ease;
+  animation: tilt-left var(--duration-normal) ease,
+    fade-in var(--duration-normal) ease;
 }
 ```
 
