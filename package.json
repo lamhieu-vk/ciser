@@ -1,6 +1,6 @@
 {
   "name": "ciser",
-  "version": "2.2.9",
+  "version": "2.3.0",
   "description":
     "Functional CSS, help quickly build and design new UI without writing css.",
   "author": {
@@ -26,7 +26,8 @@
     "responsive",
     "performance",
     "shorter",
-    "style"
+    "style",
+    "theme"
   ],
   "license": "MIT",
   "devDependencies": {

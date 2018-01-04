@@ -68,10 +68,10 @@ use newest version:
 npm install ciser
 ```
 
-use version 2.2.9:
+use version 2.3.0:
 
 ```bash
-npm install ciser@2.2.9
+npm install ciser@2.3.0
 ```
 
 **other**
@@ -82,10 +82,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">
 ```
 
-use version 2.2.9:
+use version 2.3.0:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.9/build/ciser.min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.3.0/build/ciser.min.css">
 ```
 
 ## require some prototypes:
@@ -96,10 +96,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">
 ```
 
-use version 2.2.9:
+use version 2.3.0:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.2.9/build/ciser.[prototype].min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.3.0/build/ciser.[prototype].min.css">
 ```
 
 list prototypes:
@@ -114,10 +114,10 @@ read more prototypes newest version at:
 <link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser/blob/master/src/_[prototype].css">
 ```
 
-and version 2.2.9 at:
+and version 2.3.0 at:
 
 ```html
-<link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser@2.2.9/blob/master/src/_[prototype].css">
+<link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser@2.3.0/blob/master/src/_[prototype].css">
 ```
 
 and after build at:
@@ -153,7 +153,7 @@ read more info prototypes at
 
 _created by tachyons-cli_
 
-## version 2.2.9
+## version 2.3.0
 
 * fix prototypes classname in animations and transitions
 * enriched many spacing max-width,
@@ -194,7 +194,7 @@ with _tachyons_:
 /*
   media query extensions:
     -ns = not-small
-    -m  = medium       
+    -m  = medium
     -l  = large
 */
 ```
@@ -206,7 +206,7 @@ with **ciser**:
 /*
   media query extensions:
     -ns = not-small
-    -m  = medium       
+    -m  = medium
     -ml = mobile landscape
     -l  = large
 */

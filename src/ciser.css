@@ -1,6 +1,6 @@
-/*! 
+/*!
     Lam Hieu <lamhieu.vk@gmail.com>
-    ciser (v2.2.9) MIT license - github/lamhieu-vk/ciser | npmjs.com/package/ciser
+    ciser (v2.3.0) MIT license - github/lamhieu-vk/ciser | npmjs.com/package/ciser
 */
 
 /* External Library Includes */
@@ -9,6 +9,7 @@
 /*
 --b-reakpoint-not-small: screen and (min-width: 30em)
 --b-reakpoint-medium: screen and (min-width: 30em) and (max-width: 60em)
+--b-reakpoint-mobile-landscape: screen and (max-width: 60em) and (orientation: landscape)
 --b-reakpoint-large: screen and (min-width: 60em)
 */
 
