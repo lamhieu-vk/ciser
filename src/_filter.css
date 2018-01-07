@@ -1,0 +1,117 @@
+/* Variables */
+
+:root {
+  --value-thin: 0.125rem;
+  --value-light: 0.25rem;
+  --value-regular: 0.5rem;
+  --value-medium: 1rem;
+  --value-bold: 2rem;
+}
+
+.blurred-t {
+  filter: blur(var(--value-thin));
+}
+.blurred-l {
+  filter: blur(var(--value-light));
+}
+.blurred-r {
+  filter: blur(var(--value-regular));
+}
+.blurred-m {
+  filter: blur(var(--value-medium));
+}
+.blurred-b {
+  filter: blur(var(--value-bold));
+}
+
+.filter-none {
+  filter: none;
+}
+
+@media screen and (min-width: 30em) {
+  .blurred-t-ns {
+    filter: blur(var(--value-thin));
+  }
+  .blurred-l-ns {
+    filter: blur(var(--value-light));
+  }
+  .blurred-r-ns {
+    filter: blur(var(--value-regular));
+  }
+  .blurred-m-ns {
+    filter: blur(var(--value-medium));
+  }
+  .blurred-b-ns {
+    filter: blur(var(--value-bold));
+  }
+
+  .filter-none-ns {
+    filter: none;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .blurred-t-m {
+    filter: blur(var(--value-thin));
+  }
+  .blurred-l-m {
+    filter: blur(var(--value-light));
+  }
+  .blurred-r-m {
+    filter: blur(var(--value-regular));
+  }
+  .blurred-m-m {
+    filter: blur(var(--value-medium));
+  }
+  .blurred-b-m {
+    filter: blur(var(--value-bold));
+  }
+
+  .filter-none-m {
+    filter: none;
+  }
+}
+
+@media screen and (max-width: 60em) and (orientation: landscape) {
+  .blurred-t-ml {
+    filter: blur(var(--value-thin));
+  }
+  .blurred-l-ml {
+    filter: blur(var(--value-light));
+  }
+  .blurred-r-ml {
+    filter: blur(var(--value-regular));
+  }
+  .blurred-m-ml {
+    filter: blur(var(--value-medium));
+  }
+  .blurred-b-ml {
+    filter: blur(var(--value-bold));
+  }
+
+  .filter-none-ml {
+    filter: none;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .blurred-t-l {
+    filter: blur(var(--value-thin));
+  }
+  .blurred-l-l {
+    filter: blur(var(--value-light));
+  }
+  .blurred-r-l {
+    filter: blur(var(--value-regular));
+  }
+  .blurred-m-l {
+    filter: blur(var(--value-medium));
+  }
+  .blurred-b-l {
+    filter: blur(var(--value-bold));
+  }
+
+  .filter-none-l {
+    filter: none;
+  }
+}
