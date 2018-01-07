@@ -1,0 +1,134 @@
+# tachyons-cli 1.0.11
+
+Postprocess tachyons stylesheets
+
+#### Stats
+
+290 | 30 | 60
+---|---|---
+bytes | selectors | declarations
+
+## Installation
+
+#### With [npm](https://npmjs.com)
+
+```
+npm install --save-dev tachyons-cli
+```
+
+Learn more about using css installed with npm:
+* https://webpack.github.io/docs/stylesheets.html
+* https://github.com/defunctzombie/npm-css
+
+#### With Git
+
+http:
+```
+git clone https://github.com/tachyons-css/tachyons-cli
+```
+
+ssh:
+```
+git clone git@github.com:tachyons-css/tachyons-cli.git
+```
+
+## Usage
+
+#### Using with [Postcss](https://github.com/postcss/postcss)
+
+Import the css module
+
+```css
+@import "tachyons-cli";
+```
+
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+
+```sh
+$ npm i -g tachyons-cli
+$ tachyons path/to/css-file.css > dist/t.css
+```
+
+#### Using the css
+
+##### CDN
+The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
+
+```
+<link rel="stylesheet" href="http://unpkg.com/tachyons-cli@1.0.11/css/tachyons-cli.min.css" />
+```
+
+##### Locally
+The built css is located in the `css` directory. It contains an unminified and minified version.
+You can either cut and paste that css or link to it directly in your html.
+
+```html
+<link rel="stylesheet" href="path/to/module/css/tachyons-cli">
+```
+
+#### Development
+
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
+
+## The css
+
+```css
+/* Variables */
+.blurred-t { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+.blurred-l { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+.blurred-r { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+.blurred-m { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+.blurred-b { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+.filter-none { -webkit-filter: none; filter: none; }
+@media screen and (min-width: 30em) {
+ .blurred-t-ns { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+ .blurred-l-ns { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+ .blurred-r-ns { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+ .blurred-m-ns { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+ .blurred-b-ns { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+ .filter-none-ns { -webkit-filter: none; filter: none; }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+ .blurred-t-m { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+ .blurred-l-m { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+ .blurred-r-m { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+ .blurred-m-m { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+ .blurred-b-m { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+ .filter-none-m { -webkit-filter: none; filter: none; }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+ .blurred-t-ml { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+ .blurred-l-ml { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+ .blurred-r-ml { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+ .blurred-m-ml { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+ .blurred-b-ml { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+ .filter-none-ml { -webkit-filter: none; filter: none; }
+}
+@media screen and (min-width: 60em) {
+ .blurred-t-l { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+ .blurred-l-l { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+ .blurred-r-l { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+ .blurred-m-l { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+ .blurred-b-l { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+ .filter-none-l { -webkit-filter: none; filter: none; }
+}
+```
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## Authors
+
+* [mrmrs](http://mrmrs.io)
+* [johno](http://johnotander.com)
+
+## License
+
+ISC
+

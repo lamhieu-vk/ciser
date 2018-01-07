@@ -1,6 +1,6 @@
 /*!
     Lam Hieu <lamhieu.vk@gmail.com>
-    ciser (v2.3.0) MIT license - github/lamhieu-vk/ciser | npmjs.com/package/ciser
+    ciser (v2.3.1) MIT license - github/lamhieu-vk/ciser | npmjs.com/package/ciser
 */
 /* External Library Includes */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -2549,6 +2549,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
  100% { -webkit-transform: rotate( 0 ) scale( 1 ); transform: rotate( 0 ) scale( 1 ); }
 }
 /* Variables */
+.blurred-t { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+.blurred-l { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+.blurred-r { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+.blurred-m { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+.blurred-b { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+.filter-none { -webkit-filter: none; filter: none; }
+/* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
 
@@ -3408,6 +3415,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .a--tilt-right-ns { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-ns { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
  .a-none-ns { -webkit-animation: none; animation: none; }
+ .blurred-t-ns { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+ .blurred-l-ns { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+ .blurred-r-ns { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+ .blurred-m-ns { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+ .blurred-b-ns { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+ .filter-none-ns { -webkit-filter: none; filter: none; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .aspect-ratio-m { height: 0; position: relative; }
@@ -4214,6 +4227,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .a--tilt-right-m { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-m { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
  .a-none-m { -webkit-animation: none; animation: none; }
+ .blurred-t-m { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+ .blurred-l-m { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+ .blurred-r-m { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+ .blurred-m-m { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+ .blurred-b-m { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+ .filter-none-m { -webkit-filter: none; filter: none; }
 }
 @media screen and (max-width: 60em) and (orientation: landscape) {
  .aspect-ratio-ml { height: 0; position: relative; }
@@ -5032,6 +5051,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .a--tilt-right-ml { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-ml { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
  .a-none-ml { -webkit-animation: none; animation: none; }
+ .blurred-t-ml { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+ .blurred-l-ml { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+ .blurred-r-ml { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+ .blurred-m-ml { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+ .blurred-b-ml { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+ .filter-none-ml { -webkit-filter: none; filter: none; }
 }
 @media screen and (min-width: 60em) {
  .aspect-ratio-l { height: 0; position: relative; }
@@ -5849,5 +5874,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .a--tilt-right-l { -webkit-animation-name: tilt-right; animation-name: tilt-right; }
  .a--tilt-left-l { -webkit-animation-name: tilt-left; animation-name: tilt-left; }
  .a-none-l { -webkit-animation: none; animation: none; }
+ .blurred-t-l { -webkit-filter: blur( .125rem ); filter: blur( .125rem ); }
+ .blurred-l-l { -webkit-filter: blur( .25rem ); filter: blur( .25rem ); }
+ .blurred-r-l { -webkit-filter: blur( .5rem ); filter: blur( .5rem ); }
+ .blurred-m-l { -webkit-filter: blur( 1rem ); filter: blur( 1rem ); }
+ .blurred-b-l { -webkit-filter: blur( 2rem ); filter: blur( 2rem ); }
+ .filter-none-l { -webkit-filter: none; filter: none; }
 }
 

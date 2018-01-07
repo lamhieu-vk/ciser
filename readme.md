@@ -68,10 +68,10 @@ use newest version:
 npm install ciser
 ```
 
-use version 2.3.0:
+use version 2.3.1:
 
 ```bash
-npm install ciser@2.3.0
+npm install ciser@2.3.1
 ```
 
 **other**
@@ -82,10 +82,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.min.css">
 ```
 
-use version 2.3.0:
+use version 2.3.1:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.3.0/build/ciser.min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.3.1/build/ciser.min.css">
 ```
 
 ## require some prototypes:
@@ -96,10 +96,10 @@ use newest version:
 <link rel="stylesheet" href="https://unpkg.com/ciser/build/ciser.[prototype].min.css">
 ```
 
-use version 2.3.0:
+use version 2.3.1:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ciser@2.3.0/build/ciser.[prototype].min.css">
+<link rel="stylesheet" href="https://unpkg.com/ciser@2.3.1/build/ciser.[prototype].min.css">
 ```
 
 list prototypes:
@@ -114,10 +114,10 @@ read more prototypes newest version at:
 <link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser/blob/master/src/_[prototype].css">
 ```
 
-and version 2.3.0 at:
+and version 2.3.1 at:
 
 ```html
-<link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser@2.3.0/blob/master/src/_[prototype].css">
+<link rel="stylesheet" href="https://github.com/lamhieu-vk/ciser@2.3.1/blob/master/src/_[prototype].css">
 ```
 
 and after build at:
@@ -153,8 +153,9 @@ read more info prototypes at
 
 _created by tachyons-cli_
 
-## version 2.3.0
+## version 2.3.1
 
+* add filter (blur) [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_filter.css)
 * fix prototypes classname in animations and transitions
 * enriched many spacing max-width,
   [read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_max-widths.css)
@@ -312,6 +313,34 @@ note:
 .p[a | t | r | b | l][x]s = p[x+1] - (p[x+1] - p[x]) / 2)
 
 .m[a | t | r | b | l][x]s = m[x+1] - (m[x+1] - m[x]) / 2)
+```
+
+## filter:
+
+[read more](https://github.com/lamhieu-vk/ciser/blob/master/src/_filter.css)
+
+prototype classname:
+
+```css
+.blurred-t {
+  filter: blur(var(--value-thin));
+}
+.blurred-l {
+  filter: blur(var(--value-light));
+}
+.blurred-r {
+  filter: blur(var(--value-regular));
+}
+.blurred-m {
+  filter: blur(var(--value-medium));
+}
+.blurred-b {
+  filter: blur(var(--value-bold));
+}
+
+.filter-none {
+  filter: none;
+}
 ```
 
 ## transition:
@@ -595,12 +624,14 @@ default animation classname:
 
 ```css
 .a-zoom-in-out {
-  animation: zoom-in-out var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: zoom-in-out var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-zoom-out-in {
-  animation: zoom-out-in var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: zoom-out-in var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-fade-in {
   animation: fade-in var(--duration-normal) ease;
@@ -615,56 +646,63 @@ default animation classname:
   animation: fade-out-in var(--duration-normal) ease;
 }
 .a-slide-to-top {
-  animation: slide-to-top var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: slide-to-top var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-slide-to-right {
-  animation: slide-to-right var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: slide-to-right var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-slide-to-bottom {
-  animation: slide-to-bottom var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: slide-to-bottom var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-slide-to-left {
-  animation: slide-to-left var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: slide-to-left var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-slide-toggle-top {
-  animation: slide-toggle-top var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: slide-toggle-top var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-slide-toggle-right {
-  animation: slide-toggle-right var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: slide-toggle-right var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-slide-toggle-bottom {
-  animation: slide-toggle-bottom var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: slide-toggle-bottom var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-slide-toggle-right {
-  animation: slide-toggle-right var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: slide-toggle-right var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-shake {
-  animation: shake var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: shake var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-wobble {
-  animation: wobble var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: wobble var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-rotate {
-  animation: rotate var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: rotate var(--duration-normal) ease, fade-in var(--duration-normal) ease;
 }
 .a-tilt-right {
-  animation: tilt-right var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: tilt-right var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 .a-tilt-left {
-  animation: tilt-left var(--duration-normal) ease,
-    fade-in var(--duration-normal) ease;
+  animation: tilt-left var(--duration-normal) ease, fade-in var(
+        --duration-normal
+      ) ease;
 }
 ```
 
