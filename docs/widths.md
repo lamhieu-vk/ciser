@@ -132,7 +132,7 @@ Running `$ npm start` will process the source css and place the built css in the
 .w-100 { width: 100%; }
 .min-w-25 { min-width: 25%; }
 .min-w-50 { min-width: 50%; }
-.min-w-75 { min-width: 100%; }
+.min-w-75 { min-width: 75%; }
 .min-w-100 { min-width: 100%; }
 .max-w-25 { max-width: 25%; }
 .max-w-50 { max-width: 50%; }
@@ -190,7 +190,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .w-100-ns { width: 100%; }
  .min-w-25-ns { min-width: 25%; }
  .min-w-50-ns { min-width: 50%; }
- .min-w-75-ns { min-width: 100%; }
+ .min-w-75-ns { min-width: 75%; }
  .min-w-100-ns { min-width: 100%; }
  .max-w-25-ns { max-width: 25%; }
  .max-w-50-ns { max-width: 50%; }
@@ -247,7 +247,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .w-100-m { width: 100%; }
  .min-w-25-m { min-width: 25%; }
  .min-w-50-m { min-width: 50%; }
- .min-w-75-m { min-width: 100%; }
+ .min-w-75-m { min-width: 75%; }
  .min-w-100-m { min-width: 100%; }
  .max-w-25-m { max-width: 25%; }
  .max-w-50-m { max-width: 50%; }
@@ -304,7 +304,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .w-100-ml { width: 100%; }
  .min-w-25-ml { min-width: 25%; }
  .min-w-50-ml { min-width: 50%; }
- .min-w-75-ml { min-width: 100%; }
+ .min-w-75-ml { min-width: 75%; }
  .min-w-100-ml { min-width: 100%; }
  .max-w-25-ml { max-width: 25%; }
  .max-w-50-ml { max-width: 50%; }
@@ -361,7 +361,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .w-100-l { width: 100%; }
  .min-w-25-l { min-width: 25%; }
  .min-w-50-l { min-width: 50%; }
- .min-w-75-l { min-width: 100%; }
+ .min-w-75-l { min-width: 75%; }
  .min-w-100-l { min-width: 100%; }
  .max-w-25-l { max-width: 25%; }
  .max-w-50-l { max-width: 50%; }
